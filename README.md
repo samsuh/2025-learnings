@@ -1,6 +1,6 @@
 # 2025-learnings
 
-##Purpose
+## Purpose
 The purpose of this file is to track and measure the different topics and levels of learning accomplished over the year. Additionally it is a scratchpad and workspace for me to aggregate the different resources I found useful and that I want to revisit at a later date. 
 
 Watching someone build a qc at home using lasers:
