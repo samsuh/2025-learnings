@@ -17,6 +17,8 @@ Linear Algebra Fundamentals
 https://youtu.be/rSjt1E9WHaQ?si=N6Us_fWzsGPYv6ph
 Started on Jan 31, 2025 
 Completed: Not Yet. 
+This one did not work for me. I found a different Linear Algenbra tutorial to follow. 
+Working through https://youtu.be/3Bf9oh7nkus?si=dG5tszsEYr0atskT (Korean guy with english voiceover) 
 
 NextJS course on Udemy
 https://www.udemy.com/course/next-js-the-complete-developers-guide/
