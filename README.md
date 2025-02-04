@@ -22,4 +22,4 @@ NextJS course on Udemy
 https://www.udemy.com/course/next-js-the-complete-developers-guide/
 Completed it last year, but going through it again with a better understanding of SQL and databases. The goal here is to get practice with the NextJS side but also to understand what exactly is happening on the datbase side. 
 Thoughts: It's already going well, with more of the prisma ORM stuff making more sense. 
-Progress: A few days in after helping host the bootcamp, I'm getting into the second project in the tutorial and it's making sense. There are some changes since Next14 that require some refactoring/adjusting. 
+Progress: A few days in after helping host the bootcamp, I'm getting into the second project in the tutorial and it's making sense. There are some changes since Next14 that require some refactoring/adjusting. implemented the routing and rendering to homepage of the list of snippets.
