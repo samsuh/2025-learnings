@@ -49,6 +49,8 @@ Completed in January; mostly uses 'pg' and raw sql, using interpolation to sanit
 
 #### Prisma - I want to get more familiar/competent using prisma. It was good during the NextJS course, but a lot of that was premade for me, so I want to go through and build my own and create my own schemas and queries. 
 - Youtube prismaORM tutorials
+-- Done - travery media prisma video. he just shows basics, but doesnt explain the detailed interactions very well. it's good as a review if you already know it and know why things work the way they do. (https://www.youtube.com/watch?v=CYH04BJzamo)
+-- ByteGrad prisma in NextJS (https://youtu.be/QXxy8Uv1LnQ?si=1f_hI5i3tLc8t39X)
 
 ### Cryptocurrency Development 
 - Alchemy Solidity Course (go for certification) 
