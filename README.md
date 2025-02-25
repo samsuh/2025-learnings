@@ -23,6 +23,7 @@ Working through https://youtu.be/3Bf9oh7nkus?si=dG5tszsEYr0atskT (Korean guy wit
 NextJS course on Udemy
 https://www.udemy.com/course/next-js-the-complete-developers-guide/
 Completed it last year, but going through it again with a better understanding of SQL and databases. The goal here is to get practice with the NextJS side but also to understand what exactly is happening on the database side. 
+Completed on Feb 25, 2025
 Thoughts: It's already going well, with more of the prisma ORM stuff making more sense. 
 Progress: 
 Snippets Project 
@@ -33,3 +34,7 @@ Initial project setup: Install prisma, HeroUI (aka NextUI), and AuthJS (aka Next
 prisma schema setup including required schemas for auth flow 
 heroui including setting up provider and picking it up from the next project
 auth flow including setting up oauth credentials, callback route, and auth related server actions
+adding data to database. defining the tables is really important to do right early. 
+pulling wildcard info from the url is useful, and in next15 requires awaiting the params/searchParams 
+using server actions to interact with the db is useful, and allows compartmentalizing the work between db client access, server action functions, and the actual page rendering. 
+making reusable components like PostList in this project takes a lot of effort, and the pattern used here is to define server queries, and pass the actual query function down to children as props. then invoke the query from the child, wrapping the component in the parent with a react Suspense. PostList was reused 3 times: listing top posts in home, a single topic's posts in the topicShowPage and search results from using the header's search input. 
