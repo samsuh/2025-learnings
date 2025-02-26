@@ -58,3 +58,5 @@ Completed in January; mostly uses 'pg' and raw sql, using interpolation to sanit
 - Ethereum with Solidity, React & Next.js - The Complete Guide (The NFT Marketplace project) 
 - Ethereum Blockchain Developer Bootcamp With Solidity (2025)
 
+# Areas that I should look further into
+- Look into google analytics, especially as a follow up to nextjs stuff. look into "next-ga"
