@@ -23,8 +23,8 @@ This one did not work for me. I found a different Linear Algenbra tutorial to fo
 Working through https://youtu.be/3Bf9oh7nkus?si=dG5tszsEYr0atskT (Korean guy with english voiceover) 
 This one fell down hard on priorities as the NextJS course gained traction. I think this will continue to be backburnered. 
 
-### NextJS course on Udemy
-https://www.udemy.com/course/next-js-the-complete-developers-guide/
+### NextJS
+#### Udemy Course - https://www.udemy.com/course/next-js-the-complete-developers-guide/
 Completed it last year, but going through it again with a better understanding of SQL and databases. The goal here is to get practice with the NextJS side but also to understand what exactly is happening on the database side. 
 Completed on Feb 25, 2025
 Thoughts: It's already going well, with more of the prisma ORM stuff making more sense. 
