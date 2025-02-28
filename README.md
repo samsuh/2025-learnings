@@ -61,5 +61,6 @@ Completed in January; mostly uses 'pg' and raw sql, using interpolation to sanit
 # Areas that I should look further into
 - Look into google analytics, especially as a follow up to nextjs stuff. look into "next-ga"
 - ThreeJS course. the goal is to get a nice looking frontend-focused, well designed, eye-catching site on the portfolio. Maybe something around motorcycles, like a motorcycle maintenance record keeper site (that tells you when service is due for different components)
+- n8n is gaining traction to automate low-code workflows for agentic chaining. definitely scope how much i want to use this
 
 # March 2025
