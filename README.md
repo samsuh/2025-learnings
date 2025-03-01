@@ -64,3 +64,4 @@ Completed in January; mostly uses 'pg' and raw sql, using interpolation to sanit
 - n8n is gaining traction to automate low-code workflows for agentic chaining. definitely scope how much i want to use this
 
 # March 2025
+- Start on trello clone implementation. Focus on database access as well as on converting to Next15.
