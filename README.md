@@ -3,6 +3,8 @@
 ## Purpose
 The purpose of this file is to track and measure the different topics and levels of learning accomplished over the year. Additionally it is a scratchpad and workspace for me to aggregate the different resources I found useful and that I want to revisit at a later date. 
 
+## End of January
+
 ### Quantum Computing 
 - Watching someone build a qc at home using lasers:
 https://youtu.be/muoIG732fQA?si=iLFFr_RIAuqDQVb4
@@ -22,6 +24,8 @@ Completed: Not Yet.
 This one did not work for me. I found a different Linear Algenbra tutorial to follow. 
 Working through https://youtu.be/3Bf9oh7nkus?si=dG5tszsEYr0atskT (Korean guy with english voiceover) 
 This one fell down hard on priorities as the NextJS course gained traction. I think this will continue to be backburnered. 
+
+## February
 
 ### NextJS
 #### Udemy Course - https://www.udemy.com/course/next-js-the-complete-developers-guide/
@@ -65,7 +69,8 @@ Completed in January; mostly uses 'pg' and raw sql, using interpolation to sanit
 - ThreeJS course. the goal is to get a nice looking frontend-focused, well designed, eye-catching site on the portfolio. Maybe something around motorcycles, like a motorcycle maintenance record keeper site (that tells you when service is due for different components)
 - n8n is gaining traction to automate low-code workflows for agentic chaining. definitely scope how much i want to use this
 
-# March 2025
+## March 2025
+
 Objective: For March, now that I'm well into the flow of learning and doing, I need to better organize the roadmap of what I want to be working on, and getting a grasp of all of the dependencies and ancillary skillsets I will need to accomplish the new workflow. At the end, I want to have a regular routine of being able to capture ideas/tasks and build it into a workflow that helps me plan what needs to be done. 
 - Start on trello clone implementation. Focus on database access as well as on converting to Next15. https://www.youtube.com/watch?v=pRybm9lXW2c
   - Host this somewhere. Initially host locally or on spare computer in home, but look to move this off to cloud or to set up a better dedicated home server machine.
