@@ -59,15 +59,14 @@ Completed in January; mostly uses 'pg' and raw sql, using interpolation to sanit
   - Done - travery media prisma video. he just shows basics, but doesnt explain the detailed interactions very well. it's good as a review if you already know it and know why things work the way they do. (https://www.youtube.com/watch?v=CYH04BJzamo)
   **- ByteGrad prisma in NextJS (https://youtu.be/QXxy8Uv1LnQ?si=1f_hI5i3tLc8t39X)**
 
-### Cryptocurrency Development 
-**- Alchemy Solidity Course (go for certification) **
-**- Ethereum with Solidity, React & Next.js - The Complete Guide (The NFT Marketplace project) **
-**- Ethereum Blockchain Developer Bootcamp With Solidity (2025)**
-
 # Areas that I should look further into
 **- Look into google analytics, especially as a follow up to nextjs stuff. look into "next-ga"**
 **- ThreeJS course. the goal is to get a nice looking frontend-focused, well designed, eye-catching site on the portfolio. Maybe something around motorcycles, like a motorcycle maintenance record keeper site (that tells you when service is due for different components)**
 **- n8n is gaining traction to automate low-code workflows for agentic chaining. definitely scope how much i want to use this.**
+**- Cryptocurrency Development 
+**  - Alchemy Solidity Course (go for certification) **
+**  - Ethereum with Solidity, React & Next.js - The Complete Guide (The NFT Marketplace project) **
+**  - Ethereum Blockchain Developer Bootcamp With Solidity (2025)**
 
 ## March 2025
 
