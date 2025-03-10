@@ -60,15 +60,15 @@ Completed in January; mostly uses 'pg' and raw sql, using interpolation to sanit
   **- ByteGrad prisma in NextJS (https://youtu.be/QXxy8Uv1LnQ?si=1f_hI5i3tLc8t39X)**
 
 # Areas that I should look further into
-**- Look into google analytics, especially as a follow up to nextjs stuff. look into "next-ga"**
-**- ThreeJS course. the goal is to get a nice looking frontend-focused, well designed, eye-catching site on the portfolio. Maybe something around motorcycles, like a motorcycle maintenance record keeper site (that tells you when service is due for different components)**
-**- n8n is gaining traction to automate low-code workflows for agentic chaining. definitely scope how much i want to use this.**
-**- Cryptocurrency Development 
-**  - Alchemy Solidity Course (go for certification) **
-**  - Ethereum with Solidity, React & Next.js - The Complete Guide (The NFT Marketplace project) **
-**  - Ethereum Blockchain Developer Bootcamp With Solidity (2025)**
+- **Look into google analytics, especially as a follow up to nextjs stuff. look into "next-ga"**
+- **ThreeJS course. the goal is to get a nice looking frontend-focused, well designed, eye-catching site on the portfolio. Maybe something around motorcycles, like a motorcycle maintenance record keeper site (that tells you when service is due for different components)**
+- **n8n is gaining traction to automate low-code workflows for agentic chaining. definitely scope how much i want to use this.**
+ - **Cryptocurrency Development 
+  -** Alchemy Solidity Course (go for certification) **
+  -** Ethereum with Solidity, React & Next.js - The Complete Guide (The NFT Marketplace project) **
+  - **Ethereum Blockchain Developer Bootcamp With Solidity (2025**
 
-## March 2025
+ March 2025
 
 Objective: For March, now that I'm well into the flow of learning and doing, I need to better organize the roadmap of what I want to be working on, and getting a grasp of all of the dependencies and ancillary skillsets I will need to accomplish the new workflow. At the end, I want to have a regular routine of being able to capture ideas/tasks and build it into a workflow that helps me plan what needs to be done. This document is turning out to be one tool to capture and structure ideas.
 - Start on trello clone implementation. Focus on database access as well as on converting to Next15. https://www.youtube.com/watch?v=pRybm9lXW2c
