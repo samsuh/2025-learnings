@@ -48,7 +48,7 @@ adding data to database. defining the tables is really important to do right ear
 pulling wildcard info from the url is useful, and in next15 requires awaiting the params/searchParams 
 using server actions to interact with the db is useful, and allows compartmentalizing the work between db client access, server action functions, and the actual page rendering. 
 making reusable components like PostList in this project takes a lot of effort, and the pattern used here is to define server queries, and pass the actual query function down to children as props. then invoke the query from the child, wrapping the component in the parent with a react Suspense. PostList was reused 3 times: listing top posts in home, a single topic's posts in the topicShowPage and search results from using the header's search input.
-**TODO: Deploy live version. This requires migrating from sqlite to postgres (look into vercel/neon)**
+- **TODO: Deploy live version. This requires migrating from sqlite to postgres (look into vercel/neon)**
 
 ### Databases 
 #### SQL and PostgreSQL: The Complete Developer's Guide
