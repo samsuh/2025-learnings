@@ -101,3 +101,6 @@ Critical thinking of actual projects is hard and uncomfortable. It's so much eas
   - AuthJS
   - NextJS
   - Prisma
+I got sidetracked into n8n stuff. There's a really cool research workflow that I want to adapt for use in coinfind. 
+I also got sidetracked by looking more into typescript stuff. https://www.udemy.com/course/typescript-the-complete-developers-guide/
+Regarding all the other functionality I want access to, it might be worth looking further into NodeJS; things like accessing the os, or other standard libraries. 
