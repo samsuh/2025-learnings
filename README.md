@@ -118,4 +118,4 @@ Additional functionality needed:
   - Users should be able to trigger a "rerun report"; this should be authorized only; either by user or require a wallet signature (later a payment should be required)
     - Where should this run? backend? Node? can this be triggered by a POST request? 
   - Research workflow should be defined and have multiple levels; Simple, Detailed, Trader
-- 
+- n8n workflow is a missing piece for now. might be good to shore this up first before committing too hard into other areas. I'll get through a few more eth dev lessons, get a better sense of what's available for ethereum wallet auth and making the account-to-userInDB associations, then switch to n8n
