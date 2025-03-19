@@ -126,4 +126,4 @@ Additional functionality needed:
 ## n8n learning
 - course level 1 started. First mini workflow completed (hacker news workflow). "Nathan's workflow" created, http request sent, data inserted into airtable base. Next is filtering data.
   - "Congratulations, you completed the course and passed the quiz!" 3/19/25
-- course level 2 started 
+- course level 2 started. it's much less engaging than level 1. only got halfway through the first part. it's very not engaging. got distracted and watched some videos on n8n intros, and MCP generally. also looked up that webhooks is prob the easier way to implement n8n to a nextjs frontend. 
