@@ -125,5 +125,5 @@ Additional functionality needed:
 
 ## n8n learning
 - course level 1 started. First mini workflow completed (hacker news workflow). "Nathan's workflow" created, http request sent, data inserted into airtable base. Next is filtering data.
-  - "Congratulations, you completed the course and passed the quiz!"
+  - "Congratulations, you completed the course and passed the quiz!" 3/19/25
 - course level 2 started 
