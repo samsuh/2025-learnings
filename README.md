@@ -129,3 +129,10 @@ Additional functionality needed:
 - course level 2 started. it's much less engaging than level 1. only got halfway through the first part. it's very not engaging. got distracted and watched some videos on n8n intros, and MCP generally. also looked up that webhooks is prob the easier way to implement n8n to a nextjs frontend.
   - Completed, but took an extra day due to n8n's bad documentation. solved and documentation update recommended to n8n. goal for 3/20: course 2 and create a webhook that is triggered by nextjs. got past binary data. but unresolved issue is having to mount a volume to docker to give access to filesystem for n8n files. Got through data. errors next. errors require setting up a messaging system of some kind; discord/slack/email,etc gmail set up, trick was i had to add self to test users in 'audience'. The last workflow is frustrating because the discord node keeps erroring. it makes no sense why it's erroring. i think it's a problem with n8n's given webhook url itself. i cant even get it to send a simple text msg of "test" sometimes. 
 
+## Implement something that executes everything at a basic level and brings it all together into one place. 
+- Coinfind initial layout could target ProductHunt-style interactions where a project team or "supporter" can suggest the original project. Eventually this should be authenticated and verified, but for now let's just make it work.
+  - Initial project submission: ProjectName, ProjectDescription, Ecosystems, Tags, SmartContractAddress?, URL?, Contact
+    - Eventually we can do something with bounties or airdrops for first signups. We can represent this initially with CF-points to eventually be replaced by a token. Like Reddit karma or likes or whatever for now. 
+  - Vote on new projects.
+    - Have some CF-point interaction. Maybe initially lets just let the first 10 people claim a CFpoint for either up or downvoting. 
+  - Comment on new projects. Also have some CF-point interaction. 
