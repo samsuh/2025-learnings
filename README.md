@@ -143,4 +143,4 @@ Additional functionality needed:
 update: I've been mainly focusing on n8n, and also taking a mental rest day from coding. Life seems to be going pretty well, and I want to look into NewSchool to get plugged back into community. The only event im really looking forward to is BUIDL Seoul's ai hackathon, but want to do other life balance stuff like riding, maybe traveling. These thoughts are on my mind, but it feels like automation and workflows that incorporate ai and stuff through MCP and that stuff is the current wave. I can already kind of see the end, but it shows how productive a single automater/developer can be and how much they can leverage existin systems.
 Reinstalling postgres on my windows machine. not sure why it's not here anymore. Maybe lost it during the reset.
 
-Smartness in Identity. https://youtu.be/U4PsIm9dDvs?si=2aXL1lcwrbr4cxR2
+Perils of being "smart" as a self identity. https://youtu.be/U4PsIm9dDvs?si=2aXL1lcwrbr4cxR2
