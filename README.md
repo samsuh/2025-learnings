@@ -149,3 +149,5 @@ I find myself losing a lot of time. Motivation wanes a lot, and I can't make sol
 Spent some time exploring more about the trello clone tutorial on youtube. It's ok but he wastes a lot of time implementing his sponsored services like clerk or whatever. it is very dependent on lots of external services for no real reason. makes a lot of it not worth implemnting. At least it's nice that I'm not feeling completely lost on them, and im able to recognize what's core functionality vs what's directed fluff. 
 
 I lost most of a week. I need something to tie me down to reality and the flow of time better than indepdnence. I will keep losing time if i don't have external time prompts keeping me aligned. 
+
+Watched a couple tutorial segments, but that led me to wanting to learn more about React's Drag event, which led me to the javascript implementation. https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API
