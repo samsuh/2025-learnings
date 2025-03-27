@@ -144,3 +144,5 @@ update: I've been mainly focusing on n8n, and also taking a mental rest day from
 Reinstalling postgres on my windows machine. not sure why it's not here anymore. Maybe lost it during the reset.
 
 Perils of being "smart" as a self identity. https://youtu.be/U4PsIm9dDvs?si=2aXL1lcwrbr4cxR2
+
+I find myself losing a lot of time. Motivation wanes a lot, and I can't make solid progress on my loosely defined goals. However, I don't want to "waste time" and I find myself going back to the comfort of making progress on video tutorials and courses. This is a crutch. I need to focus more on work output and not rely on the dopamine of learning things conceptually and being exposed to concepts over output. Learning is good, but learning in lieu of output is not good.
