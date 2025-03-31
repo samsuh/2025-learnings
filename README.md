@@ -157,3 +157,6 @@ I was watching a painting video, and she mentioned how trying to do too much too
 "Back to Basics" begun in its own repo for notes and learnings. https://github.com/samsuh/back-to-basics-javascript-2025
 
 Random sidequest. Got asked to make a telegram bot in the style of a celebrity. Got it to work eventually. the bot portion is really simple nowadays. the hardest part was actually getting the connetions to work.
+
+Beginner course in javascript is taking longer than expected, mainly because it's so slow, and I don't want to skip things. It's nice to revisit some basics like the difference between For-In and For-Of loops in javascript. For-In-Keys. For-Of-Values. There have been some other things that were good to know, but it does kind of feel like a waste of time. Doing easy things in video format is inefficient, because you have to rely on the delivery of the creator, and their choices on what to focus on and the level of detail they go into or skip, is inconsistent. But the alternative is just to go through docs one by one for every function and every little detail, so it's a balance. Taking written notes helps to focus the information a bit, and stay engaged. 
+
