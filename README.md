@@ -25,7 +25,7 @@ This one did not work for me. I found a different Linear Algenbra tutorial to fo
 Working through https://youtu.be/3Bf9oh7nkus?si=dG5tszsEYr0atskT (Korean guy with english voiceover) 
 This one fell down hard on priorities as the NextJS course gained traction. I think this will continue to be backburnered. 
 
-## February
+## February 2025
 
 ### NextJS
 #### Udemy Course - https://www.udemy.com/course/next-js-the-complete-developers-guide/
@@ -68,7 +68,7 @@ Completed in January; mostly uses 'pg' and raw sql, using interpolation to sanit
   -** Ethereum with Solidity, React & Next.js - The Complete Guide (The NFT Marketplace project) **
   - **Ethereum Blockchain Developer Bootcamp With Solidity (2025**
 
- March 2025
+ ## March 2025
 
 Objective: For March, now that I'm well into the flow of learning and doing, I need to better organize the roadmap of what I want to be working on, and getting a grasp of all of the dependencies and ancillary skillsets I will need to accomplish the new workflow. At the end, I want to have a regular routine of being able to capture ideas/tasks and build it into a workflow that helps me plan what needs to be done. This document is turning out to be one tool to capture and structure ideas.
 - Start on trello clone implementation. Focus on database access as well as on converting to Next15. https://www.youtube.com/watch?v=pRybm9lXW2c
@@ -160,3 +160,5 @@ Random sidequest. Got asked to make a telegram bot in the style of a celebrity. 
 
 Beginner course in javascript is taking longer than expected, mainly because it's so slow, and I don't want to skip things. It's nice to revisit some basics like the difference between For-In and For-Of loops in javascript. For-In-Keys. For-Of-Values. There have been some other things that were good to know, but it does kind of feel like a waste of time. Doing easy things in video format is inefficient, because you have to rely on the delivery of the creator, and their choices on what to focus on and the level of detail they go into or skip, is inconsistent. But the alternative is just to go through docs one by one for every function and every little detail, so it's a balance. Taking written notes helps to focus the information a bit, and stay engaged. 
 
+## April 2025 
+Objective for April: Hackathon, finish 'back to basics' for javascript. implement something using n8n. Maybe go for coinfind first iteration before starting docker stuff to go for botlib stuff. 
