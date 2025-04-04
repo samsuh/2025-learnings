@@ -163,6 +163,8 @@ Beginner course in javascript is taking longer than expected, mainly because it'
 ## April 2025 
 Objective for April: Hackathon, finish 'back to basics' for javascript. implement something using n8n. Maybe go for coinfind first iteration before starting docker stuff to go for botlib stuff. 
 
+Traveling around using a different computer gives me a chance to reset and rethink about my current coding setup. It also is a good way to see what i rely on regularly. 
+
 Trend observations in April: 
 - "work" as a commodity
 - decision-making and resource allocation as a value proposition; resource-enabled DAOs?
