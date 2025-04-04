@@ -165,6 +165,22 @@ Objective for April: Hackathon, finish 'back to basics' for javascript. implemen
 
 Traveling around using a different computer gives me a chance to reset and rethink about my current coding setup. It also is a good way to see what i rely on regularly. I tried setting up auth using nextauth from scratch, but couldnt do it. It wasnt a big deal, but it's disheartening that after implementing it in so many places, it's clear that i dont know how to do it on my own, even with documentation. I know i have to set the SessionProvider, but it's not working. I didnt trouble shoot it in depth due to lack of time, but the fact that it wasnt easy sucked. I deviated from the prior tutorial because I did not install @auth/core@0.18.1 @auth/prisma-adapater@1.0.6 next-auth@5.0.0-beta.3 have to look into what difference that makes. 
 
+NextJS Auth practce using AuthJS. 
+- create a new github oauth application
+  - set callback URL to http://localhost:3000/api/auth/callback/github
+  - get clientID and clientSecret, and make up a authSecret string
+- have to set up auth.ts file, which is the central point all the auth happens /src/auth.ts
+  - import NextAuth, Github, {PrismaAdapter}, {db}
+  - schema.prisma file had a lot of structure around auth. model Account, model Session, model User, model VerificationToken -- these are used by PrismaAdapter
+  - access env variables, check for errors
+  - call NextAuth with config object
+    - NextAuth({ adapter: PrismaAdapter(db), providers: [Github({ clientId, clientSecret })] })
+    - destructure this off the NextAuth call: export const { handlers, auth, signIn, signOut } = NextAuth({//alltheabove}).
+      - handlers can be set to "handlers: {GET, POST}"
+    - note there was a bug where the clientId is not returned. to handle, add callback to NextAuth object and set manually.
+- set up app/api/auth/[...nextauth]/routes.ts file to handle requests between app and github
+- make server actions for signin/signout
+
 Trend observations in April: 
 - "work" as a commodity
 - decision-making and resource allocation as a value proposition; resource-enabled DAOs?
