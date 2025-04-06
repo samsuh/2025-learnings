@@ -196,3 +196,5 @@ I want to figure out this auth situation to set up my environment to be really u
 - once i have nextjs and postgres running, get nextauth to work cleanly.
 --> postgres in docker / postgres in nextjs / nextauth in nextjs+postgres.
 
+status 1. so far, figured out the reason ive been having issues with docker desktop is that there are multiple vm instances running. Ubuntu and Ubuntu24.04 are different vms. "Ubuntu" thats the default is the one im running in docker desktop. but the 24.04 is whats running in wsl directly. need to resolve eventually, but will just go with "Ubuntu"vm for now. 
+running postgres inside docker desktop should be straightforward similar to mysql or mariadb setup. watch out for the port assignments
