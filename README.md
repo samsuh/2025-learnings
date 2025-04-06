@@ -194,6 +194,7 @@ I want to figure out this auth situation to set up my environment to be really u
 - i want to run postgres in docker alongside everything else. lots of docs are using docker compose, not docker desktop. figure out the difference. 
 - one postgres is running fine, connect it into a nextjs project with boilerplate defaults, and understand them well
 - once i have nextjs and postgres running, get nextauth to work cleanly.
+- the end goal is to get everything configured in n8n so i can whip up workflows and have everything writing to somewhere more permanent and sustainable than an airtable spreadsheet for db storage
 --> postgres in docker / postgres in nextjs / nextauth in nextjs+postgres.
 
 status 1. so far, figured out the reason ive been having issues with docker desktop is that there are multiple vm instances running. Ubuntu and Ubuntu24.04 are different vms. "Ubuntu" thats the default is the one im running in docker desktop. but the 24.04 is whats running in wsl directly. need to resolve eventually, but will just go with "Ubuntu"vm for now. 
