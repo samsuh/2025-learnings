@@ -189,3 +189,10 @@ Trend observations in April:
 
 Coinfind: look up how RSS works and build an automated RSS GET workflow. 
 RSS GET > Store > Process > Run Research > Store > Publish (pubsub?)
+
+I want to figure out this auth situation to set up my environment to be really usable so i dont have to hit this roadblock every time i wanna do something. prep breaks down to a few separate steps: 
+- i want to run postgres in docker alongside everything else. lots of docs are using docker compose, not docker desktop. figure out the difference. 
+- one postgres is running fine, connect it into a nextjs project with boilerplate defaults, and understand them well
+- once i have nextjs and postgres running, get nextauth to work cleanly.
+--> postgres in docker / postgres in nextjs / nextauth in nextjs+postgres.
+
