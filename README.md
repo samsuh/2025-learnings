@@ -187,7 +187,7 @@ Trend observations in April:
 - ai website generation seems to be getting good for static sites. visuals and basic functionality, transferring data around.
 - I want to think through the usefulness of botlib and see where there's an opportunity for it to exist/coexist in the ai ecosystem.
 
-Coinfind: look up how RSS works and build an automated RSS GET workflow. 
+Coinfind: look up how RSS works and build an automated RSS GET workflow. (prototype now done 4/6/25)
 RSS GET > Store > Process > Run Research > Store > Publish (pubsub?)
 
 I want to figure out this auth situation to set up my environment to be really usable so i dont have to hit this roadblock every time i wanna do something. prep breaks down to a few separate steps: 
