@@ -200,3 +200,4 @@ https://docs.docker.com/guides/databases/ it's running fine in docker container.
 
 status 1. so far, figured out the reason ive been having issues with docker desktop is that there are multiple vm instances running. Ubuntu and Ubuntu24.04 are different vms. "Ubuntu" thats the default is the one im running in docker desktop. but the 24.04 is whats running in wsl directly. need to resolve eventually, but will just go with "Ubuntu"vm for now. 
 running postgres inside docker desktop should be straightforward similar to mysql or mariadb setup. watch out for the port assignments
+try to get one read/write into postgres
