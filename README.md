@@ -203,3 +203,4 @@ running postgres inside docker desktop should be straightforward similar to mysq
 status 2: try to get one read/write into postgres. done. docker desktop running postgres container. go into EXEC tab and run using psql. had some issues with user because postgres needs linux username and su user to have the same name. figure this out later. 
 
 April 11-15 In Seoul for ETHSeoul hackathon. We built https://youtu.be/YLg7-xq7gBk?si=i6UQ570TQqAoKMxp file manager based on filetype. 
+It's hard to network with people at conferences without a project to represent/ categorize myself into for people. 
