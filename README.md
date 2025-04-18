@@ -204,7 +204,7 @@ status 2: try to get one read/write into postgres. done. docker desktop running 
 
 April 11-15 In Seoul for ETHSeoul hackathon. We built https://youtu.be/YLg7-xq7gBk?si=i6UQ570TQqAoKMxp file manager based on filetype. 
 It's hard to network with people at conferences without a project to represent/ categorize myself into for people. 
-JY had strong interest in a localized RAG for private materials like company manuals, and working with a knowledge base like RAG via chatbot. Accuracy was a high priority, so citing sources and not making up data is a priority. 
+JY had strong interest in a localized RAG for private materials like company manuals, and working with a knowledge base like RAG via chatbot. Accuracy was a high priority, so citing sources and not making up data is a priority. The main issue for her is that she's not technical at all, and would need this built out for an end user; making her setup docker, or hosting would be unrealsitic. 
 
 
 ## Potential Business 
