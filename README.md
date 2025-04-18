@@ -206,9 +206,10 @@ April 11-15 In Seoul for ETHSeoul hackathon. We built https://youtu.be/YLg7-xq7g
 It's hard to network with people at conferences without a project to represent/ categorize myself into for people. 
 JY had strong interest in a localized RAG for private materials like company manuals, and working with a knowledge base like RAG via chatbot. Accuracy was a high priority, so citing sources and not making up data is a priority. The main issue for her is that she's not technical at all, and would need this built out for an end user; making her setup docker, or hosting would be unrealsitic. 
 
-
 ## Potential Business 
 I feel like one way to play this AI building is to build a devshop that solely builds ai workflows and handles client devops-as-a-service. basically just next-gen ai-enabled freelance dev. The first steps here would be building common workflow "templates" to offer clients. Then to find a shippable workflow; either self-host and give unique access or better but more complicated would be spinning up automated client-specific spaces for each client. 
 - What exactly can i build
 - How exactly does it look to deliver this for the client
 - How should this be charged, and how much should be charged? 
+
+Going back to review llm fundamentals: https://youtu.be/wjZofJX0v4M?si=zBG7rCIF3KZwCFzq Good video going through high level concepts. Good structure to the info. Good for working backwards through understanding the process. 
