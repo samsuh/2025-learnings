@@ -213,3 +213,7 @@ I feel like one way to play this AI building is to build a devshop that solely b
 - How should this be charged, and how much should be charged? 
 
 Going back to review llm fundamentals: https://youtu.be/wjZofJX0v4M?si=zBG7rCIF3KZwCFzq Good video going through high level concepts. Good structure to the info. Good for working backwards through understanding the process. 
+
+## Ethereum Protocol Developers Study Group
+https://epf.wiki/#/eps/week0 
+4/19/25 - Episode 0. 
