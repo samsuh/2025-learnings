@@ -218,3 +218,5 @@ Going back to review llm fundamentals: https://youtu.be/wjZofJX0v4M?si=zBG7rCIF3
 https://epf.wiki/#/eps/week0 
 4/19/25 - Episode 0. 
 4/20/25 - Ep. 1 complete
+
+I feel a lack of purpose after the ethereum conference week. I am no closer to having an overall goal, or in having a developmental direction to pursue. I did get a tiny glimpse of flow state during the hackathon where we started coding and a couple of hours passed by before we were at the end of the day. I think maybe trying for a flow state while coding is still a good goal. I don't have a lot to show for the progress I made this year, and I'm still not good at anything yet. But consistency might be the key. 
