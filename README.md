@@ -217,3 +217,4 @@ Going back to review llm fundamentals: https://youtu.be/wjZofJX0v4M?si=zBG7rCIF3
 ## Ethereum Protocol Developers Study Group
 https://epf.wiki/#/eps/week0 
 4/19/25 - Episode 0. 
+4/20/25 - Ep. 1 complete
