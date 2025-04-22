@@ -217,10 +217,13 @@ Going back to review llm fundamentals: https://youtu.be/wjZofJX0v4M?si=zBG7rCIF3
 ## Ethereum Protocol Developers Study Group
 https://epf.wiki/#/eps/week0 
 4/19/25 - Episode 0. 
-4/20/25 - Ep. 1 complete
-4/21/25 - Consensus Layer
+4/20/25 - Ep 1 complete
+4/21/25 - Ep 2 Consensus Layer
+4/22/25 - Ep 3 Execution Layer. This one might take a few watches to absorb 
 Notes: Remember that these are to be done over a full week. consuming the videos one after another is probably not the way to go. However, there's many lectures in the week, so it's hard to know how much to get through per day. It seems like one lecture video per day of the week. There's a lot of additional reading that I havent been doing thoroughly; I've been skimming and getting through it for the sake of progressing through the rest of the content, but I'm definitely skipping over some content, and it's definitely not sticking as much as possible.
 
 I feel a lack of purpose after the ethereum conference week. I am no closer to having an overall goal, or in having a developmental direction to pursue. I did get a tiny glimpse of flow state during the hackathon where we started coding and a couple of hours passed by before we were at the end of the day. I think maybe trying for a flow state while coding is still a good goal. I don't have a lot to show for the progress I made this year, and I'm still not good at anything yet. But consistency might be the key. 
 
 taskangel site - bounty platform? deposit real money first to create a bounty. pay on completion if agreed. worker "i did the work" appeal. assigner "they did not complete work as agreed" appeal. 
+
+I 
