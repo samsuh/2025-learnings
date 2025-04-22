@@ -226,4 +226,4 @@ I feel a lack of purpose after the ethereum conference week. I am no closer to h
 
 taskangel site - bounty platform? deposit real money first to create a bounty. pay on completion if agreed. worker "i did the work" appeal. assigner "they did not complete work as agreed" appeal. 
 
-I 
+4/21 nighttime - watched a townhall meeting for EPF and had a few thoughts. Im not sure im technical enough to qualify for EPF, but it's probably where I want to be in terms of committing more to a more technically-minded focus on ethereum. regardless of acceptance into the fellowship I should get through the EPFsg materials and get caught up to speed on technical developments and the ecosystem. I started reading vitalik's "potential futures of ethereum" booklet, which is good in conjunction with the EPFsg materials, as more of an overview/overarching vision/direction. ss
