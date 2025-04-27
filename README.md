@@ -229,4 +229,5 @@ taskangel site - bounty platform? deposit real money first to create a bounty. p
 
 4/21 - watched a townhall meeting for EPF and had a few thoughts. Im not sure im technical enough to qualify for EPF, but it's probably where I want to be in terms of committing more to a more technically-minded focus on ethereum. regardless of acceptance into the fellowship I should get through the EPFsg materials and get caught up to speed on technical developments and the ecosystem. I started reading vitalik's "potential futures of ethereum" booklet, which is good in conjunction with the EPFsg materials, as more of an overview/overarching vision/direction. 
 
-4/26 - Started Rust course. got through installation and env setup, got through overview of struct, vec, #[derive(Debug)] 
+4/26 - Started Rust course. 
+4/27 - got through overview of struct, vec, #[derive(Debug)] 
