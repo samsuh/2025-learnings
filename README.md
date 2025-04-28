@@ -231,3 +231,5 @@ taskangel site - bounty platform? deposit real money first to create a bounty. p
 
 4/26 - Started Rust course. 
 4/27 - got through overview of struct, vec, #[derive(Debug)] 
+4/28 - got through arrays vs vectors, immutability of bindings by default, "{:#?} formatter" 
+
