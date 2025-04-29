@@ -229,8 +229,11 @@ taskangel site - bounty platform? deposit real money first to create a bounty. p
 
 4/21 - watched a townhall meeting for EPF and had a few thoughts. Im not sure im technical enough to qualify for EPF, but it's probably where I want to be in terms of committing more to a more technically-minded focus on ethereum. regardless of acceptance into the fellowship I should get through the EPFsg materials and get caught up to speed on technical developments and the ecosystem. I started reading vitalik's "potential futures of ethereum" booklet, which is good in conjunction with the EPFsg materials, as more of an overview/overarching vision/direction. 
 
+## Started Rust Course
 4/26 - Started Rust course. 
 4/27 - got through overview of struct, vec, #[derive(Debug)] 
 4/28 - got through arrays vs vectors, immutability of bindings by default, "{:#?} formatter" 
 
 Getting caught up in the RISC-V EVM discussions. If I make it through to the Ethereum protocol fellowship, i'd be interested in focusing some effort into implementing part of this initiative, or contributing to it. Here's a chatgpt overview of the process I'd be looking at: https://chatgpt.com/share/680f8cc7-c1a8-800f-854e-1c89569f8651
+
+4/29 - rust implementations
