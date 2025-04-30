@@ -237,3 +237,4 @@ taskangel site - bounty platform? deposit real money first to create a bounty. p
 Getting caught up in the RISC-V EVM discussions. If I make it through to the Ethereum protocol fellowship, i'd be interested in focusing some effort into implementing part of this initiative, or contributing to it. Here's a chatgpt overview of the process I'd be looking at: https://chatgpt.com/share/680f8cc7-c1a8-800f-854e-1c89569f8651
 
 4/29 - rust implementations and implicit returns
+4/30 - rust methods using &self, and using crates 
