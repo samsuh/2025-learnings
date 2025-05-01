@@ -239,4 +239,4 @@ Getting caught up in the RISC-V EVM discussions. If I make it through to the Eth
 4/29 - rust implementations and implicit returns
 4/30 - rust methods using &self, and using crates 
 
-5/1 - 2b1b released an interesting video on grover's algorithm for qc. https://youtu.be/RQWpF2Gb-gU?si=ezz1LyNbqFJbZt3j
+5/1 - 3b1b released an interesting video on grover's algorithm for qc. https://youtu.be/RQWpF2Gb-gU?si=ezz1LyNbqFJbZt3j.  the takeaway is that quantum computing does not turn NP problems into O of 1 time (it does for very specific situations), but generally it is a sqrt(n) time. This is because instead of parallelizing everything at once, it ratchets up the state vector towards the target solution-vector by theta (the amt of correctness in the state vector at the start) every time through. very cool visualization of how qc speeds up problem solving. 
