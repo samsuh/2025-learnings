@@ -239,4 +239,4 @@ Getting caught up in the RISC-V EVM discussions. If I make it through to the Eth
 4/29 - rust implementations and implicit returns
 4/30 - rust methods using &self, and using crates 
 
-2b1b released an interesting video on grover's algorithm for qc. https://youtu.be/RQWpF2Gb-gU?si=ezz1LyNbqFJbZt3j
+5/1 - 2b1b released an interesting video on grover's algorithm for qc. https://youtu.be/RQWpF2Gb-gU?si=ezz1LyNbqFJbZt3j
