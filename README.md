@@ -240,7 +240,8 @@ Getting caught up in the RISC-V EVM discussions. If I make it through to the Eth
 4/30 - rust methods using &self, and using crates 
 5/1 - rust. started getting into ownership/borrowing/lifetimes. 
 5/2 - Rust wants to eliminate unexpected updates to data. 
-- Ownership: the goal of ownership in rust is to limit the ways you can reference and change data. Many read-only references are ok. Every value in rust is "owned" by one owner. Reassigning this variable changes its owner by "moving"; moving makes the old one inaccessible. using a value in a function, even printing it, requires ownership to be moved to do so. 
+- Ownership: the goal of ownership in rust is to limit the ways you can reference and change data. Many read-only references are ok. Every value in rust is "owned" by one owner. Reassigning this variable changes its owner by "moving"; moving makes the old one inaccessible. using a value in a function, even printing it, requires ownership to be moved to do so.
+- Borrowing: act on a reference to the value using &value 
 
 ## May 2025
 5/1 - 3b1b released an interesting video on grover's algorithm for qc. https://youtu.be/RQWpF2Gb-gU?si=ezz1LyNbqFJbZt3j.  the takeaway is that quantum computing does not turn NP problems into O of 1 time (it does for very specific situations), but generally it is a sqrt(n) time. This is because instead of parallelizing everything at once, it ratchets up the state vector towards the target solution-vector by theta (the amt of correctness in the state vector at the start) every time through. very cool visualization of how qc speeds up problem solving. 
