@@ -240,7 +240,7 @@ Getting caught up in the RISC-V EVM discussions. If I make it through to the Eth
 4/30 - rust methods using &self, and using crates 
 5/1 - rust. started getting into ownership/borrowing/lifetimes. 
 5/2 - Rust wants to eliminate unexpected updates to data. 
-- Ownership and Moving: the goal of ownership in rust is to limit the ways you can reference and change data. Many read-only references are ok. Every value in rust is "owned" by one owner. Reassigning this variable changes its owner by "moving"; moving makes the old one inaccessible. using a value in a function, even printing it, requires ownership to be moved to do so.
+- Ownership and Moving: the goal of ownership in rust is to limit the ways you can reference and change data. Many read-only references are ok. Every value in rust is "owned" by one owner. Reassigning this variable changes its owner by "moving"; moving makes the old one inaccessible, including partial moves. using a value in a function, even printing it, requires ownership to be moved to do so.
 - Borrowing: act on a reference to the value using &value (technically, it's referencing the owner of the value). can also require an argument type to be a reference to a cerain &Type. could theoretically also return values, re-assign to the prior binding, and keep it available manually. this pattern is inefficient, just use borrowing. 
 
 ## May 2025
