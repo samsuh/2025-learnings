@@ -265,6 +265,6 @@ Argument type decisions. Store value somewhere? Take ownership. Do a calculation
 
 | Account Description | Method or Ass.Fn | Name | Args | Returns |
 |:-------------| :--------------: | :---: | :---: | :-----: |
-|Create an instance of an Account | Associated | new() | id: u32, holder: String | Account |
-|Add given amt to account balance | | | | | 
-|Remove given amt to account balance | | | | | 
+|Create an instance of an Account | Associated | new() | id: i32, holder: String | Account |
+|Add given amt to account balance | Method | deposit()| amt: i32, holder: String| none | numbers get copied.
+|Remove given amt to account balance | Method | withdraw()| amt: i32, holder: String| none| 
