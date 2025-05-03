@@ -249,4 +249,8 @@ Back to Rust learning
 - Borrowing: act on a reference to the value using &value (technically, it's referencing the owner of the value). can also require an argument type to be a reference to a cerain &Type. could theoretically also return values, re-assign to the prior binding, and keep it available manually. this pattern is inefficient, just use borrowing. Read-only references are immutable (&value), writable references are mutable (&mut value), and can be used to change referenced values. Cannot create &mut if an & already references the value. Cannot change values via owner if a ref exists to it. Copyable values make a copy instead of tranferring ownership (numbers, char, bool, tuples/arrays if filled with copyable stuff, references (both & and &mut)
 5/3 - Lifetimes. How long an owner/reference exists before memory is reclaimed.
 - When an owner goes out of scope, the owned value is dropped from memory. there can't be references to the value when owner goes out of scope. Lifetime annotations are for managing relationships between lifetimes.
-The difference in programming in Rust is that everything needs you to think ahead of time about whether it's taking ownership or not, whether we're using the value, or a reference to a value, if it's immutable/mutable, what it returns, and the same for any time we store data we have to think about values or references. 
+The difference in programming in Rust is that everything needs you to think ahead of time about whether it's taking ownership or not, whether we're using the value, or a reference to a value, if it's immutable/mutable, what it returns, and the same for any time we store data we have to think about values or references.
+
+| Description | Method or Ass.Fn | Name | Args | Returns |
+|-------------| ---------------- | ---- | ---- | ------- |
+|Create an instance | Associated | new | none | none |
