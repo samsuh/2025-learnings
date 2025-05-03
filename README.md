@@ -261,7 +261,7 @@ Argument type decisions. Store value somewhere? Take ownership. Do a calculation
 |Create an instance of a Bank | Associated | new() | none | Bank |
 |Add an Account to list of accounts | Method | add_accounts() | account: Account | none|
 |Calculate total balances of all accounts | Method | total_balance() | none | i32 | 
-|Create a Vec containing summaries of all accounts | Method | summary()| none |Vec<String> |
+|Create a Vec containing summaries of all accounts | Method | summary()| none |Vec/<String> |
 
 | Account Description | Method or Ass.Fn | Name | Args | Returns |
 |:-------------| :--------------: | :---: | :---: | :-----: |
