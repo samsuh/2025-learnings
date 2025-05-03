@@ -269,3 +269,5 @@ Argument type decisions. Store value somewhere? Take ownership. Do a calculation
 |Add given amt to account balance | Method | deposit()| amt: i32| i32 |
 |Remove given amt to account balance | Method | withdraw()| amt: i32| i32| 
 |Print balance and holder as string | Method | summary() | none | String |
+
+Started learning about enums in rust
