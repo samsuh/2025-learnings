@@ -267,3 +267,4 @@ Argument type decisions. Store value somewhere? Take ownership. Do a calculation
 |:-------------| :--------------: | :---: | :---: | :-----: |
 |Create an instance of an Account | Associated | new() | id: u32, holder: String | Account |
 |Add given amt to account balance | | | | | 
+|Remove given amt to account balance | | | | | 
