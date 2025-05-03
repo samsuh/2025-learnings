@@ -251,11 +251,12 @@ Back to Rust learning
 - When an owner goes out of scope, the owned value is dropped from memory. there can't be references to the value when owner goes out of scope. Lifetime annotations are for managing relationships between lifetimes.
 The difference in programming in Rust is that everything needs you to think ahead of time about whether it's taking ownership or not, whether we're using the value, or a reference to a value, if it's immutable/mutable, what it returns, and the same for any time we store data we have to think about values or references.
 
-Considerations for simple Bank/Account structs in Rust.
+Considerations for simple Bank/Account structs in Rust. Methods are tied to an instance of the struct, AFs are on the struct itself. 
+Argument type decisions. Store value somewhere? Take ownership. Do a calculation with the value? Take immutable ref. Need to change value? Mutable ref.
 | Bank Description | Method or Ass.Fn | Name | Args | Returns |
 |:-------------| :--------------: | :---: | :---: | :-----: |
 |Create an instance of a Bank | Associated | new() | none | Bank |
-|Add an Account to list of accounts | Method | | | |
+|Add an Account to list of accounts | Method | add_accounts() | account: Account | none|
 |Calculate total balances of all accounts | Method | | | | 
 |Create a Vec containing summaries of all accounts | Method | | | |
 
