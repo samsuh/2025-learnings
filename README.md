@@ -278,3 +278,4 @@ match self {
   Media::Audiobook{title} => format!("Audiobook: {}", title)
 }
 ```
+Cool video walking through reth (rust ethereum) line by line: https://youtu.be/gPQ-uXj03iQ?si=7dxP518SnpXdz5DU
