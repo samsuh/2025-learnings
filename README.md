@@ -270,4 +270,4 @@ Argument type decisions. Store value somewhere? Take ownership. Do a calculation
 |Remove given amt to account balance | Method | withdraw()| amt: i32| i32| 
 |Print balance and holder as string | Method | summary() | none | String |
 
-Started learning about enums in rust
+5/4 - Rust Enums. Think of it like "types" of structs with different variants selectable, like a Media enum with book/movie/audiobook inside. Without enum, we would have to have 3 structs, with 3 impls. With enum, you can have one Media enum with one Media impl with logic to check which variant youre working with. 
