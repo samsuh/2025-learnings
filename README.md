@@ -270,4 +270,11 @@ Argument type decisions. Store value somewhere? Take ownership. Do a calculation
 |Remove given amt to account balance | Method | withdraw()| amt: i32| i32| 
 |Print balance and holder as string | Method | summary() | none | String |
 
-5/4 - Rust Enums. Think of it like "types" of structs with different variants selectable, like a Media enum with book/movie/audiobook inside. Without enum, we would have to have 3 structs, with 3 impls. With enum, you can have one Media enum with one Media impl with logic to check which variant youre working with. 
+5/4 - Rust Enums. Think of it like "types" of structs with different variants selectable, like a Media enum with book/movie/audiobook inside. Without enum, we would have to have 3 structs, with 3 impls. With enum, you can have one Media enum with one Media impl with logic to check which variant youre working with. Pattern matching, "match" works logically like an if/elseif statement checking which enum variant "self" is. Note, we're not adding ';' to use implicit return, since we return a String. 
+```rs
+match self {
+  Media::Book{title, author} => {format!("Book: {} {}", title, author)},
+  Media::Movie{title, director} => {format!("Movie: {} {}", title, director)},
+  Media::Audiobook{title} => format!("Audiobook: {}", title)
+}
+```
