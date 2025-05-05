@@ -287,7 +287,7 @@ enum Media {
     Book{title: String, author: String},
     Movie{title: String, director: String},
     Audiobook{title: String},
-    Podcast(u32), //less clear what this number means to others
+    Podcast(u32), //less clear what this number means to others, but could make sense in other contexts later
     Placeholder
 }
 ```
