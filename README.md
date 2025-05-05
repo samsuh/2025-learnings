@@ -300,7 +300,7 @@ enum Option {
 ```
 Different ways to use Option enum: 
 - `match` on Some and None, handle both cases (best most thorough)
-- `if let Some {} else {}`
+- `if let Some {} else {}` handle both cases
 - `item.unwrap();` if item is Some, return Some. if None, panic! useful for quick debugging.
 - `item.expect("value should be here");` if item is Some, return Some. if None, print debug and panic. Use when you want it to crash on None.
 - `item.unwrap_or(&placeholder);` if item is Some, return Some. if None, return default placeholder. Use when you want the fallback. 
