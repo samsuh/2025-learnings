@@ -306,3 +306,4 @@ Different ways to use Option enum:
 - `item.unwrap_or(&placeholder);` if item is Some, return Some. if None, return default placeholder. Use when you want the fallback.
 
 I feel like I'm progressing too slowly. I need a better routine to funnel information into my brain and keep it there. Progress is actually not bad looking backwards, but part of me feels like I'm leaving a lot on the table every day, and I need to up the intensity, as long as I don't burn out from it. Maybe a more balanced intensity but with more dedicated time off would work. 
+Started reviewing data structures and algorithms to add some more learning/practice into the mix. Rust doesnt seem to be a good language to do DSA in. 
