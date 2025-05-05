@@ -291,4 +291,4 @@ enum Media {
     Placeholder
 }
 ```
-- Rust does not have null/nil/undefined
+- Rust does not have null/nil/undefined. It has a built in enum called "Option" that can be "Some" or "None".
