@@ -281,4 +281,13 @@ match self {
 Cool video walking through reth (rust ethereum) line by line: https://youtu.be/gPQ-uXj03iQ?si=7dxP518SnpXdz5DU
 I plan to tackle this once i finish rust fundamentals in abt a week.
 
-5/5 - Getting through the rest of enums section. 
+5/5 - Enums continued. enum variant can take required values in {field_name: String}, or just the raw type but using parentheses (u32), or nothing at all if it doesnt have attributes. 
+```rs
+enum Media {
+    Book{title: String, author: String},
+    Movie{title: String, director: String},
+    Audiobook{title: String},
+    Podcast(u32),
+    Placeholder
+}
+```
