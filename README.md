@@ -291,3 +291,4 @@ enum Media {
     Placeholder
 }
 ```
+- Rust does not have null/nil/undefined
