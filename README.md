@@ -299,8 +299,8 @@ enum Option {
 }
 ```
 Different ways to use Option enum: 
-- `match`{.rs} on Some and None, handle both cases (best most thorough)
-- `if let Some {} else {}`{.rs}
-- `item.unwrap();`{.rs} if item is Some, return Some. if None, panic! useful for quick debugging.
-- `item.expect("value should be here");`{.rs} if item is Some, return Some. if None, print debug and panic. Use when you want it to crash on None.
-- `item.unwrap_or(&placeholder);`{.rs} if item is Some, return Some. if None, return default placeholder. Use when you want the fallback. 
+- `match`{:.rs} on Some and None, handle both cases (best most thorough)
+- `if let Some {} else {}`{:.rs}
+- `item.unwrap();`{:.rs} if item is Some, return Some. if None, panic! useful for quick debugging.
+- `item.expect("value should be here");`{:.rs} if item is Some, return Some. if None, print debug and panic. Use when you want it to crash on None.
+- `item.unwrap_or(&placeholder);`{:.rs} if item is Some, return Some. if None, return default placeholder. Use when you want the fallback. 
