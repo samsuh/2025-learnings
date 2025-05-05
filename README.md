@@ -280,3 +280,5 @@ match self {
 ```
 Cool video walking through reth (rust ethereum) line by line: https://youtu.be/gPQ-uXj03iQ?si=7dxP518SnpXdz5DU
 I plan to tackle this once i finish rust fundamentals in abt a week.
+
+5/5 - Getting through the rest of enums section. 
