@@ -307,3 +307,42 @@ Different ways to use Option enum:
 
 I feel like I'm progressing too slowly. I need a better routine to funnel information into my brain and keep it there. Progress is actually not bad looking backwards, but part of me feels like I'm leaving a lot on the table every day, and I need to up the intensity, as long as I don't burn out from it. Maybe a more balanced intensity but with more dedicated time off would work. 
 Started reviewing data structures and algorithms to add some more learning/practice into the mix. Rust doesnt seem to be a good language to do DSA in. 
+
+Rust Modules. Organizing code. There are different ways to implement modules. 
+First way of doing modules: create in same file. good for organizing a massive file that you dont want to break up. Note the `pub` keyword since everything inside modules is private by default. 
+```rs
+mod content {
+  pub enum Media {/*fields*/}
+  pub struct Catalog {/*fields*/}
+}
+fn main() {let catalog = content::Catalog::new();}
+```
+Second way of implementing modules: create a new file with the module name dot rs. This way is good for extracting functionality out into a modules file, but it doesn't need to span many files. 
+```rs
+// content.rs
+pub enum Media {}
+pub struct Catalog {}
+// main.rs
+mod content;
+fn main() {let catalog = content::Catalog::new();}
+```
+Third way is the most common way in the wild. Spread functionality into new folders as well as files. 
+```
+├── src
+│   ├── content
+│   │   ├── catalog.rs
+│   │   ├── media.rs
+│   │   ├── mod.rs //note this is required to be put inside the module folder
+│   ├── main.rs
+
+// content/mod.rs
+pub mod media;
+pub mod catalog;
+// content/catalog.rs
+pub struct Catalog {}
+// content/media.rs
+pub struct Media
+// main.rs
+mod content;
+fn main(){let catalog = content::Catalog::new();}
+```
