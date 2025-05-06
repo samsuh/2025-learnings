@@ -334,7 +334,8 @@ Third way is the most common way in the wild. Spread functionality into new fold
 │   │   ├── media.rs
 │   │   ├── mod.rs //note this is required to be put inside the module folder
 │   ├── main.rs
-
+```
+```rs
 // content/mod.rs
 pub mod media;
 pub mod catalog;
