@@ -326,7 +326,7 @@ pub struct Catalog {}
 mod content;
 fn main() {let catalog = content::Catalog::new();}
 ```
-Third way is the most common way in the wild. Spread functionality into new folders as well as files. 
+Third way is the most common way in the wild. Spread functionality into new folders as well as files. Folder+mod.rs make their own module. the content folder's mod.rs file has to import everything from the folder and make it public so it's accessible elsewhere. use `use super` to reference the parent directory to import mods around in sibling level files. 
 ```
 ├── src
 │   ├── content
@@ -340,10 +340,13 @@ Third way is the most common way in the wild. Spread functionality into new fold
 pub mod media;
 pub mod catalog;
 // content/catalog.rs
+use super::media::Media;
 pub struct Catalog {}
 // content/media.rs
 pub struct Media {}
 // main.rs
 mod content;
+use content::media::Media;
+use content::catalog::Catalog;
 fn main(){let catalog = content::Catalog::new();}
 ```
