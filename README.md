@@ -308,7 +308,7 @@ Different ways to use Option enum:
 I feel like I'm progressing too slowly. I need a better routine to funnel information into my brain and keep it there. Progress is actually not bad looking backwards, but part of me feels like I'm leaving a lot on the table every day, and I need to up the intensity, as long as I don't burn out from it. Maybe a more balanced intensity but with more dedicated time off would work. 
 Started reviewing data structures and algorithms to add some more learning/practice into the mix. Rust doesnt seem to be a good language to do DSA in. 
 
-Rust Modules. Organizing code. There are different ways to implement modules. 
+5/6 - Rust Modules. Organizing code. There are different ways to implement modules. 
 First way of doing modules: create in same file. good for organizing a massive file that you dont want to break up. Note the `pub` keyword since everything inside modules is private by default. 
 ```rs
 mod content {
