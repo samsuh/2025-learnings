@@ -342,7 +342,7 @@ pub mod catalog;
 // content/catalog.rs
 pub struct Catalog {}
 // content/media.rs
-pub struct Media
+pub struct Media {}
 // main.rs
 mod content;
 fn main(){let catalog = content::Catalog::new();}
