@@ -350,4 +350,4 @@ use content::media::Media;
 use content::catalog::Catalog;
 fn main(){let catalog = content::Catalog::new();}
 ```
-5/7 - holiday
+5/7 - holiday. Messing around with Results enum for error handling. Use panic if it's a program breaking error or completely unexpected. use Result to handle cases where you know it might succeed or fail.
