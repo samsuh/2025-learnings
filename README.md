@@ -355,4 +355,5 @@ fn main(){let catalog = content::Catalog::new();}
 enum Result {
   Ok(value), //use when something goes well
   Err(error) //use when something bad happens
+}
 ```
