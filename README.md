@@ -357,3 +357,5 @@ enum Result {
   Err(error) //use when something bad happens
 }
 ```
+5/9 - more on Result enum and error handling. The Result enum returns either something of the Ok variant or Err variant. Err is the name of the Result variant, but Error is a struct from the std library imported by the struct definition `use std::io::Error`. Calling `Error::other("reasonforerror")` creates an instance of that struct. Rust does not have a default "error" type built in like other languages. Each library has their own implementation of "error" or you can write your own. 
+Calling the function that will return the Result variant isnt a direct call. You have to handle the `match` cases. If the success case returns nothing, convention is to return an empty tuple `()`
