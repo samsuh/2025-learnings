@@ -361,8 +361,11 @@ enum Result {
 Calling the function that will return the Result variant isnt a direct call. You have to handle the `match` cases. If the success case returns nothing, convention is to return an empty tuple `()`. A tuple in rust is like an array of a fixed length with no labels, where the arguments are passed in a specific order representing a specific thing; like `type Rgb(u8,u8,u8)` where it can be used later by `fn make_rgb()` taking in red/green/blue values in that order. To pass in empty arguments, you can use `_` or `..`, the difference seems to be underscore ignores one thing, whereas dotdot covers "all the rest" so can ignore everything. 
 
 5/11 - Stack vs Heap in rust. Stack is for fast small memory (2-8 MB), Heap is for growing potentially large things (GBs). "Data Segment" (Read-only data, static data) are literals hard coded into source code like `let num = 45;`. Generally, stack stores metadata about the data while the heap stores the data itself. 
-Strings in rust. "String" vs "&String" vs "&str" (string slice). &str does not need anything from the Heap, it can point directly to the data segment's literal value. `color.as_str()` it can also take portions (a slice) of an existing string. 
+Strings in rust. "String" vs "&String" vs "&str" (string slice). &str does not need anything from the Heap, it can point directly to the data segment's literal value. `color.as_str()` it can also create a ref to portions (a slice) of an existing string.
 ```rs
 let color = "red";
-let portion = color[1..4]; //take color from index 1 up to but not including 4, so second/third letter. 
+let portion = color[1..4]; //take color from index 1 up to but not including index 4 (3 letters total)
 ```
+- use String when you want ownership of the data, or if it has to grow/shrink (the other 2 are read-only). uses both stack and heap. 
+- use &String rarely since it uses &str under the hood
+- use &str when you dont want ownership of the data, or want a portion. uses stack and data segment. 
