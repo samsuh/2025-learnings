@@ -359,3 +359,10 @@ enum Result {
 ```
 5/9 - more on Result enum and error handling. The Result enum returns either something of the Ok variant or Err variant. Err is the name of the Result variant, but Error is a struct from the std library imported by the struct definition `use std::io::Error`. Calling `Error::other("reasonforerror")` creates an instance of that struct. Rust does not have a default "error" type built in like other languages. Each library has their own implementation of "error" or you can write your own. 
 Calling the function that will return the Result variant isnt a direct call. You have to handle the `match` cases. If the success case returns nothing, convention is to return an empty tuple `()`. A tuple in rust is like an array of a fixed length with no labels, where the arguments are passed in a specific order representing a specific thing; like `type Rgb(u8,u8,u8)` where it can be used later by `fn make_rgb()` taking in red/green/blue values in that order. To pass in empty arguments, you can use `_` or `..`, the difference seems to be underscore ignores one thing, whereas dotdot covers "all the rest" so can ignore everything. 
+
+5/11 - Stack vs Heap in rust. Stack is for fast small memory (2-8 MB), Heap is for growing potentially large things (GBs). "Data Segment" (Read-only data, static data) are literals hard coded into source code like `let num = 45;`. Generally, stack stores metadata about the data while the heap stores the data itself. 
+Strings in rust. "String" vs "&String" vs "&str" (string slice). &str does not need anything from the Heap, it can point directly to the data segment's literal value. `color.as_str()` it can also take portions (a slice) of an existing string. 
+```rs
+let color = "red";
+let portion = color[1..4]; //take color from index 1 up to but not including 4, so second/third letter. 
+```
