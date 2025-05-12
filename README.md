@@ -369,3 +369,9 @@ let portion = color[1..4]; //take color from index 1 up to but not including ind
 - use String when you want ownership of the data, or if it has to grow/shrink (the other 2 are read-only). uses both stack and heap. 
 - use &String rarely since it uses &str under the hood
 - use &str when you dont want ownership of the data, or want a portion. uses stack and data segment. 
+
+5/12 - Finishing up error handling section in different ways: nested matches to capture the Ok/Err variants (messy) / text.expect() to panic out (good to debug but dramatic error) / "try" operator `?` at the end if it returns a Result object. If `?` operates on an `Ok()` it automatically unwraps contents from the Ok. If `?` operates on an `Err()` variant, it also unwraps the contents, but returns out of the fn early. 
+You can return a Result from main(). `fn main() -> Result<(), Error>{}`
+- Use nested match statements when you want to write to meaningfully handle the error, like handling a default scenario. 
+- Use .expect() .unwrap() for quick debugging or if you want to crash out of the program on error
+- Use `?` try operator when you dont have a way to handle the error. No default/backup case. 
