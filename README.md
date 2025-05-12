@@ -375,3 +375,5 @@ You can return a Result from main(). `fn main() -> Result<(), Error>{}`
 - Use nested match statements when you want to write to meaningfully handle the error, like handling a default scenario. 
 - Use .expect() .unwrap() for quick debugging or if you want to crash out of the program on error
 - Use `?` try operator when you dont have a way to handle the error. No default/backup case. 
+
+5/13 - Rust Iterator `.iter()` is a completely separate instance of a struct that lets us walk through every element of iterable data. `.next()` manually walks through the data.
