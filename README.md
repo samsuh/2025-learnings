@@ -377,3 +377,7 @@ You can return a Result from main(). `fn main() -> Result<(), Error>{}`
 - Use `?` try operator when you dont have a way to handle the error. No default/backup case. 
 
 5/13 - Rust Iterator `.iter()` is a completely separate instance of a struct that lets us walk through every element of iterable data. `.next()` manually walks through the data.
+For loop would work, but rust tends to use an "iterator adaptor" and "iterator consumer" pattern. Call .iter() on an iterable to create an iterator, but nothing will start iterating automatically until you either call .next() or an iterator consumer (something that calls .next() for you like .for_each()). 
+```rs
+elements.iter().for_each(|el| println!("{}", el))
+```
