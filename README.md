@@ -383,7 +383,7 @@ elements.iter().for_each(|el| println!("{}", el))
 ```
 5/16 - Iterators just arent getting into my brain. Maybe it's the explanation or the concept itself. It seems straightforward; iterators are a way to iterate over data that is serialized. The way rust does it is to create a new data object whose sole purpose is to iterate over some existing data. It has a few fields, basically it does things to point at the start/current/next/end of the iterable data and is accessed by certain patterns; using 'iterator adaptors' and 'iterator consumers'. 
 I'm going back to the rustbook to reference their explanations. https://doc.rust-lang.org/book/ch13-00-functional-features.html
-Closures get info from the scope in which they're defined, so they can have access to values in context based on where they're called. 
-Iterators are a separate piece of data defined so we dont mess with the original. 
-Iterator adaptors are methods on the iterator that dont consume the iterator, but produce different iterators by changing something on the iterator, like `map()` will act on an iterator to change each iteration and return the changed iterator. 
-Iterator consumers take ownership and use up the iterator, making them unavailable for further steps. 
+- Closures get info from the scope in which they're defined, so they can have access to values in context based on where they're called. 
+- Iterators are a separate piece of data defined so we dont mess with the original. 
+- Iterator adaptors are methods on the iterator that dont consume the iterator, but produce different iterators by changing something on the iterator, like `map()` will act on an iterator to change each iteration and return the changed iterator. 
+- Iterator consumers take ownership and use up the iterator, making them unavailable for further steps. 
