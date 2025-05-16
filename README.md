@@ -386,4 +386,6 @@ I'm going back to the rustbook to reference their explanations. https://doc.rust
 - Closures get info from the scope in which they're defined, so they can have access to values in context based on where they're called. 
 - Iterators are a separate piece of data defined so we dont mess with the original. 
 - Iterator adaptors are methods on the iterator that dont consume the iterator, but produce different iterators by changing something on the iterator, like `map()` will act on an iterator to change each iteration and return the changed iterator. 
-- Iterator consumers take ownership and use up the iterator, making them unavailable for further steps. 
+- Iterator consumers take ownership and use up the iterator, making them unavailable for further steps. anything that calls next() consumes.
+
+Start with a serialized piece of data. Create an iter from it. mutate data by creating a changed/adapted iterator. consume the iterator. 
