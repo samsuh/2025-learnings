@@ -397,6 +397,6 @@ got rejected from EPF. i guess i have a long way to go still. dont take it perso
 .iter vs .iter_mut vs .into_iter
 - .iter() gives a read-only reference to each element in the new iterable.
 - .iter_mut() gives a mutable reference and
-- .into_iter() gives ownership to each element in the iterable created. Rust convention is that `into` functions will take ownership. this `into_iter()` fn does not take ownership in the case when it is called on a mutable reference to a vector. 
+- .into_iter() *can* give ownership to each element in the iterable created. Rust convention is that `into` functions will take ownership. `.into_iter()` takes ownership when called on the value itself `colors.into_iter()`, but acts differently when called on a reference or mutable ref; this `into_iter()` fn does not take ownership in the case when it is called on `&colors` or `&mut colors` itll give back the same thing; either a reference to each value or mutable reference. 
 
 .collect() is an iterator consumer. Be careful with the type of value you collect everything into when using .collect(), since collect can be used with many different types of data structure inputs and outputs. Collect uses type annotations on what calls it to figure out what type it should return (if it's the last thing before fn returns). so if our function expects to return a Vec<String> that's what the collect fn will try to make. can also specify inline `.collect::<Vec<String>>()` or can rely on type inference to know it should contain strings `.collect::<Vec<_>>()`
