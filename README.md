@@ -397,4 +397,4 @@ got rejected from EPF. i guess i have a long way to go still. dont take it perso
 .iter vs .iter_mut vs .into_iter
 - .iter() gives a read-only reference to each element in the new iterable.
 - .iter_mut() gives a mutable reference and
-- .into_iter() gives ownership to each element in the iterable created. Note rust convention is that `into` functions will take ownership.
+- .into_iter() gives ownership to each element in the iterable created. Rust convention is that `into` functions will take ownership. this `into_iter()` fn does not take ownership in the case when it is called on a mutable reference to a vector. 
