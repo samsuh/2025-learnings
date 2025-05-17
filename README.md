@@ -389,3 +389,5 @@ I'm going back to the rustbook to reference their explanations. https://doc.rust
 - Iterator consumers take ownership and use up the iterator, making them unavailable for further steps. anything that calls next() consumes.
 
 Start with a serialized piece of data. Create an iter from it. mutate data by creating a changed/adapted iterator (can chain multiple for complex stuff). eventually consume the iterator. 
+
+5/17 - got rejected from EPF. i guess i have a long way to go still. dont take it personally, but as an assessment of delivered content. refocus on delivering stuff, instead of learning stuff. start to wrap up learning in the next couple weeks and shift gears to production. Define scope, Produce, Deliver, Assess. 
