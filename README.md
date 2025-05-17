@@ -394,3 +394,7 @@ got rejected from EPF. i guess i have a long way to go still. dont take it perso
 
 5/17 - &Vec<String> (reference to a full vector of strings) versus &[String] (a reference to a portion of a vector of strings). &Vec<String> works fine when working with the whole vector, but if you only want a portion of the vector to process using full references, you have to create a whole new vector and reference that; better to use a vector slice, which references parts of the original vector. vector slice syntax is &[data_i_want] like `&colors[1..3]` which gets elements at index 1 up to but not including index 3. Taking in a vector slice works with both full reference and partial, so it's more flexible. 
 
+.iter vs .iter_mut vs .into_iter
+- .iter() gives a read-only reference to each element in the new iterable.
+- .iter_mut() gives a mutable reference and
+- .into_iter() gives ownership to each element in the iterable created.
