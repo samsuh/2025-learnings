@@ -391,3 +391,5 @@ I'm going back to the rustbook to reference their explanations. https://doc.rust
 Start with a serialized piece of data. Create an iter from it. mutate data by creating a changed/adapted iterator (can chain multiple for complex stuff). eventually consume the iterator. 
 
 5/17 - got rejected from EPF. i guess i have a long way to go still. dont take it personally, but as an assessment of delivered content. refocus on delivering stuff, instead of learning stuff. start to wrap up learning in the next couple weeks and shift gears to production. Define scope, Produce, Deliver, Assess. 
+Back to rust. Rust vector slices in iterators vs reference to vectors. &Vec<String> works fine when working with the whole vector, but if you only want a portion of the vector to process, you have to create a whole new vector and reference that; better to use a vector slice, which references parts of the original vector. vector slice syntax is &[data_i_want] like `&colors[1..3]` which gets elements at index 1 up to but not including index 3. 
+
