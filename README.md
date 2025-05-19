@@ -419,3 +419,4 @@ Rust also does not read the code body to try to understand where the returns are
 fn next_lang<'a>(languages:&'a [String], current:&str) -> &'a str {code body here}
 ```
 The return 'a is telling rust compiler that the return &str is the same as one of the `languages:&[String]` references, and differentiated as not one of the `current:&str` reference. 
+Lifetime annotations help code readability by making clear which input argument ref is going to become the output ref. 
