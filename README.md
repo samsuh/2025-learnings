@@ -423,3 +423,5 @@ Lifetime annotations help code readability by making clear which input argument 
 If receiving only one reference argument and returning a reference, rust assumes you're returning the argument reference. However, when taking in reference arguments and returning a reference, always have to be mindful of lifetime annotations, even if we can omit the annotation itself. 
 - Take in one reference and any number of values, returning a reference. Omit OK. rust assumes return ref is the one argument ref. 
 - When writing methods (takes in &self), any number of references, any number of values, returning one reference. Omit OK. rust assumes return ref is the &self. 
+"Elide" = Remove/Omit
+"Elision" = Removal/Omission 
