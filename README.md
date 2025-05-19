@@ -408,3 +408,14 @@ got rejected from EPF. i guess i have a long way to go still. dont take it perso
 Rust. 
 `.map_or()` is run on an Option enum that handles the None/Some cases. it takes 2 arguments, the first is what happens when None, the second is a closure that runs when Some. `.map_or(String::from(fallback), |el| el.to_string());`
 `.filter()` takes a closure and applies a closure to every element, keeping the true ones, ultimately returning only all the true ones. 
+
+Lifetime annotations: `'a` and `&'a` used with fns, structs, enums, and more.
+a "lifetime" is the duration of time from when we define a value until it either goes out of scope or we move the value out of it. 
+Rust makes an assumption when we have multiple reference arguments and we return a reference; it assumes the returned ref must be one of the argument references. 
+Rust also does not read the code body to try to understand where the returns are coming from; <- this is why we must make lifetime annotations for rust. 
+
+`'a` is just a convention we could call it anything like `'LifetimeAnnotation`. 
+```rs
+fn next_lang<'a>(languages:&'a [String], current:&str) -> &'a str {code body here}
+```
+The return 'a is telling rust compiler that the return &str is the same as one of the `languages:&[String]` references, and differentiated as not one of the `current:&str` reference. 
