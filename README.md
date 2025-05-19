@@ -421,5 +421,5 @@ fn next_lang<'a>(languages:&'a [String], current:&str) -> &'a str {code body her
 The return 'a is telling rust compiler that the return &str is the same as one of the `languages:&[String]` references, and differentiated as not one of the `current:&str` reference. 
 Lifetime annotations help code readability by making clear which input argument ref is going to become the output ref. 
 If receiving only one reference argument and returning a reference, rust assumes you're returning the argument reference. However, when taking in reference arguments and returning a reference, always have to be mindful of lifetime annotations, even if we can omit the annotation itself. 
-- Take in one reference and any number of (many) values, returning a reference. Omit OK. rust assumes return ref is the one argument ref. 
-- When writing methods (takes in &self), many references, many values, returning a reference. Omit OK. rust assumes return ref is the &self. 
+- Take in one reference and any number of values, returning a reference. Omit OK. rust assumes return ref is the one argument ref. 
+- When writing methods (takes in &self), any number of references, any number of values, returning one reference. Omit OK. rust assumes return ref is the &self. 
