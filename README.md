@@ -405,4 +405,6 @@ got rejected from EPF. i guess i have a long way to go still. dont take it perso
 `.find()` is an iterator consumer that takes in an element and applies the closure until it finds one that returns a truthy value, and returns that element wrapped in Some(value) or None if it finds nothing. 
 
 5/19 - on my morning walk, ive been thinking about how i can bridge the gap between learning and making. I believe it's because I don't have a solid enough mastery over the basics. I **understand** the basics, and I can work with it if i see it, but I don't have a solid grasp of how everything connects on a blank page. I have followed several tutorial patterns that i could theoretically repeat by copying, but it's not internalized as a part of me. I think I need to do it a few times, then teach it to someone else to internalize it. I should make a tutorial lesson for the sake of learning things myself; the side benefit would be that it might help someone else later. 
-Rust type casting done by using the target type and passing in the current value `String::from(value)` if value was a &str, this turns it into a String. 
+Rust. 
+`.map_or()` is run on an Option enum that handles the None/Some cases. it takes 2 arguments, the first is what happens when None, the second is a closure that runs when Some. `.map_or(String::from(fallback), |el| el.to_string());`
+`.filter()` takes a closure and applies a closure to every element, keeping the true ones, ultimately returning only all the true ones. 
