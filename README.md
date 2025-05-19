@@ -425,3 +425,5 @@ If receiving only one reference argument and returning a reference, rust assumes
 - When writing methods (takes in &self), any number of references, any number of values, returning one reference. Omit OK. rust assumes return ref is the &self. 
 "Elide" = Remove/Omit
 "Elision" = Removal/Omission 
+
+if you take in 2 ref arguments, but the nature of the fn could return either one, mark both argument refs as `'a` so the return ref knows it can be either of them. 
