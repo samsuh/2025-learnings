@@ -474,3 +474,9 @@ fn main(){
 }
 ```
 Here, type <T> must be something that implements the Vehicle trait, so anything we pass in to the 'vehicle' argument must be type Vehicle, so vehicle and do anything Vehicle types can do. 
+Completed Rust Course; I still want to review the last bit about traits again, but generally it went smoothly. I have a good grasp of the basics, and just need lots of practice. Takeaways are that rust cares a lot about focusing on types, ownership/borrowing. I need to find better examples of where/how to apply this in the real world. 
+Rust To Dos: 
+- Rust/Wasm game course I want to get through later
+- Reth line by line walkthrough video
+
+5/21 - Changing gears taking a step away from low lvl rust stuff to focus back on filling in gaps of my web development skillset. I am pretty confident on my webapp building skills, but weak on hosting, devops, and the workflow of hosting apps online. I will focus on a different course learning docker and cloud deployment ci/cd stuff. I plan to later circle back and deploy all the projects I have locally, maybe spending some time to go back and update them along the way. This will result in more tangible 'development history', maybe I can aggregate them into a developer portfolio as well. 
