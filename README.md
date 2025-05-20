@@ -427,3 +427,9 @@ If receiving only one reference argument and returning a reference, rust assumes
 "Elision" = Removal/Omission 
 
 if you take in 2 ref arguments, but the nature of the fn could return either one, mark both argument refs as `'a` so the return ref knows it can be either of them. 
+
+5/20 - Rust Generics 
+writing a decimal number in rust defaults to a f64. to do something else, add a type annotation.  `let a: f32 = 3.0;`. cannot do arithmetic between different number types like f32+f64 does not work, same for adding f32 and i32. 
+- typecast using `as` like `let a2 = a as f64;`
+- num_traits crate: `use num_traits::ToPrimitive;` and `let a2 = a.to_f64();` but it returns an Option, so unwrap it. `let a2 = a.to_f64().unwrap();`
+Generics let you generalize what exact type you pass in so it can work with different types. `<T:Float>` in this scenario allows us to use f32 or f64. Convention is to use <T> to mean 'generic Type'. 
