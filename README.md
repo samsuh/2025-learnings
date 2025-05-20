@@ -432,4 +432,43 @@ if you take in 2 ref arguments, but the nature of the fn could return either one
 writing a decimal number in rust defaults to a f64. to do something else, add a type annotation.  `let a: f32 = 3.0;`. cannot do arithmetic between different number types like f32+f64 does not work, same for adding f32 and i32. 
 - typecast using `as` like `let a2 = a as f64;`
 - num_traits crate: `use num_traits::ToPrimitive;` and `let a2 = a.to_f64();` but it returns an Option, so unwrap it. `let a2 = a.to_f64().unwrap();`
-Generics let you generalize what exact type you pass in so it can work with different types. `<T:Float>` in this scenario allows us to use f32 or f64. Convention is to use <T> to mean 'generic Type'. 
+Generics let you generalize what exact type you pass in so it can work with different types. `<T:Float>` in this scenario allows us to use f32 or f64. Convention is to use <T> to mean 'generic Type', then <U>, but also people use <K> for 'key' and <E> for 'element', but it's just a convention. Name them usefully for yourself.
+the `<>` contains a generic type, which is like an argument list but for types. `<T: Float, U: ToPrimitive>` 
+
+```rs
+fn solve()<f32: Float> (a: T, b: T) -> f64 {code body};
+fn main(){
+  let a: f32 = 3.0;
+  let b: f32 = 4.0;
+  solve::<f32>(a, b);
+}
+```
+this code assumes a and b are both of the same type, and calling solve::<f32> means the type is f32. this isnt strictly necessary, and can be inferred by rust; it'll work without the explicit type declaration.
+in the above, `Float` is a trait bound. A trait is a set of methods, like a class definition. It can have "abstract methods" (code not defined, just exists, which we have to define ourselves later) and "default methods" which have a default implementation already that we can use or redefine if we want to later. Using the trait bound Float means anything we pass in should satisfy Float, and then we can do anything to the argument that Floats can do (like `.powi(2)` it)
+
+```rs
+trait Vehicle {
+  fn start(&self);
+  fn stop(&self){
+    println!("Stopped");
+  }
+}
+struct Car {};
+impl Vehicle for Car {
+  fn start(&self({}
+    println!("Start!")
+  }
+}
+```
+this makes the struct Car a Vehicle type that can do what Vehicle types can do. 
+```rs
+fn start_and_stop<T: Vehicle>(vehicle: T){
+  vehicle.start();
+  vehicle.stop();
+}
+fn main(){
+  let car = Car{};
+  start_and_stop(car);
+}
+```
+Here, type <T> must be something that implements the Vehicle trait, so anything we pass in to the 'vehicle' argument must be type Vehicle, so vehicle and do anything Vehicle types can do. 
