@@ -445,7 +445,8 @@ fn main(){
 ```
 this code assumes a and b are both of the same type, and calling solve::<f32> means the type is f32. this isnt strictly necessary, and can be inferred by rust; it'll work without the explicit type declaration.
 in the above, `Float` is a trait bound. A trait is a set of methods, like a class definition. It can have "abstract methods" (code not defined, just exists, which we have to define ourselves later) and "default methods" which have a default implementation already that we can use or redefine if we want to later. Using the trait bound Float means anything we pass in should satisfy Float, and then we can do anything to the argument that Floats can do (like `.powi(2)` it)
-- We could also use more than one generic type, like `fn solve<T: Float, U:Float>(a:T, b:U) -> f64 {code body}` this means that the two arguments could be different types, as long as theyre internally consist with themselves, and having them both be Float means one can be a f32 and the other a f64 and work fine. This is different than having only T:Float without the U:Float because with only one, it cannot be both f32 and f64 at the same time. 
+- We could also use more than one generic type, like `fn solve<T: Float, U:Float>(a:T, b:U) -> f64 {code body}` this means that the two arguments could be different types, as long as theyre internally consist with themselves, and having them both be Float means one can be a f32 and the other a f64 and work fine. This is different than having only T:Float without the U:Float because with only one, it cannot be both f32 and f64 at the same time.
+- In this code, we can generalize by making it `<T:ToPrimitive, U:ToPrimitive>` since all numbers are satisfied by type `num_traits::ToPrimitive`. 
 
 ```rs
 trait Vehicle {
