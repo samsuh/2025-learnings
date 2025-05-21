@@ -480,3 +480,8 @@ Rust To Dos:
 - Reth line by line walkthrough video
 
 5/21 - Changing gears taking a step away from low lvl rust stuff to focus back on filling in gaps of my web development skillset. I am pretty confident on my webapp building skills, but weak on hosting, devops, and the workflow of hosting apps online. I will focus on a different course learning docker and cloud deployment ci/cd stuff. I plan to later circle back and deploy all the projects I have locally, maybe spending some time to go back and update them along the way. This will result in more tangible 'development history', maybe I can aggregate them into a developer portfolio as well. 
+
+Reviewing Traits in rust. 
+Creating a generic struct will let the struct take in different types of data, making it reusable. To do that, declare `struct NameOfStruct<T>` in the struct and itll use that type throughout, but also in the `impl<T> NameOfStruct<T>` the first one after impl declares the generic type, and the `NameOfStruct<T>` references the declaration. 
+We made structs that can take in a specific type of item (String), then we generalized it to take in any type of item (Strings, numbers, etc) but once it's created it can only ever take that type. Trait would make it so anything can be taken in, and changed to anything as long as it satisfies the Trait. Use the Container trait with syntax `impl<T> Container<T> for Basket<T>`. This can only take in the fns/methods defined in the container and we cannot add more. Additional fns to Basket would have to be in a separate impl block without the `Container<T> for`. 
+It makes sense, and it works. But again, I would need a lot of practice using this to internalize rust as a whole.
