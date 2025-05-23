@@ -488,3 +488,4 @@ It makes sense, and it works. But again, I would need a lot of practice using th
 
 5/22 - Shifting gears off rust and to devops stuff with the end goal of getting more comfortable deploying nextjs apps on cloud servers. This in turn has the further goal of getting prior work into a presentable form that's organized, isntead of in scattered github repos (some private), and getting them deployed and usable. For now, focus on creating a deployment workflow in place, and then go back and update the old projects' content afterwards. 
 5/23 - docker stuff is more like review at this point. flying through the tutorial, but i think it'll slow down once i hit the actual devops stuff after the basic docker review
+5/24 - feels like there isnt much to commit yet for docker review materials, since there isnt much code, and the docker files are all pretty local. maybe i should create a 'learning' repo and put all the code up, but that feels excessive for small things. 
