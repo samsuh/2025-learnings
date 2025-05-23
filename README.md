@@ -490,4 +490,4 @@ It makes sense, and it works. But again, I would need a lot of practice using th
 5/23 - docker stuff is more like review at this point. flying through the tutorial, but i think it'll slow down once i hit the actual devops stuff after the basic docker review
 5/24 - feels like there isnt much to commit yet for docker review materials, since there isnt much code, and the docker files are all pretty local. maybe i should create a 'learning' repo and put all the code up, but that feels excessive for small things. 
 Docker compose restart handling in the docker-compose file: this must be put on individual services in the docker-compose file, and can mix/match different policies on different services.
-`restart: always` alternatively "no", "on-failure" (any error code other than `0`), "unless-stopped"
+`restart: always` alternatively `restart: "no"` (note the double quotes which are required), `restart: on-failure` (any error code other than `0`), `restart: unless-stopped` will try to restart unless we the dev stops it manually.
