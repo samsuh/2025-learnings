@@ -500,3 +500,17 @@ Workflow using docker
 `docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app <image_id>`
     - note: the -v creates the volume, but we can bookmark a folder in the image, or reference outside the image on our local dev machine using the ":". first -v says "dont mess with the node modules folder" and the second one says "reference everything in the app folder".
     - can simplify this by using docker-compose instead of a multi-flag run command. 
+```yml
+version: "3"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      -"3000:3000"
+    volumes:
+      - /app/node_modules
+      - .:/app
+```
+run using docker compose. `docker-compose up`
