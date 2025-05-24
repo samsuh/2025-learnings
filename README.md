@@ -491,3 +491,9 @@ It makes sense, and it works. But again, I would need a lot of practice using th
 5/24 - feels like there isnt much to commit yet for docker review materials, since there isnt much code, and the docker files are all pretty local. maybe i should create a 'learning' repo and put all the code up, but that feels excessive for small things. 
 Docker compose restart handling in the docker-compose file: this must be put on individual services in the docker-compose file, and can mix/match different policies on different services.
 `restart: always` alternatively `restart: "no"` (note the double quotes which are required), `restart: on-failure` (any error code other than `0`), `restart: unless-stopped` will try to restart unless we the dev stops it manually.
+Workflow using docker
+- docker for development
+  - "Dockerfile.dev"
+  - dont put node_modules in the docker image
+  - `docker run -p 3000:3000 container_id`
+  - for hot reloading, instead of using a snapshot of the actual source code to build an image, use docker volumes to reference the source code to be built.
