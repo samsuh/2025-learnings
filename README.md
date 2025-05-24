@@ -497,3 +497,5 @@ Workflow using docker
   - dont put node_modules in the docker image
   - `docker run -p 3000:3000 container_id`
   - for hot reloading, instead of using a snapshot of the actual source code to build an image, use docker volumes to reference the source code to be built.
+`docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app <image_id>`
+    - note: the -v creates the volume, but we can bookmark a folder in the image, or reference outside the image on our local dev machine using the ":". first -v says "dont mess with the node modules folder" and the second one says "reference everything in the app folder"
