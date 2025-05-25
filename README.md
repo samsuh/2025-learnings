@@ -526,19 +526,17 @@ docker web server production build. replace the node dev server with nginx for p
 - step 1: build the react project. use node:alpine -> copy package.json -> install dependencies -> run npm build. this results in the built project
 - step 2: build the nginx process. use nginx -> copy the built folder from step 1 -> start nginx. note this only keeps the folder from step1 and doesnt use the rest.
 
-<blockquote>
-
-  `Dockerfile`
+> `Dockerfile`
+<blockquote>  
   ```yml
-  FROM node:alpine as builder
-  WORKDIR '/app'
-  COPY package.json .
-  RUN npm install
-  COPY . .
-  RUN npm run build
-  
-  FROM nginx
-  COPY --from=builder /app/build /usr/share/nginx/html
+    FROM node:alpine as builder
+    WORKDIR '/app'
+    COPY package.json .
+    RUN npm install
+    COPY . .
+    RUN npm run build
+    FROM nginx
+    COPY --from=builder /app/build /usr/share/nginx/html
   ```
 </blockquote>
 
