@@ -544,3 +544,8 @@ then `docker build .` which builds from npm, then goes through nginx step, copyi
 then `docker run -p 8080:80 <img_id>` then open browser to localhost:8080 to view the site running from the nginx container 
 
 -> next step would be to host these containers on cloud servers
+
+CI/CD workflow 
+- Create github repo for the project
+- Set up github actions: triggers (when to run) > jobs (what to do) > steps (how to do it) > actions (reusable units of code)
+- Set up aws. elastic beanstalk good for running a single container. Change it for multi-container deployments later.
