@@ -539,4 +539,5 @@ COPY --from=builder /app/build /usr/share/nginx/html
 ```
 then `docker build .` which builds from npm, then goes through nginx step, copying build folder over then runs nginx to build the nginx image with the built website files on it. 
 then `docker run -p 8080:80 <img_id>` then open browser to localhost:8080 to view the site running from the nginx container 
+
 -> next step would be to host these containers on cloud servers
