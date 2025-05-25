@@ -522,3 +522,21 @@ run using docker compose. `docker-compose up`
   - edit docker compose yml file to run two containers: one for the webapp and one for tests. pretty much the same, but change the `command: ["npm","run","test"]` and dont need port binding. this has the drawback of putting our testing outputs into the same terminal as the server, and also we don't have stdin input ability. we can try "attach"ing to a running process, but it won't work here because it will attach to pid 1, which is "npm" not the actual "npm run test", and there's no real way to drill into the testing suite itself.
 
 docker web server production build. replace the node dev server with nginx for production. 
+- the thing is that for production we want to already use a base image of node:alpine, but we also want to have nginx running on it as a base image. this can be solved by using a multi-step build process.
+- step 1: build the react project. use node:alpine -> copy package.json -> install dependencies -> run npm build. this results in the built project
+- step 2: build the nginx process. use nginx -> copy the built folder from step 1 -> start nginx. note this only keeps the folder from step1 and doesnt use the rest.
+`Dockerfile`
+```yml
+FROM node:alpine as builder
+WORKDIR '/app'
+COPY package.json .
+RUN npm install
+COPY . .
+RUN npm run build
+
+FROM nginx
+COPY --from=builder /app/build /usr/share/nginx/html
+```
+then `docker build .` which builds from npm, then goes through nginx step, copying build folder over then runs nginx to build the nginx image with the built website files on it. 
+then `docker run -p 8080:80 <img_id>` then open browser to localhost:8080 to view the site running from the nginx container 
+-> next step would be to host these containers on cloud servers
