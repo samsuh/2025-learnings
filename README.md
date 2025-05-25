@@ -516,3 +516,9 @@ services:
 run using docker compose. `docker-compose up`
 
 5/25 - web development workflow using docker. react (node) site. 
+- to run a node server container with tests, there's a few ways to do it, no ideal ways if you want to actually interact with the test suite. 
+  - `docker-compose up <app>` but this does not hot reload if we change tests
+    - add `docker exec -it <appid> npm run test`, and this works if you need to use the test suite directly, but need to remember to run the additional exec cmd. 
+  - edit docker compose yml file to run two containers: one for the webapp and one for tests. pretty much the same, but change the `command: ["npm","run","test"]` and dont need port binding. this has the drawback of putting our testing outputs into the same terminal as the server, and also we don't have stdin input ability. we can try "attach"ing to a running process, but it won't work here because it will attach to pid 1, which is "npm" not the actual "npm run test", and there's no real way to drill into the testing suite itself.
+
+docker web server production build. replace the node dev server with nginx for production. 
