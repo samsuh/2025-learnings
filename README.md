@@ -525,7 +525,7 @@ docker web server production build. replace the node dev server with nginx for p
 - the thing is that for production we want to already use a base image of node:alpine, but we also want to have nginx running on it as a base image. this can be solved by using a multi-step build process.
 - step 1: build the react project. use node:alpine -> copy package.json -> install dependencies -> run npm build. this results in the built project
 - step 2: build the nginx process. use nginx -> copy the built folder from step 1 -> start nginx. note this only keeps the folder from step1 and doesnt use the rest.
-
+<blockquote>
 `Dockerfile`
 ```yml
 FROM node:alpine as builder
@@ -538,6 +538,7 @@ RUN npm run build
 FROM nginx
 COPY --from=builder /app/build /usr/share/nginx/html
 ```
+</blockquote>
 
 then `docker build .` which builds from npm, then goes through nginx step, copying build folder over then runs nginx to build the nginx image with the built website files on it. 
 
