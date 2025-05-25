@@ -514,3 +514,5 @@ services:
       - .:/app
 ```
 run using docker compose. `docker-compose up`
+
+5/25 - web development workflow using docker. react (node) site. 
