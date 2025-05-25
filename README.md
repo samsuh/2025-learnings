@@ -527,16 +527,17 @@ docker web server production build. replace the node dev server with nginx for p
 - step 2: build the nginx process. use nginx -> copy the built folder from step 1 -> start nginx. note this only keeps the folder from step1 and doesnt use the rest.
 
 In `Dockerfile`
- ```yml
-    FROM node:alpine as builder
-    WORKDIR '/app'
-    COPY package.json .
-    RUN npm install
-    COPY . .
-    RUN npm run build
-    FROM nginx
-    COPY --from=builder /app/build /usr/share/nginx/html
-  ```
+```yml
+  FROM node:alpine as builder
+  WORKDIR '/app'
+  COPY package.json .
+  RUN npm install
+  COPY . .
+  RUN npm run build
+
+  FROM nginx
+  COPY --from=builder /app/build /usr/share/nginx/html
+```
 
 then `docker build .` which builds from npm, then goes through nginx step, copying build folder over then runs nginx to build the nginx image with the built website files on it. 
 
