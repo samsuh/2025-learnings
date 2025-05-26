@@ -547,5 +547,5 @@ then `docker run -p 8080:80 <img_id>` then open browser to localhost:8080 to vie
 
 CI/CD workflow 
 - Create github repo for the project
-- Set up github actions: triggers (when to run) > jobs (what to do) > steps (how to do it) > actions (reusable units of code)
+- Set up Ci pipeline using either travisci or github actions: triggers (when to run) > jobs (what to do) > steps (how to do it) > actions (reusable units of code)
 - Set up aws. elastic beanstalk good for running a single container. Change it for multi-container deployments later.
