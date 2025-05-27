@@ -549,3 +549,5 @@ CI/CD workflow
 - Create github repo for the project
 - Set up Ci pipeline using either travisci or github actions: triggers (when to run) > jobs (what to do) > steps (how to do it) > actions (reusable units of code)
 - Set up aws. elastic beanstalk good for running a single container. Change it for multi-container deployments later.
+
+5/27 - got multi computer development and build steps working. Next is to deploy and be able to deploy from multiple places.
