@@ -551,3 +551,5 @@ CI/CD workflow
 - Set up aws. elastic beanstalk good for running a single container. Change it for multi-container deployments later.
 
 5/27 - got multi computer development and build steps working. Next is to deploy and be able to deploy from multiple places.
+Got deploy to work. Man that was harder than expected, so many little configuration settings that need to be exactly right. I doubt I can do this from scratch on my own without constantly referring back to the walkthrough workflow. 
+That was a lot of effort just to get the default react project deployed haha: http://frontend-env.eba-w4ifgtgr.us-east-2.elasticbeanstalk.com/
