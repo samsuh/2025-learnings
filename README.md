@@ -561,3 +561,5 @@ That was a lot of effort just to get the default react project deployed haha: ht
 
 ## June 2025 
 Last month was spent focused on learning Rust, and getting the basics down. This month I plan to shift focus to a practical development workflow, which includes a ci/cd pipeline using docker and github actions to build a site, then host it on a cloud provider (havent decided which yet, maybe aws, maybe digital ocean or something). By the end of June I should have a react or nextjs app in development that automatically updates itself when the github main branch is updated. If this is all done, I want to spend some time thinking up a product management brainstorming webapp; like trello, but for brainstorming and collaboration. 
+
+6/1 currently practicing on a toy project that has multicontainer deployments that update themselves automatically on change. rn working on the development side using a Dockerfile.dev only, and once everything works in dev, can try to move to prod.
