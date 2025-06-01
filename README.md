@@ -565,6 +565,7 @@ Last month was spent focused on learning Rust, and getting the basics down. This
 6/1 currently practicing on a toy project that has multicontainer deployments that update themselves automatically on change. rn working on the development side using a Dockerfile.dev only, and once everything works in dev, can try to move to prod.
 Workflow: Copy over package.json file, run npm install, copy over everything else, docker-compose file should set up volumes to share data across the multi-containers. 
 
+there are three apps, client/server/worker. each one needs their own Dockerfile.dev. Here is the one for client: 
 `Dockerfile.dev`
 ```Dockerfile
 FROM node:lts-alpine
