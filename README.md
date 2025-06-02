@@ -615,3 +615,24 @@ server:
     - server.env
 ```
 or by running it in the docker run command `docker run --env-file ...`
+
+finish up the docker-compose.yml file with the config for client/worker services: 
+```yml
+client:
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./client
+    volumes:
+      - /app/node_modules
+      - /client:/app
+  worker:
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./worker
+    volumes:
+      - /app/node_modules
+      - ./worker:/app
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+```
