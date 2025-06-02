@@ -584,4 +584,6 @@ services:
     image: 'postgres:latest'
     environment:
       - POSTGRES_PASSWORD=postgres_password
+  redis:
+    image: 'redis:latest'
 ```
