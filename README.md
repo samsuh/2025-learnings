@@ -618,7 +618,7 @@ or by running it in the docker run command `docker run --env-file ...`
 
 finish up the docker-compose.yml file with the config for client/worker services: 
 ```yml
-client:
+  client:
     build:
       dockerfile: Dockerfile.dev
       context: ./client
