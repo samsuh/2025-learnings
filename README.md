@@ -663,3 +663,5 @@ rewrite takes /api/whatever and chops off the /api/ to give /whatever. `$1` refe
 
 error: running into issues using docker volumes on windows. `npm ERR! enoent ENOENT: no such file or directory, open '/app/package.json'` this is a volumes problem that should not be happening on WSL native stuff, but it's happening anyway. i need to dive deeper to figure it out https://docs.docker.com/engine/storage/volumes/#mount-a-host-directory-as-a-data-volume
 fixed. i was missing '.' in volume mapping in front of '/client:/app' shouldve been './client:/app'
+
+error: `nginx-1     | nginx: [emerg] host not found in upstream "express:5000" in /etc/nginx/conf.d/default.conf:6` i think that's because i named it express instead of 'api'. will check this next.
