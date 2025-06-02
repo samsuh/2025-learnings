@@ -665,3 +665,4 @@ error: running into issues using docker volumes on windows. `npm ERR! enoent ENO
 fixed. i was missing '.' in volume mapping in front of '/client:/app' shouldve been './client:/app'
 
 error: `nginx-1     | nginx: [emerg] host not found in upstream "express:5000" in /etc/nginx/conf.d/default.conf:6` i think that's because i named it express instead of 'api'. will check this next.
+has to be consistent across the upstream server name, the location proxy_pass http://name, and the docker-compose file that names the services before getting mapped via the context.
