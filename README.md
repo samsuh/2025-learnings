@@ -575,3 +575,13 @@ RUN npm install
 COPY . .
 CMD ["npm", "run", "start"]
 ```
+
+`docker-compose.yml`
+```yml
+version: '3'
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - POSTGRES_PASSWORD=postgres_password
+```
