@@ -576,7 +576,7 @@ COPY . .
 CMD ["npm", "run", "start"]
 ```
 
-`docker-compose.yml` version of docker compose to run, and start of "services" section which will have postgres/redis/"server" which is our backend server. 
+`docker-compose.yml` version of docker compose to run, and start of "services" section which will have postgres/redis/"server" which is our backend server. Array elements are shown by using a '-' in front. 
 ```yml
 version: '3'
 services:
@@ -597,3 +597,21 @@ services:
       - /app/node_modules
       - /server:/app
 ```
+for environment variables, in development, this works but this feels super insecure if unchanged to production: 
+```yml
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_POST=6379
+      - PGUSER=postgres
+      - PGHOST=postgres
+      - PGDATABASE=postgres
+      - PGPASSWORD=postgres_password
+      - PGPORT=5432
+```
+someone mentioned that there's a more secure way of doing it: 
+```yml
+server:
+  env_file:
+    - server.env
+```
+or by running it in the docker run command `docker run --env-file ...`
