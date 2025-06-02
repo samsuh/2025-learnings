@@ -639,4 +639,24 @@ finish up the docker-compose.yml file with the config for client/worker services
 ```
 we will use an nginx server to distinguish http requests to the client or to the server based on requests to "/" or "/api/". `default.conf` is where we'll add settings to an nginx image. 
 there will be an upstream server (server behind nginx) at client:3000 (default CRA port) and server:5000(we set default port for express server listening on 5000) "client" and "server" are what we called the service names in docker-compose.yml. then we'll listen inside the container at port 80, and if a req hits '/' send to client or if '/api' send to server.
-renamed 'server' service 'express' to prevent potential collisions later.
+renamed 'server' service 'express' to prevent potential collisions later. 
+```
+upstream client {
+  server client:3000;
+}
+upstream express {
+  server express:5000;
+}
+server {
+  listen 80;
+  location /{
+    proxy_pass http://client
+  }
+  location /api {
+    rewrite /api/(.*) /$1 break;
+    proxy_pass http://express
+  }
+}
+```
+upstrreams redirect incoming "location" rules to either client:3000 or express:5000
+rewrite takes /api/whatever and chops off the /api/ to give /whatever. `$1` refers to whatever regex was matched by `(.*)`
