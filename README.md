@@ -650,13 +650,15 @@ upstream express {
 server {
   listen 80;
   location /{
-    proxy_pass http://client
+    proxy_pass http://client;
   }
   location /api {
     rewrite /api/(.*) /$1 break;
-    proxy_pass http://express
+    proxy_pass http://express;
   }
 }
 ```
 upstrreams redirect incoming "location" rules to either client:3000 or express:5000
 rewrite takes /api/whatever and chops off the /api/ to give /whatever. `$1` refers to whatever regex was matched by `(.*)`
+
+error: running into issues using docker volumes on windows. `npm ERR! enoent ENOENT: no such file or directory, open '/app/package.json'` this is a volumes problem that should not be happening on WSL native stuff, but it's happening anyway. i need to dive deeper to figure it out https://docs.docker.com/engine/storage/volumes/#mount-a-host-directory-as-a-data-volume
