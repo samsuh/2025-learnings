@@ -625,7 +625,7 @@ finish up the docker-compose.yml file with the config for client/worker services
       context: ./client
     volumes:
       - /app/node_modules
-      - /client:/app
+      - ./client:/app
   worker:
     build:
       dockerfile: Dockerfile.dev
@@ -662,3 +662,4 @@ upstrreams redirect incoming "location" rules to either client:3000 or express:5
 rewrite takes /api/whatever and chops off the /api/ to give /whatever. `$1` refers to whatever regex was matched by `(.*)`
 
 error: running into issues using docker volumes on windows. `npm ERR! enoent ENOENT: no such file or directory, open '/app/package.json'` this is a volumes problem that should not be happening on WSL native stuff, but it's happening anyway. i need to dive deeper to figure it out https://docs.docker.com/engine/storage/volumes/#mount-a-host-directory-as-a-data-volume
+fixed. i was missing '.' in volume mapping in front of '/client:/app' shouldve been './client:/app'
