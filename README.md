@@ -576,7 +576,7 @@ COPY . .
 CMD ["npm", "run", "start"]
 ```
 
-`docker-compose.yml`
+`docker-compose.yml` version of docker compose to run, and start of "services" section which will have postgres/redis/"server" which is our backend server. 
 ```yml
 version: '3'
 services:
@@ -586,6 +586,9 @@ services:
       - POSTGRES_PASSWORD=postgres_password
   redis:
     image: 'redis:latest'
+```
+`docker-compose.yml` continued. 'context' acts as a filepath in our filesystem that has the root folter and drills down into /server. 'volumes' will leave the node_modules folder alone, but for everything else, whenever we reach out to '/server' it is treated as '/app'
+```yml
   server:
     build:
       dockerfile: Dockerfile.dev
