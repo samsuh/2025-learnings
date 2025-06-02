@@ -636,3 +636,4 @@ finish up the docker-compose.yml file with the config for client/worker services
       - REDIS_HOST=redis
       - REDIS_PORT=6379
 ```
+we will use an nginx server to distinguish http requests to the client or to the server based on requests to "/" or "/api/"
