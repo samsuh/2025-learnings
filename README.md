@@ -661,10 +661,8 @@ server {
 upstreams redirect incoming "location" rules to either client:3000 or express:5000
 rewrite takes /api/whatever and chops off the /api/ to give /whatever. `$1` refers to whatever regex was matched by `(.*)`
 
-error: running into issues using docker volumes on windows. `npm ERR! enoent ENOENT: no such file or directory, open '/app/package.json'` this is a volumes problem that should not be happening on WSL native stuff, but it's happening anyway. i need to dive deeper to figure it out https://docs.docker.com/engine/storage/volumes/#mount-a-host-directory-as-a-data-volume
+- error: running into issues using docker volumes on windows. `npm ERR! enoent ENOENT: no such file or directory, open '/app/package.json'` this is a volumes problem that should not be happening on WSL native stuff, but it's happening anyway. i need to dive deeper to figure it out https://docs.docker.com/engine/storage/volumes/#mount-a-host-directory-as-a-data-volume
 fixed. i was missing '.' in volume mapping in front of '/client:/app' shouldve been './client:/app'
-
-error: `nginx-1     | nginx: [emerg] host not found in upstream "express:5000" in /etc/nginx/conf.d/default.conf:6` i think that's because i named it express instead of 'api'. will check this next.
+- error: `nginx-1     | nginx: [emerg] host not found in upstream "express:5000" in /etc/nginx/conf.d/default.conf:6` i think that's because i named it express instead of 'api'. will check this next.
 fixed: has to be consistent across the upstream server names, the `location /api proxy_pass http://name` (i had this wrong), and the docker-compose file that names the services before getting mapped via the context.
-
-i was hitting another error about a 502 gateway, but it was my own mistake. the same as the above error missing a '.' before '/client:/app' i did the same mistake for './server:/app' too.
+- i was hitting another error about a 502 gateway, but it was my own mistake. the same as the above error missing a '.' before '/client:/app' i did the same mistake for './server:/app' too.
