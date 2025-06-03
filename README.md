@@ -666,3 +666,5 @@ fixed. i was missing '.' in volume mapping in front of '/client:/app' shouldve b
 
 error: `nginx-1     | nginx: [emerg] host not found in upstream "express:5000" in /etc/nginx/conf.d/default.conf:6` i think that's because i named it express instead of 'api'. will check this next.
 fixed: has to be consistent across the upstream server names, the `location /api proxy_pass http://name` (i had this wrong), and the docker-compose file that names the services before getting mapped via the context.
+
+i was hitting another error about a 502 gateway, but it was my own mistake. the same as the above error missing a '.' before '/client:/app' i did the same mistake for './server:/app' too.
