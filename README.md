@@ -668,4 +668,4 @@ fixed. i was missing '.' in volume mapping in front of '/client:/app' shouldve b
 fixed: has to be consistent across the upstream server names, the `location /api proxy_pass http://name` (i had this wrong), and the docker-compose file that names the services before getting mapped via the context.
 - i was hitting another error about a 502 gateway, but it was my own mistake. the same as the above error missing a '.' before '/client:/app' i did the same mistake for './server:/app' too.
 
-the app is now in a pretty good state. can move on to deploying to cloud server.
+the app is now in a pretty good state. can clean up for production, then deploy to aws
