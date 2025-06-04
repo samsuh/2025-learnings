@@ -669,3 +669,5 @@ fixed: has to be consistent across the upstream server names, the `location /api
 - i was hitting another error about a 502 gateway, but it was my own mistake. the same as the above error missing a '.' before '/client:/app' i did the same mistake for './server:/app' too.
 
 the app is now in a pretty good state. can clean up for production, then deploy to aws
+
+6/4 - spent some time messing with github action secrets config. i was doing it wrong. i need to put it uner 'repository secrets' not 'environment secrets'. i got it to work. next step is to get this deployed onto AWS EB. for multi-container deployments on aws, we need a specific file `Dockerrun.aws.json` to tell aws how to handle the multiple containers and which ones to run. 
