@@ -673,40 +673,41 @@ the app is now in a pretty good state. can clean up for production, then deploy 
 6/4 - spent some time messing with github action secrets config. i was doing it wrong. i need to put it uner 'repository secrets' not 'environment secrets'. i got it to work. next step is to get this deployed onto AWS EB. for multi-container deployments on aws, we need a specific file `Dockerrun.aws.json` to tell aws how to handle the multiple containers and which ones to run. 
 6/5 - apartment hunting took all day
 6/6 - aws multicontainer setup
-`Dockerrun.aws.json`
-```json
-{
-  "AWSEBDockerrunVersion": 2,
-  "containerDefinitions": [
-    {
-      "name": "client",
-      "image": "samsuh/multi-client",
-      "hostname": "client",
-      "essential": "false"
-    }
-  ]
-}
+Old v2 way used `Dockerrun.aws.json`, but v3 does not need that file anymore, and can be done from `docker-compose.yml` 
+```yml
+version: "3"
+services:
+  client:
+    image: "samsuh/multi-client"
+    mem_limit: 128m
+    hostname: client
+  server:
+    image: "samsuh/multi-server"
+    mem_limit: 128m
+    hostname: api
+    environment:
+      - REDIS_HOST=$REDIS_HOST
+      - REDIS_PORT=$REDIS_PORT
+      - PGUSER=$PGUSER
+      - PGHOST=$PGHOST
+      - PGDATABASE=$PGDATABASE
+      - PGPASSWORD=$PGPASSWORD
+      - PGPORT=$PGPORT
+  worker:
+    image: "samsuh/multi-worker"
+    mem_limit: 128m
+    hostname: worker
+    environment:
+      - REDIS_HOST=$REDIS_HOST
+      - REDIS_PORT=$REDIS_PORT
+  nginx:
+    image: "samsuh/multi-nginx"
+    mem_limit: 128m
+    hostname: nginx
+    ports:
+      - "80:80"
 ```
-- `name` is what shows up in our aws eb dashboard
 - `image` is the image we made on our docker hub
 - `hostname` is what other containers can refer to this container as like http://name 
-- `essential` will shut down all containers if 'true' one goes down. at least one container must be essential. in this app the nginx container that routes between client/api will be essential. 
-
-add to containerDefinitions "name":"server", "hostname":"api" and name/hostname "worker". add nginx container to form container links.
-
-```json
-  {
-    "name": "nginx",
-    "image": "samsuh/mutli-nginx",
-    "essential": "true",
-    "portMappings": [{
-      "hostPort": 80,
-      "containerPort": 80
-    }],
-    "links": ["client", "server"]
-  }
-```
-- nginx is essential
-- we dont need hostname because no other container reaches out to nginx
 - port mapping
-- container link between "nginx" to each "client" and "server" (this is the "name" property of other containers, so it's to "server" not "api")
+- container link between "nginx" to each "client" and "server" is now automatically handled by aws. dont need to manually create links between containers.
