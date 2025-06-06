@@ -713,3 +713,5 @@ services:
 - `hostname` is what other containers can refer to this container as like http://name 
 - port mapping
 - container link between "nginx" to each "client" and "server" is now automatically handled by aws. dont need to manually create links between containers.
+
+6/7 - mostly offline today, but will review the aws setup. the aws ui has changed, so need to figure out where everything is in the new ui
