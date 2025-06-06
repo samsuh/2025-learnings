@@ -691,19 +691,20 @@ the app is now in a pretty good state. can clean up for production, then deploy 
 - `image` is the image we made on our docker hub
 - `hostname` is what other containers can refer to this container as like http://name 
 - `essential` will shut down all containers if 'true' one goes down. at least one container must be essential. in this app the nginx container that routes between client/api will be essential. 
+
 add to containerDefinitions "name":"server", "hostname":"api" and name/hostname "worker". add nginx container to form container links.
 
 ```json
-{
-  "name": "nginx",
-  "image": "samsuh/mutli-nginx",
-  "essential": "true",
-  "portMappings": [{
-    "hostPort": 80,
-    "containerPort": 80
-  }],
-  "links": ["client", "server"]
-}
+  {
+    "name": "nginx",
+    "image": "samsuh/mutli-nginx",
+    "essential": "true",
+    "portMappings": [{
+      "hostPort": 80,
+      "containerPort": 80
+    }],
+    "links": ["client", "server"]
+  }
 ```
 - nginx is essential
 - we dont need hostname because no other container reaches out to nginx
