@@ -673,3 +673,21 @@ the app is now in a pretty good state. can clean up for production, then deploy 
 6/4 - spent some time messing with github action secrets config. i was doing it wrong. i need to put it uner 'repository secrets' not 'environment secrets'. i got it to work. next step is to get this deployed onto AWS EB. for multi-container deployments on aws, we need a specific file `Dockerrun.aws.json` to tell aws how to handle the multiple containers and which ones to run. 
 6/5 - apartment hunting took all day
 6/6 - aws multicontainer setup
+`Dockerrun.aws.json`
+```json
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+    {
+      "name": "client",
+      "image": "samsuh/multi-client",
+      "hostname": "client",
+      "essential": "false"
+    }
+  ]
+}
+```
+`name` is what shows up in our aws eb dashboard
+`image` is the image we made on our docker hub
+`hostname` is what other containers can refer to this container as like http://name 
+`essential` will shut down all containers if 'true' one goes down. at least one container must be essential. in this app the nginx container that routes between client/api will be essential. 
