@@ -670,8 +670,10 @@ fixed: has to be consistent across the upstream server names, the `location /api
 
 the app is now in a pretty good state. can clean up for production, then deploy to aws
 
-6/4 - spent some time messing with github action secrets config. i was doing it wrong. i need to put it uner 'repository secrets' not 'environment secrets'. i got it to work. next step is to get this deployed onto AWS EB. for multi-container deployments on aws, we need a specific file `Dockerrun.aws.json` to tell aws how to handle the multiple containers and which ones to run. 
+6/4 - spent some time messing with github action secrets config. i was doing it wrong. i need to put it under 'repository secrets' not 'environment secrets'. i got it to work. next step is to get this deployed onto AWS EB. for multi-container deployments on aws, we need a specific file `Dockerrun.aws.json` to tell aws how to handle the multiple containers and which ones to run. 
+
 6/5 - apartment hunting took all day
+
 6/6 - aws multicontainer setup
 Old v2 way used `Dockerrun.aws.json`, but v3 does not need that file anymore, and can be done from `docker-compose.yml` 
 ```yml
