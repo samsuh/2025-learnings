@@ -716,4 +716,4 @@ services:
 
 6/7 - mostly offline today, but will review the aws setup. the aws ui has changed, so need to figure out where everything is in the new ui. didnt get much reviewing done. 
 
-6/8 - set out to get the aws deployment done today. 
+6/8 - set out to get the aws deployment done today. surprisingly i got it to work for the most part, but one thing is broken. the whole workflow seems to work fine, but the actual source code of the website itself is not updating properly, so the website ultimately does not get displayed. I need to dig into this deeper after a break.
