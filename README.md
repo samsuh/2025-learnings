@@ -717,4 +717,16 @@ services:
 6/7 - mostly offline today, but will review the aws setup. the aws ui has changed, so need to figure out where everything is in the new ui. didnt get much reviewing done. 
 
 6/8 - set out to get the aws deployment done today. surprisingly i got it to work for the most part, but one thing is broken. the whole workflow seems to work fine, but the actual source code of the website itself is not updating properly, so the website ultimately does not get displayed. I need to dig into this deeper after a break.
-6/9 - fixed it. everything works! http://multi-docker-env.eba-m6drmp8u.us-east-2.elasticbeanstalk.com/ (will probably take this down so i dont incur hosting costs). takes about 4 minutes every time after pushing to main.
+6/9 - fixed it. everything works! http://multi-docker-env.eba-m6drmp8u.us-east-2.elasticbeanstalk.com/ (will probably take this down so i dont incur hosting costs). takes about 4 minutes every time after pushing to main. I need to reassess current goals, and set a discrete goal for the month. 
+
+Taking a moment to reassess and consolidate options: 
+- Kubernetes scaling to finalize containerized deployments and keep learning CICD stuff.
+- Go back to building web apps, and bring one of those through the current development workflow.
+  - I wanted to redo a project management planning tool like trello, integrated with idea capture or something else to make it more useful for entrepreneurship planning.
+  - Taskangel
+  - Coinfind 
+- Backend stuff, learning more Rust. The next thing wouldve been the rust/wasm game, but game feels off topic.
+- Blockchain/cryptocurrency.
+  - Ethereum protocol developer track
+  - Dapp track (Alchemy or other courses)
+I think ultimately i have to set goals one level higher. Personal goals for the year, for example. Whether that's a startup or getting a job or something. 
