@@ -718,7 +718,7 @@ services:
 
 6/8 - set out to get the aws deployment done today. surprisingly i got it to work for the most part, but one thing is broken. the whole workflow seems to work fine, but the actual source code of the website itself is not updating properly, so the website ultimately does not get displayed. I need to dig into this deeper after a break.
 
-6/9 - fixed it. everything works! http://multi-docker-env.eba-m6drmp8u.us-east-2.elasticbeanstalk.com/ (will probably take this down so i dont incur hosting costs). takes about 4 minutes every time after pushing to main. I need to reassess current goals, and set a discrete goal for the month. 
+6/9 - fixed it. everything works! http://multi-docker-env.eba-m6drmp8u.us-east-2.elasticbeanstalk.com/ (will probably take this down so i dont incur hosting costs). takes 2-4 minutes every time after pushing to main. I need to reassess current goals, and set a discrete goal for the month. 
 
 Taking a moment to reassess and consolidate options: 
 - Kubernetes scaling to finalize containerized deployments and keep learning CICD stuff.
