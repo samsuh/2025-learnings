@@ -733,3 +733,7 @@ Taking a moment to reassess and consolidate options:
 I think ultimately i have to set goals one level higher. Personal goals for the year, for example. Whether that's a startup or getting a job or something. 
 
 6/10 - initial goal would be to set up the deployment workflow for a NextJS app with postgres. I don't think redis is necessary. I need to plan out the site routing and figure out how the frontend/backend split would work for nginx. I think it's just one thing. Need to confirm. 
+- Set up initial NextJS project to do a new trello clone; create-next-app, set up postgres and prisma, get auth setup.
+- Once the baseline app is in a decent place, get docker workflow in place to dockerhub
+- once dockerhub is updated, connect github actions to automate deployment.
+- maybe just deploy to aws for completeness, even if it costs a little money. youll learn stuff about having something live in production from it. 
