@@ -736,4 +736,6 @@ I think ultimately i have to set goals one level higher. Personal goals for the 
 - Set up initial NextJS project to do a new trello clone; create-next-app, set up postgres and prisma, get auth setup.
 - Once the baseline app is in a decent place, get docker workflow in place to dockerhub
 - once dockerhub is updated, connect github actions to automate deployment.
-- maybe just deploy to aws for completeness, even if it costs a little money. youll learn stuff about having something live in production from it. 
+- maybe just deploy to aws for completeness, even if it costs a little money. youll learn stuff about having something live in production from it.
+
+6/11 - continue with basic app setup. auth setup focus next.
