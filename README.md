@@ -740,4 +740,4 @@ I think ultimately i have to set goals one level higher. Personal goals for the 
 
 6/11 - continue with basic app setup. auth setup focus next. didnt get much progress. low productivity day. 
 
-6/12 - continue to set up auth.
+6/12 - continue to set up auth. sign in/out working. there was an issue with `prisma generate`, but removing `output` folder `../generated` seems to have fixed it. i confirmed it's working directly with the postgres db running locally via docker desktop
