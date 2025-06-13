@@ -778,3 +778,58 @@ Priority questions:
   - Dockerfile.dev copy over package.json, run `npm install` then create volumes to map our local development folders to the container's `/app` folder. Probably want to simplify the setup with docker-compose so the docker run command doesnt have to be super complicated.
   - Eventually, for production, will need to swap out the dev server with a production web server, prob using nginx. Use a multi-step build Dockerfile; first a 'builder' phase to use alpine to build the project, then a second 'run' phase to use nginx as a BASE to run the nginx server using the built application.
 - Does NextJS application count as a "simple static site" in regards to nginx's setup?
+  - https://thoughtrealm.medium.com/deploying-a-next-js-app-with-nginx-using-docker-ca6a5bbb902e has a walkthrough of setting up dockerized nextjs using nginx and prisma (mongo instead of postgres).
+`Dockerfile`
+```Dockerfile
+# using staged builds
+FROM node:18-buster as builder
+# make the directory where the project files will be stored
+RUN mkdir -p /usr/src/next-nginx
+# set it as the working directory so that we don't need to keep referencing it
+WORKDIR /usr/src/next-nginx
+# Copy the package.json file
+COPY package.json package.json
+# install project dependencies
+RUN npm install
+# copy project files 
+# make sure to set up .dockerignore to copy only necessary files
+COPY . .
+# run the build command which will build and export html files
+RUN npx prisma db seed && npm run build
+
+# bundle static assets with nginx
+FROM nginx:1.21.0-alpine as production
+ENV NODE_ENV production
+# remove existing files from nginx directory
+RUN rm -rf /usr/share/nginx/html/*
+# copy built assets from 'builder' stage
+COPY --from=builder /usr/src/next-nginx/out /usr/share/nginx/html
+# add nginx config
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+# expose port 80 for nginx
+EXPOSE 80
+# start nginx
+CMD ["nginx", "-g", "daemon off;"]
+```
+`docker-compose.yml`
+```yml
+version: "3.9"
+
+services:
+  # this service should use the web image after you build it
+  web:
+    image: next-nginx:dev
+    ports:
+      - "3000:80"
+    environment:
+      NODE_ENV: development
+  # this service is the database service using mongo from docker hub
+  mongo:
+    image: mongo-replica:latest
+    restart: always
+    ports:
+      - "27027:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
+```
