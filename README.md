@@ -744,9 +744,13 @@ I think ultimately i have to set goals one level higher. Personal goals for the 
 
 6/13 - Thinking through all the pages on the site, and the data flow between each, and the overview of the whole application. Scope out the work needing to be done for a prototype. Core flow will be something like:  
   - Unlogged in Landing Page > Sign Up/Sign In > Browse Projects (/projects) or Create new Project (/project/new which will then create a /project/myProjectName)
+    - Featured projects
+    - Featured tasks
   - On /project/myProjectName, have:
-    - /project/myProjectName/overview
-    - /project/myProjectName/board
+    - /project/myProjectName/overview; "description of project" created at initialization
+    - /project/myProjectName/board; trello board style
+      - "inbox" pool of ideas
+      - "tasked" (initial task submitted), "available task", "bounty outstanding until date" (1+ bounty hunters assigned), bounty completed, completion verified.
     - /project/myProjectName/tasks
   - On /tasks, have a separate user flow to view created tasks and give logged in users the option to make offers on the task.
     - Users create Tasks as part of the planning/organization flow. These can be rough ideas that arent fully formed, but require a description of the task needing completion, rough timeline, and a two part request bounty: one administrative fee, one task bounty prize. 
