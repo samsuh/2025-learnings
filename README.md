@@ -742,7 +742,7 @@ I think ultimately i have to set goals one level higher. Personal goals for the 
 
 6/12 - continue to set up auth. sign in/out working. there was an issue with `prisma generate`, but removing `output` folder `../generated` seems to have fixed it. i confirmed it's working directly with the postgres db running locally via docker desktop
 
-6/13 - Im hitting a bit of a wall because I realize I dont have a very clear layout in my head about all the pages on the site, and the data flow between each, and the overview of the whole application. I'm spending some time to sketch out how things will work until I've scoped out the work needing to be done for the prototype. I think ultimately the core flow will be something like:  
+6/13 - Thinking through all the pages on the site, and the data flow between each, and the overview of the whole application. Scope out the work needing to be done for a prototype. Core flow will be something like:  
   - Unlogged in Landing Page > Sign Up/Sign In > Browse Projects (/projects) or Create new Project (/project/new which will then create a /project/myProjectName)
   - On /project/myProjectName, have:
     - /project/myProjectName/overview
