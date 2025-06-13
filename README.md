@@ -757,3 +757,14 @@ I think ultimately i have to set goals one level higher. Personal goals for the 
     - Administrators consume/claim the adminstrative fee and formalize the process to be turned into a vetted task bounty. This administrator is responsible for seeing this bounty is completed and accepted. If this bounty times out, the administrator does not get paid, and possibly penalized. 
     - Bounty hunters view the task bounty board and can either "claim exclusive" putting their reputation on the line, or make a claim offer with more specific counter-proposals or details.
       - Bounty hunters then complete the task, and submit it for acceptance by the administrator, who in turn will need final acceptance from the task creator client. 
+
+Additional issues that are a little bigger in scope to keep in mind: 
+- If taskangel is going to become the core task management function (initialization, refinement, publication, claim, fulfillment), this should stand alone and be composable into other stuff systematically.
+  - This would require thinking through the 'user' object and the data associations to the 'user' table; consider whether this should be in-db or on-chain.
+  - Rethink whether "task" requires the trello-style project management component, or if that's out of scope too. but for now, it'll stay until proven extraneous. 
+- Additional functionality is so easy to dream up, but hard to defer to a reasonable future time;
+  - once the core task mechanism works, expand it to DAO orgs; improvement proposal proposal/discussion/selection flow
+  - poap style initiatives to users; participation incentives for engagement or sponsored tasks? 
+  - introduce a token to natively pay for task flow
+  - list token so people can get paid and use it in daily life
+  - add a project wiki to contain org entity knowledge
