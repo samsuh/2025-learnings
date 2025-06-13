@@ -778,7 +778,8 @@ Priority questions:
   - Dockerfile.dev copy over package.json, run `npm install` then create volumes to map our local development folders to the container's `/app` folder. Probably want to simplify the setup with docker-compose so the docker run command doesnt have to be super complicated.
   - Eventually, for production, will need to swap out the dev server with a production web server, prob using nginx. Use a multi-step build Dockerfile; first a 'builder' phase to use alpine to build the project, then a second 'run' phase to use nginx as a BASE to run the nginx server using the built application.
 - Does NextJS application count as a "simple static site" in regards to nginx's setup?
-  - https://thoughtrealm.medium.com/deploying-a-next-js-app-with-nginx-using-docker-ca6a5bbb902e has a walkthrough of setting up dockerized nextjs using nginx and prisma (mongo instead of postgres).
+  - https://thoughtrealm.medium.com/deploying-a-next-js-app-with-nginx-using-docker-ca6a5bbb902e has a walkthrough of setting up dockerized nextjs using nginx and prisma (mongo instead of postgres). Use this as a starting point. 
+
 `Dockerfile`
 ```Dockerfile
 # using staged builds
