@@ -741,3 +741,15 @@ I think ultimately i have to set goals one level higher. Personal goals for the 
 6/11 - continue with basic app setup. auth setup focus next. didnt get much progress. low productivity day. 
 
 6/12 - continue to set up auth. sign in/out working. there was an issue with `prisma generate`, but removing `output` folder `../generated` seems to have fixed it. i confirmed it's working directly with the postgres db running locally via docker desktop
+
+6/13 - Im hitting a bit of a wall because I realize I dont have a very clear layout in my head about all the pages on the site, and the data flow between each, and the overview of the whole application. I'm spending some time to sketch out how things will work until I've scoped out the work needing to be done for the prototype. I think ultimately the core flow will be something like:  
+  - Unlogged in Landing Page > Sign Up/Sign In > Browse Projects (/projects) or Create new Project (/project/new which will then create a /project/myProjectName)
+  - On /project/myProjectName, have:
+    - /project/myProjectName/overview
+    - /project/myProjectName/board
+    - /project/myProjectName/tasks
+  - On /tasks, have a separate user flow to view created tasks and give logged in users the option to make offers on the task.
+    - Users create Tasks as part of the planning/organization flow. These can be rough ideas that arent fully formed, but require a description of the task needing completion, rough timeline, and a two part request bounty: one administrative fee, one task bounty prize. 
+    - Administrators consume/claim the adminstrative fee and formalize the process to be turned into a vetted task bounty. This administrator is responsible for seeing this bounty is completed and accepted. If this bounty times out, the administrator does not get paid, and possibly penalized. 
+    - Bounty hunters view the task bounty board and can either "claim exclusive" putting their reputation on the line, or make a claim offer with more specific counter-proposals or details.
+      - Bounty hunters then complete the task, and submit it for acceptance by the administrator, who in turn will need final acceptance from the task creator client. 
