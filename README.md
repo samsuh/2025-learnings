@@ -768,3 +768,4 @@ Additional issues that are a little bigger in scope to keep in mind:
   - introduce a token to natively pay for task flow
   - list token so people can get paid and use it in daily life
   - add a project wiki to contain org entity knowledge
+- Would be an interesting way to revive 'dead' projects by having the original team load up any remaining treasury tokens into a dedicated decentralized treasury accessible via hitting milestones. let the community self organize and push projects
