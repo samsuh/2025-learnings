@@ -743,17 +743,19 @@ I think ultimately i have to set goals one level higher. Personal goals for the 
 6/12 - continue to set up auth. sign in/out working. there was an issue with `prisma generate`, but removing `output` folder `../generated` seems to have fixed it. i confirmed it's working directly with the postgres db running locally via docker desktop
 
 6/13 - Thinking through all the pages on the site, and the data flow between each, and the overview of the whole application. Scope out the work needing to be done for a prototype. Core flow will be something like:  
-  - Unlogged in Landing Page > Sign Up/Sign In > Browse Projects (/projects) or Create new Project (/project/new which will then create a /project/myProjectName)
+  - Header in Layout across all pages. Sign Up/Sign In. 
+  - Home Page also has link to Browse Top Projects (/projects, Show-Many-Projects-Page) or Create New Project (/project/new which will then create a /project/myProjectName)
     - Featured projects
     - Featured tasks
-  - On /project/myProjectName, have:
+  - On /project/myProjectName (Show-Single-Project-Page), have:
     - /project/myProjectName/overview; "description of project" created at initialization
     - /project/myProjectName/board; trello board style
       - "inbox" pool of ideas
       - "tasked" (initial task submitted), "available task", "bounty outstanding until date" (1+ bounty hunters assigned), bounty completed, completion verified.
     - /project/myProjectName/tasks
-  - On /tasks, have a separate user flow to view created tasks and give logged in users the option to make offers on the task.
-    - Users create Tasks as part of the planning/organization flow. These can be rough ideas that arent fully formed, but require a description of the task needing completion, rough timeline, and a two part request bounty: one administrative fee, one task bounty prize. 
+  - On /tasks (Show all tasks page), have a separate user flow to view created tasks and give logged in users the option to make offers on the task.
+    - Users create Tasks as part of the planning/organization flow. These can be rough ideas that arent fully formed, but require a description of the task needing completion, rough timeline, and a two part request bounty: one administrative fee, one task bounty prize.
+      - Create Card. Push it through project to Tasks, attaching info/funds along the way.
     - Administrators consume/claim the adminstrative fee and formalize the process to be turned into a vetted task bounty. This administrator is responsible for seeing this bounty is completed and accepted. If this bounty times out, the administrator does not get paid, and possibly penalized. 
     - Bounty hunters view the task bounty board and can either "claim exclusive" putting their reputation on the line, or make a claim offer with more specific counter-proposals or details.
       - Bounty hunters then complete the task, and submit it for acceptance by the administrator, who in turn will need final acceptance from the task creator client. 
