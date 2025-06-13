@@ -774,4 +774,6 @@ Additional issues that are a little bigger in scope to keep in mind:
 
 Priority questions: 
 - Does it make sense to dockerize the workflow onto docker hub, automate the ci/cd, then deploy before implementing the app specifics first?
-  - The next step before implementing the app would be to get the docker workflow set up first. Need to look into dockerizing the nextjs project then getting the 'build' to run from the cloud. 
+  - The next step before implementing the app would be to get the docker workflow set up first. Need to look into dockerizing the nextjs project then getting the 'build' to run from the cloud.
+  - Dockerfile.dev copy over package.json, run `npm install` then create volumes to map our local development folders to the container's `/app` folder. Probably want to simplify the setup with docker-compose so the docker run command doesnt have to be super complicated.
+  - Eventually, for production, will need to swap out the dev server with a production web server, prob using nginx. Use a multi-step build Dockerfile; first a 'builder' phase to use alpine to build the project, then a second 'run' phase to use nginx as a BASE to run the nginx server using the built application.
