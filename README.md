@@ -882,3 +882,5 @@ services:
 
 Thought about "initiatives" field, but it should come later and be an optional field. Each project could later contain "initiatives" which are groupings of tasks that are associated with a specific goal; ideally a specific measurable outcome by a specific date. Dont need this yet though.
 This could go the other way too, instead of trying to group above a single task, it could have a 'subtask' or maybe groupings of tasks together, which can maybe be called a "work-order", which makes sense to assign to a single user to be responsible for as a grouping. 
+
+Let's get the basic stuff done, then let user behavior and user research drive improvements. get basic simple tasks implemented first.
