@@ -742,6 +742,18 @@ I think ultimately i have to set goals one level higher. Personal goals for the 
 
 6/12 - continue to set up auth. sign in/out working. there was an issue with `prisma generate`, but removing `output` folder `../generated` seems to have fixed it. i confirmed it's working directly with the postgres db running locally via docker desktop
 
+OAuth Flow Overview: 
+- NextJS app has a <form> that submits calling the action from NextAuth npm package that has the signIn/signOut functions on it.
+- (Browser) Redirect user's Browser to Github servers including the client_id of the github_client_id, the app we set up in the github applications console. `http://github.com/login/oauth/authorize?client_id=123`. Github asks user if it's ok to share information with this app.
+- (Browser) User says it's ok to share info with the app. 
+- (Browser) Github sends a code back to our app to route `http://localhost:3000/api/auth/github/callback?code=456`.
+- (App) App sends a follow up request to `http://github.com/login/oauth/access_token` including the clientId, clientSecret, and the `code` we got from github after authorizing
+- If valid, Github will send an `access_token = abc123` back to our app
+- (App) App sends another request including the access token to request info from Github about the user. `http://api.github.com/user` with authorization headers. Authorization: Bearer abc123
+- Github sends back a json with the requested info, like name, image, email, etc.
+- PrismaAdapter takes this info and stores it in our database. Create new User
+- App creates a cookie and sends it to user's browser to authenticate them later automatically. NextAuth reads cookie data to identify authorized app user for future requests. 
+
 6/13 - Thinking through all the pages on the site, and the data flow between each, and the overview of the whole application. Scope out the work needing to be done for a prototype. Core flow will be something like:  
   - Header in Layout across all pages. Sign Up/Sign In. 
   - Home Page also has link to Browse Top Projects (/projects, Show-Many-Projects-Page) or Create New Project (/project/new which will then create a /project/myProjectName)
