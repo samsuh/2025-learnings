@@ -870,3 +870,5 @@ services:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: password
 ```
+
+6/14 - Thinking about creating 'project' first. Anyone should be able to create a new project. Projects should be stored in db. Projects should have many tasks, and many users. How should Boards fit with Projects? Should one of these just be a 'tag' instead of a separate data structure? 
