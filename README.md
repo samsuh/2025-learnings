@@ -875,6 +875,9 @@ services:
 
 - Project is the highest level datastructure
   - Each project has many tasks, which are the atomic unit of work.
-    - Each task can be 'tagged', which will allow for filtering by task.
+    - Each task should have: req task_id, req task_creator (user), opt task_tags (tag), opt comments (comment)
+    - Each task can be 'tagged', which will allow for filtering by task. default tags "new" and "unassigned", maybe "unconfirmed/unvetted" 
+    - Each task can have many 'comments' on it to discuss work.
+    - Each task can have a 'user' assigned to complete the task. 
 
 Thought about "initiatives" field, but it should come later and be an optional field. Each project could later contain "initiatives" which are groupings of tasks that are associated with a specific goal; ideally a specific measurable outcome by a specific date. Dont need this yet though.
