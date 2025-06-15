@@ -886,3 +886,5 @@ This could go the other way too, instead of trying to group above a single task,
 Let's get the basic stuff done, then let user behavior and user research drive improvements. get basic simple tasks implemented first.
 
 6/15 - Goal is to implement Project and Task next. 
+
+6/16 - Look into Drag and Drop functionality. Leading library is https://docs.dndkit.com/
