@@ -888,3 +888,5 @@ Let's get the basic stuff done, then let user behavior and user research drive i
 6/15 - Goal is to implement Project and Task next. 
 
 6/16 - Look into Drag and Drop functionality. Leading library is https://docs.dndkit.com/
+
+Auth.js note: using auth() dynamically accesses the cookies. But useSession makes a backend call to check auth status. 
