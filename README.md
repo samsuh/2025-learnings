@@ -890,3 +890,7 @@ Let's get the basic stuff done, then let user behavior and user research drive i
 6/16 - Look into Drag and Drop functionality. Leading library is https://docs.dndkit.com/
 
 Auth.js note: using auth() dynamically accesses the cookies. But useSession makes a backend call to check auth status. 
+
+6/17 - got project creation mostly done, but now im rethinking what needs to happen in the UX flow. users dont just randomly create projects and tasks. i need to think of a better flow for creating tasks. why do people create tasks, what happens to tasks when theyre created in the app, what are we expecting people to do with new tasks once created. who sees newborn tasks, and what is the next step we want to get them to? 
+
+6/18 - ideally next would be task-planning-flow. Who creates Projects? Can we assume projects are created? Are tasks associated with projects always? Who can create new tasks in a project? Do we need an 'admin' whitelist? Once a task is created, what's expected to happen to the new task? How is a task 'finished' exactly, what comprises a completed task. What are all the paths to get there from newborn task? 
