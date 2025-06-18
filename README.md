@@ -909,3 +909,9 @@ I guess the use case I want is:
 - Distill into specific tasks
   - Enable bounty on tasks to get people to start working on it
 - Update plan as it progresses
+
+Step 1: Create Project 
+- Title
+- Describe your project
+- Set objective
+- Success metric. How it's measured. Who measures it. 
