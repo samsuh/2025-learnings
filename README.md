@@ -949,3 +949,11 @@ Later features:
 - more discussion-style back and forth between owner/admin
 - dispute resolution if there's a conflict on satisfactory completion of tasks, or of planning. Initially escalate to me, but later bring it to community verifier/validator/arbitrators. 
 - Call for "Expert Contribution" to bring in subject matter experts
+
+User Story Initiatives: 
+1. if I had stock footagte and copy, having someone make Instagram ads for my gym.
+2. finding suppliers for apparel and comparing prices, MOQs etc
+3. simple tasks like tax/forms/registrations, etc that have to be done in my non-native language? If not doing them, finding out what needs to be done, and in what order.
+4. localization
+5. cold calling leads (maybe record the calls > transcription > maybe sentiment analysis/sales analysis)
+6. scraping emails/telephone numbers from X source
