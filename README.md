@@ -915,3 +915,37 @@ Step 1: Create Project
 - Describe your project
 - Set objective
 - Success metric. How it's measured. Who measures it. 
+
+UX: Initiative Owner
+End user who starts the initiative, it would look like: 
+- have an idea, create an "initiative"
+- wait for admin to create initial plan.
+- look and approve plan: check admin's initial plan and say "this looks good. go ahead with this"
+- look and approve tasks: check admins "work bounty" tasks/definitions/estimated costs
+- deposit bounty funds
+- approve and finalize: initiative is completed
+
+UX: Administrator
+from admin perspective: 
+- browse list of new initiatives. 
+- find one that seems cool, and has a reputable sounding founder, and maybe some initial locked funding for the initiative. 
+- throw my hat into the ring to take lead admin role. algorithm will pick me based on reputation and skill match. 
+- i do initial planning, and i get paid out for doing the work. 
+- if original creator likes the plan, i get a little contract to do the next phase. initial payment to start maybe and another payment
+
+Notes:
+- Locked small features encouraged, compose many tasks together.
+- Initial dispute resolution would escalate to me. build a system once we know what types of disputes typically arise.
+- Administrators are initially suggested by algorithm until reputation systems go.
+- Requested feature metrics:
+  - Speed: Admin feedback within 24h, task delivery within agreed window.
+  - Clarity: Task scopes are written clearly and concisely with my nod of approval.
+  - Trust: Funds are safu, and arbitration is neutral.
+  - Accountability: Clear metrics on task failure/success and user ratings.
+  - Flexibility: I can revise or pivot the initiative easily with relatively little friction if it's reasonable.
+
+Later features: 
+- meta-tasks and sub-tasks
+- more discussion-style back and forth between owner/admin
+- dispute resolution if there's a conflict on satisfactory completion of tasks, or of planning. Initially escalate to me, but later bring it to community verifier/validator/arbitrators. 
+- Call for "Expert Contribution" to bring in subject matter experts
