@@ -894,3 +894,18 @@ Auth.js note: using auth() dynamically accesses the cookies. But useSession make
 6/17 - got project creation mostly done, but now im rethinking what needs to happen in the UX flow. users dont just randomly create projects and tasks. i need to think of a better flow for creating tasks. why do people create tasks, what happens to tasks when theyre created in the app, what are we expecting people to do with new tasks once created. who sees newborn tasks, and what is the next step we want to get them to? 
 
 6/18 - ideally next would be task-planning-flow. Who creates Projects? Can we assume projects are created? Are tasks associated with projects always? Who can create new tasks in a project? Do we need an 'admin' whitelist? Once a task is created, what's expected to happen to the new task? How is a task 'finished' exactly, what comprises a completed task. What are all the paths to get there from newborn task? 
+
+I have to clarify what exactly im building. Several ideas seem to be clouding together. 
+
+1. The idea of a personal-organizer, which is basically just a kanban board
+2. Bountifying a task from within the organization workflow. Task > add money > broadcast. 
+3. Administrative assistance for organizing and clarifying projects. (Human/AI).
+
+I guess the use case I want is: 
+- Have idea for new project
+- Enter as much detail as i have about the project
+  - Can be handled by AI or as a task for a freelance project/product manager to take over work on. 
+  - Goal: Output a project management plan aligned with goals
+- Distill into specific tasks
+  - Enable bounty on tasks to get people to start working on it
+- Update plan as it progresses
