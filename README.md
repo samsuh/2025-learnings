@@ -918,4 +918,5 @@ Step 1: Create Project
 
 6/21 - Have been working in the TaskAngel repo. Spent a day or two better thinking through the UX of the site and how I want it to work exactly. Conducted user research and made a few wireframes and UX flows, separating out Owner flow and Admin flow. Owner just creates the idea, pays for it, and approves it along. Admin flow isnt built yet, but it would receive the initial prompt and structure it first, then act as a project manager taking responsibility for pushing it through to completion, using individual "tasks" as steps forward. Did form validation using zod. 
 
-6/22 - Add a "Balance" field to "Projects" and finish the project creation flow then read/display from db.
+6/22 - Decided to add a "Balance" field to "Projects" and finish the project creation flow then read/display from db. Didnt get much done (Sunday). 
+6/23 - Goal is to get the project creation into db, then refactor to add Balance to User. 
