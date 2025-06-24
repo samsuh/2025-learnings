@@ -922,3 +922,29 @@ Step 1: Create Project
 6/23 - Goal is to get the project creation into db, then refactor to add Balance to User. 
 
 project creation done, added balance to User, but typescript schema won't pick it up. I have to find a way to extend the DefaultSession type. getting error `Property 'userBalance' does not exist on type 'User'.ts(2339)`. It appears on the object and i can access it, but the type definitions dont like it, so keep erroring. 
+
+6/24 - figured it out with the help of kapa bot in nextjs discord. 
+
+Prisma updates its types, but NextAuth's session type must be manually extended to reflect new fields on session.user. This is not handled by prisma generate or prisma migrate alone.
+
+> When you add a new field to the User model in your Prisma schema and run prisma generate and prisma migrate, Prisma will update its generated types for the database models. However, the session.user object provided by NextAuth.js does not automatically include custom fields you add to your Prisma User model. This is why your linter does not recognize the new field on session.user.
+> 
+> To fix this, you need to extend the TypeScript types for the NextAuth Session object to include your new field. This is a common step when customizing the session shape in Next.js apps using NextAuth and Prisma.
+```ts
+   // next-auth.d.ts
+   import NextAuth from "next-auth";
+
+   declare module "next-auth" {
+     interface Session {
+       user: {
+         // default fields
+         name?: string | null;
+         email?: string | null;
+         image?: string | null;
+         // your custom field
+         newField?: string; // adjust type as needed
+       };
+     }
+   }
+   
+```
