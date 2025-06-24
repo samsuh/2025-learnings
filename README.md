@@ -948,3 +948,12 @@ Prisma updates its types, but NextAuth's session type must be manually extended 
    }
    
 ```
+
+6/25 - next thing to do is figure out how to handle description during project creation. I think the flow would be to run it through an ai workflow to parse the initial message and turn it into a set of tasks. to do that i need the ability to have tasks, unless i want just a list. 
+- ability to create tasks
+- description in, list of initial tasks out.
+  - deduct some balance to do this.
+    - need ability to modify balance (add to balance).
+  - allow modification loop.
+  - "submit initial task list"
+- once owner is satisfied with initial task list, have 'administrator' join to manually look through it, suggest improvements, and give recommendations. 
