@@ -960,4 +960,4 @@ Prisma updates its types, but NextAuth's session type must be manually extended 
 - once owner is satisfied with initial task list, have 'administrator' join to manually look through it, suggest improvements, and give recommendations.
   
 
-6/26 - Create Task
+6/26 - Task creation implemented, but balance calculations arent done yet, and the flow from project submission to initial task list creation isnt defined yet. Think through the workflow; exactly what's expected to happen after project creation submission? how does it yield a task list for approval?
