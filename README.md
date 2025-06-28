@@ -965,3 +965,16 @@ Prisma updates its types, but NextAuth's session type must be manually extended 
 6/27 - got tasks rendering. minor issues like wanting 'elapsed time' since creation or last updatedAt. would need to build a whole function for it. do this later.
 
 6/28 - project createable, tasks createable, comments are alright. next would be to really work on the workflow. on project submission, pass the 'description' through an ai workflow to return the initial taskList, and build out a dashboard or interface where projectOwners can interact with the initialDraftTaskList to approve it, and attach funds to entice projectAdministrators. 
+
+Objective for the day: get n8n running on docker and get the create-project form submission to trigger an n8n webhook-trigger. 
+- Fill out form. submit.
+- n8n webhook trigger
+  - work on prompt
+- return value in a specified format that can be easily turned into 'task' items.
+  - figure out how to programmatically create tasks
+- return format in a useful 'itinerary' or 'initiative' or something that gives an overview of the proposed project. "project proposal"
+- render to owner.
+- owner assesses proposal
+  - approves proposal, depositing funds.
+  - sends it back for administrative opinion and proposal, with the ability to comment. 
+    - goes to 'proposal request' bank where admins can see the initial proposal, and any notes the owner had. 
