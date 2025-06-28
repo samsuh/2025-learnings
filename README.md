@@ -974,6 +974,7 @@ Objective for the day: get n8n running on docker and get the create-project form
   - figure out how to programmatically create tasks
 - return format in a useful 'itinerary' or 'initiative' or something that gives an overview of the proposed project. "project proposal"
 - render to owner.
+  - would be cool to nest tasks based on dependency, so you only see a collapsed list of all the stuff that can be worked on right now, and everything behind an unfinished dependency is hidden.
 - owner assesses proposal
   - approves proposal, depositing funds.
   - sends it back for administrative opinion and proposal, with the ability to comment. 
