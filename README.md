@@ -963,3 +963,5 @@ Prisma updates its types, but NextAuth's session type must be manually extended 
 6/26 - Task creation implemented, but balance calculations arent done yet, and the flow from project submission to initial task list creation isnt defined yet. Think through the workflow; exactly what's expected to happen after project creation submission? how does it yield a task list for approval?
 
 6/27 - got tasks rendering. minor issues like wanting 'elapsed time' since creation or last updatedAt. would need to build a whole function for it. do this later.
+
+6/28 - project createable, tasks createable, comments are alright. next would be to really work on the workflow. on project submission, pass the 'description' through an ai workflow to return the initial taskList, and build out a dashboard or interface where projectOwners can interact with the initialDraftTaskList to approve it, and attach funds to entice projectAdministrators. 
