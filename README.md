@@ -978,3 +978,5 @@ Objective for the day: get n8n running on docker and get the create-project form
   - approves proposal, depositing funds.
   - sends it back for administrative opinion and proposal, with the ability to comment. 
     - goes to 'proposal request' bank where admins can see the initial proposal, and any notes the owner had. 
+
+notes: initially using sqlite on n8n. will migrate to postgres later before deploying.
