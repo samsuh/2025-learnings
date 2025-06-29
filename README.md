@@ -981,3 +981,60 @@ Objective for the day: get n8n running on docker and get the create-project form
     - goes to 'proposal request' bank where admins can see the initial proposal, and any notes the owner had. 
 
 notes: initially using sqlite on n8n. will migrate to postgres later before deploying.
+
+example output for prompt `create music for my game about futuristic space exploratio` 
+```json
+{
+  "tasks": [
+    {
+      "taskTitle": "Define Game Music Style",
+      "description": "Research and decide on the specific style and genre of music that aligns with the futuristic space exploration theme.",
+      "deliverable": "A written document outlining the chosen music style and genre, including references or examples.",
+      "acceptanceCriteria": "Document is clear, well-researched, and aligns with the game's theme.",
+      "dependencies": "None"
+    },
+    {
+      "taskTitle": "Create Music Mood Board",
+      "description": "Compile a mood board with audio clips, images, and descriptions that reflect the desired emotional tone for the game music.",
+      "deliverable": "A visual mood board that includes at least 5 audio samples and relevant thematic images.",
+      "acceptanceCriteria": "Mood board is visually appealing, coherent with the chosen music style, and provides an emotional direction.",
+      "dependencies": "None"
+    },
+    {
+      "taskTitle": "Compose Main Theme",
+      "description": "Compose the main theme music for the game, utilizing the defined music style and the mood board for inspiration.",
+      "deliverable": "An original music track of at least 2 minutes in length, representing the main theme.",
+      "acceptanceCriteria": "The track is original, fitting within the specified style and mood, and is of high audio quality.",
+      "dependencies": "Define Game Music Style, Create Music Mood Board"
+    },
+    {
+      "taskTitle": "Create Background Music Tracks",
+      "description": "Compose a series of background music tracks that can be used throughout various game levels, maintaining consistency with the main theme.",
+      "deliverable": "Three original music tracks, each 1-2 minutes in length, suitable for looping.",
+      "acceptanceCriteria": "All tracks are original, cohesive with the main theme, and fit within the defined style.",
+      "dependencies": "Compose Main Theme"
+    },
+    {
+      "taskTitle": "Develop Sound Effects",
+      "description": "Create custom sound effects to enhance the game experience, including effects for actions like jumping, collecting items, and interactions.",
+      "deliverable": "A collection of at least 10 original sound effects in high-quality audio format.",
+      "acceptanceCriteria": "All sound effects are original, varied, and enhance the gameplay experience as intended.",
+      "dependencies": "None"
+    },
+    {
+      "taskTitle": "Mix and Master Music Tracks",
+      "description": "Mix and master all composed tracks to ensure they are polished and ready for integration into the game.",
+      "deliverable": "Final versions of all music tracks, expertly mixed and mastered.",
+      "acceptanceCriteria": "Tracks are balanced, professional-quality audio that meets industry standards.",
+      "dependencies": "Compose Main Theme, Create Background Music Tracks"
+    },
+    {
+      "taskTitle": "Collaborate with Game Developers for Integration",
+      "description": "Work with developers to integrate the music and sound effects into the game engines, ensuring synchronization with gameplay.",
+      "deliverable": "Confirmation of music and sound effects successfully integrated into the game.",
+      "acceptanceCriteria": "All audio components are properly integrated and function as intended within the game environment.",
+      "dependencies": "Mix and Master Music Tracks, Develop Sound Effects"
+    }
+  ]
+}
+```
