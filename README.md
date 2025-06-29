@@ -969,10 +969,10 @@ Prisma updates its types, but NextAuth's session type must be manually extended 
 Objective for the day: get n8n running on docker and get the create-project form submission to trigger an n8n webhook-trigger. 
 - (success) Fill out form. submit.
 - (success) n8n webhook trigger
-  - work on prompt
-- return value in a specified format that can be easily turned into 'task' items.
-  - figure out how to programmatically create tasks
-- return format in a useful 'itinerary' or 'initiative' or something that gives an overview of the proposed project. "project proposal"
+  - (work in progress) work on prompt
+- (success) return value in a specified format that can be easily turned into 'task' items.
+- (success. decision made, out of scope, do it later) decide if i want to return format in a useful 'itinerary' or 'initiative' or something that gives an overview of the proposed project. "project proposal"
+- figure out how to programmatically create tasks from the webhook return
 - render to owner.
   - would be cool to nest tasks based on dependency, so you only see a collapsed list of all the stuff that can be worked on right now, and everything behind an unfinished dependency is hidden.
 - owner assesses proposal
