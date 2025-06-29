@@ -1039,3 +1039,59 @@ example output for prompt `create music for my game about futuristic space explo
 }
 ```
 6/30 - look up how to bind these results to actionState or otherwise get it to the ProjectShowPage
+> To trigger both a client-side function (like calling a third-party API in handleSubmit) and a server action with the same button click in Next.js, you have a couple of options, but there are some important constraints:
+> 
+> Forms with Server Actions:
+> When you use a form with an action prop set to a server action, the form submission will automatically call the server action and pass the FormData. If you want to do something on the client (like call a third-party API) before the server action, you need to intercept the submit event, perform your client-side logic, and then trigger the server action.
+> 
+> Passing Data from Client to Server Action:
+You cannot directly pass arbitrary JavaScript objects (like your "result" from a third-party API) to a server action via a form submission, because only form fields (FormData) are sent. If you want to send the result to the server action, you need to serialize it and include it in a hidden input field or submit it via a custom fetch call.
+> 
+> Example: Client-side Logic + Server Action
+```tsx
+'use client'
+
+import { useRef } from 'react'
+import { myServerAction } from './actions'
+
+export default function MyForm() {
+  const formRef = useRef<HTMLFormElement>(null)
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    // 1. Call third-party API
+    const result = await callThirdPartyApi()
+    // 2. Set result in a hidden input
+    if (formRef.current) {
+      const input = formRef.current.querySelector('input[name="apiResult"]')
+      if (input) input.value = JSON.stringify(result)
+      // 3. Submit the form to trigger the server action
+      formRef.current.requestSubmit()
+    }
+  }
+return (
+    <form ref={formRef} action={myServerAction} onSubmit={handleSubmit}>
+      {/* other form fields */}
+      <input type="hidden" name="apiResult" />
+      <button type="submit">Submit</button>
+    </form>
+  )
+}
+On the server:
+ts
+'use server'
+
+export async function myServerAction(formData: FormData) {
+  const apiResult = formData.get('apiResult')
+  // Parse and use apiResult as needed
+}
+```
+
+> Key Points:
+> You must serialize the result (e.g., as JSON) and include it in the form data.
+> The server action will only receive data that is part of the form submission (i.e., in FormData) see: How to create forms with Server Actions.
+> If you want to pass the result to the next page, you can redirect in the server action and pass data via URL params, or store it in a database/session and fetch it on the next page see: Mutations with Server Actions.
+> 
+> If you need to do more complex client-server coordination, you may need to handle the entire flow on the client and call the server action via fetch, but this is less idiomatic in the Next.js App Router model.
+> 
+> For more advanced state passing between pages, consider using a database, session, or other persistent storage, as you cannot directly pass large objects between client and server actions except via form fields or API calls.
