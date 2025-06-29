@@ -1038,3 +1038,4 @@ example output for prompt `create music for my game about futuristic space explo
   ]
 }
 ```
+6/30 - look up how to bind these results to actionState or otherwise get it to the ProjectShowPage
