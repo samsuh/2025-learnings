@@ -982,7 +982,7 @@ Objective for the day: get n8n running on docker and get the create-project form
 
 notes: initially using sqlite on n8n. will migrate to postgres later before deploying.
 
-example output for prompt `create music for my game about futuristic space exploratio` 
+example output for prompt `create music for my game about futuristic space exploration` 
 ```json
 {
   "tasks": [
