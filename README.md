@@ -1144,3 +1144,5 @@ if (Array.isArray(tasks) && tasks.length > 0) {
 > This assumes your Prisma schema has a Task model with a projectId field that relates each task to a project.
 > The createMany method efficiently inserts multiple records at once.
 > You should adjust the mapping in tasks.map(...) to match your actual task object structure and your Prisma schema.
+
+Heck yeah! I got the tasks to populate on the ProjectShowPage after being written into the Tasks table in postgres. Solid progress!
