@@ -1095,3 +1095,52 @@ export async function myServerAction(formData: FormData) {
 > If you need to do more complex client-server coordination, you may need to handle the entire flow on the client and call the server action via fetch, but this is less idiomatic in the Next.js App Router model.
 > 
 > For more advanced state passing between pages, consider using a database, session, or other persistent storage, as you cannot directly pass large objects between client and server actions except via form fields or API calls.
+
+Creating all the tasks on the tasklist. 
+> To store the value of "tasks" (an array of task objects) in a "tasks" table using Prisma, you would typically use the Prisma Client's createMany method after you have created the project and received the tasks from the third-party API. Here’s how you can structure this in your server action, based on the patterns shown in the knowledge sources:
+
+> Create the project using Prisma.
+> Call the third-party API with the project description.
+> Store the returned tasks in the database, associating them with the created project.
+
+Example that demonstrates these steps:
+
+```tsx
+'use server'
+
+import prisma from '@/lib/prisma'
+
+// ... (validation and project creation code above)
+
+const project = await prisma.project.create({
+  data: {
+    name: validated.data.name,
+    description: validated.data.description,
+    // ...other fields
+  },
+})
+
+// Call the third-party API with the description
+const response = await fetch('<https://third-party-api.com/process',> {
+  method: 'POST',
+  body: JSON.stringify({ description: validated.data.description }),
+  headers: { 'Content-Type': 'application/json' },
+})
+const { tasks } = await response.json() // tasks: [{ title: string, ... }, ...]
+
+// Store tasks in the database, associating them with the project
+if (Array.isArray(tasks) && tasks.length > 0) {
+  await prisma.task.createMany({
+    data: tasks.map(task => ({
+      title: task.title,
+      // ...map other task fields as needed
+      projectId: project.id, // assuming a relation exists
+    })),
+  })
+}
+```
+
+> Notes:
+> This assumes your Prisma schema has a Task model with a projectId field that relates each task to a project.
+> The createMany method efficiently inserts multiple records at once.
+> You should adjust the mapping in tasks.map(...) to match your actual task object structure and your Prisma schema.
