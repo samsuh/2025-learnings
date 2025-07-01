@@ -1155,3 +1155,5 @@ June was a pretty productive month. I'm preparing to move back to Seoul, and I'v
 Setting role-based permissions on the page so only the owner and the authorized/selected administrator has access: https://authjs.dev/guides/role-based-access-control
 
 Maybe use a data-access-layer to restrict access to pages/actions. https://nextjs.org/docs/app/guides/authentication#authorization
+
+I think for what i need, it'll be sufficient to add more fields to each "Project" in the db to store the "owner" and "admin", and put in a server action that allows the admin to approve adding an admin. 
