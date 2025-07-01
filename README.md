@@ -1153,3 +1153,5 @@ June was a pretty productive month. I'm preparing to move back to Seoul, and I'v
 7/1 - Consider adding a "approvedByOwner" and "approvedByAdmin" boolean flag to the initial taskList, and/or to each individual task - when both approve, the task is set. Admin flow should be to start on the homepage, browse potential projects to admin on, see their current admin tasks. "current" and "browse new" projects. Admins need more of an interactive dashboard to manage things and do work. 
 
 Setting role-based permissions on the page so only the owner and the authorized/selected administrator has access: https://authjs.dev/guides/role-based-access-control
+
+Maybe use a data-access-layer to restrict access to pages/actions. https://nextjs.org/docs/app/guides/authentication#authorization
