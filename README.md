@@ -1146,3 +1146,8 @@ if (Array.isArray(tasks) && tasks.length > 0) {
 > You should adjust the mapping in tasks.map(...) to match your actual task object structure and your Prisma schema.
 
 Heck yeah! I got the tasks to populate on the ProjectShowPage after being written into the Tasks table in postgres. Solid progress!
+
+## July 2025
+June was a pretty productive month. I'm preparing to move back to Seoul, and I've started to tell people about this project, with strong feedback so far which has been encouraging. I'm finding that I am learning a lot, but new features really challenge my understanding of how things work. I have been trying to keep the codebase clean, but now I better understand how much goes into a refactor. For now, the priority is getting things working without making too big of a mess. I am also finding how the hardest part is to clearly define the user flow and dataflow. The site is made, it's dockerized, and things are working well. The "project owner" workflow is pretty much finished. Next is the "admin" workflow and the "bounty hunter" workflow. 
+
+7/1 - Consider adding a "approvedByOwner" and "approvedByAdmin" boolean flag to the initial taskList, and/or to each individual task - when both approve, the task is set. Admin flow should be to start on the homepage, browse potential projects to admin on, see their current admin tasks. "current" and "browse new" projects. Admins need more of an interactive dashboard to manage things and do work. 
