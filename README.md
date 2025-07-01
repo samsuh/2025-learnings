@@ -1157,3 +1157,8 @@ Setting role-based permissions on the page so only the owner and the authorized/
 Maybe use a data-access-layer to restrict access to pages/actions. https://nextjs.org/docs/app/guides/authentication#authorization
 
 I think for what i need, it'll be sufficient to add more fields to each "Project" in the db to store the "owner" and "admin", and put in a server action that allows the admin to approve adding an admin. 
+
+Initial feedback on the "project owner" user flow uncovered some frictions. 
+- Fiverr and upwork dont require users to commit anything in the initial stages of discussing the project. they just chat with potential people and then choose to hire them or not.
+  - Does an "admin" work bond have enough value to warrant project owners escrowing funds up front if the admins fail? What would this look like? PO creates project with initial deposit of 100 credits. Administrator says they can do it for 120credits, and offers a 120credit bond themself to 'put money where their mouth is' to ensure they can complete the spec for that budget.
+  - There needs to be a way to ensure people dont get screwed from every angle; owners submitting, admins doing some initial work. Maybe it's to be expected and the platform should just bear the risk and rate limit some other way. 
