@@ -1167,3 +1167,6 @@ Initial feedback on the "project owner" user flow uncovered some frictions.
 7/2 - lets get the initial version done then revisit the UX. more user research is needed for that anyway and it doesnt change the fact that a working prototype will proabbly help overall. get it working and push it to live first woth the basic suboptimal user flow and itllbe easier to reassess the whole flow. 
 - claim, do, get paid. 
 - PO submits project. it can either get broken up into tasks and then broadcast out for individual workers to claim or PO can choose to attach a manager into the tasklist. attaching a manager could be a separate flow where discussion happens and a budget and deliverables and stuff are contracted ahead of time and a project deposit is made. 
+  - for direct-to-bounty tasks, PO would have to attach a deposit on the task itself. the task would then go on the bounty board and be a self contained unit of work that is paid upon. 
+  - completion of the individual step. two public bounty versions: (1) race to completion and (2) exclusive work hold, where worker claims a task and attaches a stake (reputation or money) to promise task completion. 
+
