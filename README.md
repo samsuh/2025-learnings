@@ -1165,3 +1165,5 @@ Initial feedback on the "project owner" user flow uncovered some frictions.
   - Maybe the place to add more friction is onboarding administrators, and having a vetted set of admins would open up a lot more possibilities for how much trust we can give the admins instead of some random freelancer. Vetted freelancer with credentials? 
 
 7/2 - lets get the initial version done then revisit the UX. more user research is needed for that anyway and it doesnt change the fact that a working prototype will proabbly help overall. get it working and push it to live first woth the basic suboptimal user flow and itllbe easier to reassess the whole flow. 
+- claim, do, get paid. 
+- PO submits project. it can either get broken up into tasks and then broadcast out for individual workers to claim or PO can choose to attach a manager into the tasklist. attaching a manager could be a separate flow where discussion happens and a budget and deliverables and stuff are contracted ahead of time and a project deposit is made. 
