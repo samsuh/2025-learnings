@@ -1170,3 +1170,5 @@ Initial feedback on the "project owner" user flow uncovered some frictions.
   - for direct-to-bounty tasks, PO would have to attach a deposit on the task itself. the task would then go on the bounty board and be a self contained unit of work that is paid upon. 
   - completion of the individual step. two public bounty versions: (1) race to completion and (2) exclusive work hold, where worker claims a task and attaches a stake (reputation or money) to promise task completion. 
 
+7/3 - got user feedback and demoed to someone in crypto. bounty concept works a lot smoother in crypto and ai is seen with a little skepticism and commoditization but it went ofer decently well. main feedback is that there is a concer over whether thr platform cns really deliver on its promise to actually solve my prohlem and deliver a compete and safisfactory solution. crypto also has seen some trouble with oracles and deciding the final status of results (polymarket and dao votes) so crypto would want stronger validation of results. 
+
