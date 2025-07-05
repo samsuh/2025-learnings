@@ -1172,3 +1172,4 @@ Initial feedback on the "project owner" user flow uncovered some frictions.
 
 7/3 - got user feedback and demoed to someone in crypto. bounty concept works a lot smoother in crypto and ai is seen with a little skepticism and commoditization but it went ofer decently well. main feedback is that there is a concer over whether thr platform cns really deliver on its promise to actually solve my prohlem and deliver a compete and safisfactory solution. crypto also has seen some trouble with oracles and deciding the final status of results (polymarket and dao votes) so crypto would want stronger validation of results. 
 
+7/4 - went to seoul, didnt code much
