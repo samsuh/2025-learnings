@@ -1174,4 +1174,9 @@ Initial feedback on the "project owner" user flow uncovered some frictions.
 
 7/4 and 7/5 - didnt code much. went to seoul for baseball game. 
 
-7/6 - running into issues rerunning n8n. lost login info. 
+7/6 - running into issues rerunning n8n. lost login info. Next steps would be to focus on the admin and worker experience and flow. 
+- Lead generation (email, upwork, linkedin, in-person, etc) 
+- Sales meeting
+- Kickoff meeting
+- Project delivery; check ins
+- Retention follow up
