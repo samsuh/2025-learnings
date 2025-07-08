@@ -1181,5 +1181,7 @@ Initial feedback on the "project owner" user flow uncovered some frictions.
 - Project delivery; check ins
 - Retention follow up
 
+7/7 and 7/8 - completely lost these days. 
+
 
 
