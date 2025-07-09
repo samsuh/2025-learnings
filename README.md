@@ -1183,5 +1183,5 @@ Initial feedback on the "project owner" user flow uncovered some frictions.
 
 7/7 and 7/8 - completely lost these days. 
 
-7/10 - goal: either get the ownerApprove and adminApprove implemented or switch gears and work on something else. Feeling stuck and unproductive on this. motivation lacking. 
+7/9 - goal: either get the ownerApprove and adminApprove implemented or switch gears and work on something else. Feeling stuck and unproductive on this. motivation lacking. pretty disheartened by things not going my way. 
 
