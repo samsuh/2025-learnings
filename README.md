@@ -1185,3 +1185,4 @@ Initial feedback on the "project owner" user flow uncovered some frictions.
 
 7/9 - goal: either get the ownerApprove and adminApprove implemented or switch gears and work on something else. Feeling stuck and unproductive on this. motivation lacking. pretty disheartened by things not going my way. 
 
+7/10 - it's concerning how my focus has been completely lost. it's disheartening when i think about the project. is it because i lack clarity on what to implement next, or because showing the prototype in development to a few people gave me enough of a dopamine hit to make this project feel complete, when it's clearly not complete yet. 
