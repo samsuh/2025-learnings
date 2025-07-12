@@ -1190,3 +1190,6 @@ Initial feedback on the "project owner" user flow uncovered some frictions.
 7/11 - the past turns out to be a week was off the rails. im going to give myself the weekend to resync, not feel guilty, then get ready to come back on monday. 
 
 7/12 - this is fine.
+
+7/13 - bleh
+
