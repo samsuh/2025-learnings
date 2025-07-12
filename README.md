@@ -1188,3 +1188,5 @@ Initial feedback on the "project owner" user flow uncovered some frictions.
 7/10 - it's concerning how my focus has been completely lost. it's disheartening when i think about the project. is it because i lack clarity on what to implement next, or because showing the prototype in development to a few people gave me enough of a dopamine hit to make this project feel complete, when it's clearly not complete yet. 
 
 7/11 - the past turns out to be a week was off the rails. im going to give myself the weekend to resync, not feel guilty, then get ready to come back on monday. 
+
+7/12 - this is fine.
