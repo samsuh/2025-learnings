@@ -1194,3 +1194,5 @@ Initial feedback on the "project owner" user flow uncovered some frictions.
 7/13 - started bleh. but started to re-expose to the codebase. easing back in
 
 7/14 - lets give it a restart. Going to map out the current project. Getting back into it will prob be easier when it's a lot clearer the exact next steps needed. 
+
+In the future, when having a brainfoggy day, prob a good diea to block out a set amount of time, and just stay on-topic for that amount of time, even if it's 10 minutes, or 1 hour, or 4 hours. Forcing myself to "be at work" might help instead of wasting that time on something completely unrelated.
