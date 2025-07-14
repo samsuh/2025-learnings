@@ -1193,4 +1193,4 @@ Initial feedback on the "project owner" user flow uncovered some frictions.
 
 7/13 - started bleh. but started to re-expose to the codebase. easing back in
 
-7/14 - lets give it a restart
+7/14 - lets give it a restart. Going to map out the current project. Getting back into it will prob be easier when it's a lot clearer the exact next steps needed. 
