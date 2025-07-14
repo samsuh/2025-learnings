@@ -1205,11 +1205,11 @@ When creating relationships in a relational db setting, need to define whether i
 ```prisma
 model User {
   id Int @id @default(autoincrement())
-  posts Post[]
+  posts Post[] //this field only exists as a relation to Post, and is not a field in the db.
 }
 model Post {
   id Int @id @default(autoincrement())
-  author User @relation(fields: [authorId] references: [id]) //this relates the authorId field with the "id" field of the User table.
+  author User @relation(fields: [authorId] references: [id]) //this relates the authorId field with the "id" field of the User table. also does not exist as an accessible field in the db. 
   authorId Int
 
   title String //the rest of the stuff unrelated to the relationship
