@@ -1215,3 +1215,4 @@ model Post {
   title String //the rest of the stuff unrelated to the relationship
 }
 ```
+7/15 - reviewed prisma write. not very productive
