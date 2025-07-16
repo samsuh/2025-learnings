@@ -1220,4 +1220,4 @@ model Post {
 7/16 - Setting a timer for 25 mins got me to work on it for an hour and made solid progress. Maybe the key to this is deciding to give it a shot, removing distractions, and giving it a go for 10 mins. 
 gave advice on startup project selling ai to law firms. selling simple things is a skill too. 
 
-7/17 - 
+7/17 - lets try to figure out the approval process
