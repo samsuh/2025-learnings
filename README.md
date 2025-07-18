@@ -1222,4 +1222,4 @@ gave advice on startup project selling ai to law firms. selling simple things is
 
 7/17 - did more user testing and got some good feedback. the flow makes sense, and the admin-as-value made sense. they also initially thought of bypassing admins to diy, but seemed to understand the admins are the value.
 
-7/18 - no progress. prepping for moving for the next few days 
+7/18, 7/19 - no progress. prepping for moving for the next few days 
