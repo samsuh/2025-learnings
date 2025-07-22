@@ -1224,3 +1224,4 @@ gave advice on startup project selling ai to law firms. selling simple things is
 
 7/18, 7/19 - no progress. prepping for moving for the next few days. Move progressing well
 7/20 moving prep. 
+7/22 got advice that the project might be aiming too small and it would work. better for raising to go bigger. i think im fine with how its going now until im sure the problem is being solved. 
