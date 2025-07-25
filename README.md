@@ -1225,10 +1225,10 @@ gave advice on startup project selling ai to law firms. selling simple things is
 7/18, 7/19 - no progress. prepping for moving for the next few days. Move progressing well
 7/20 moving prep. 
 7/22 got advice that the project might be aiming too small and it would work. better for raising to go bigger. i think im fine with how its going now until im sure the problem is being solved. 
-7/22 nada on project. 
+
 7/23 i think i need to figure out whats happening with my focus and motivation. its just completely falling by the wayside and not even popping into my brain that i need to be working on this. is this adhd, or some sort of blindness? is it a lack of motivation or something with dopamine? does the task feel marked as completed mentally because i made it to a small milestone? how can i restart this to reignite focus? this is unsustainable and a waste of time if i dont seize the opportunity. 
 7/24 this doesn't help. just makes me feel bad about losing all this time
-7/25 wow time flies 
+7/25 wow time flies. got ac cleaning and washing machine cleaning and some shopping. will pick up plants tomorrow. 
 
 
 
