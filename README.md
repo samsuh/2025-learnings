@@ -1230,6 +1230,7 @@ gave advice on startup project selling ai to law firms. selling simple things is
 7/24 this doesn't help. just makes me feel bad about losing all this time
 7/25 wow time flies. got ac cleaning and washing machine cleaning and some shopping. will pick up plants tomorrow. 
 7/26 went to code meetup but it was not that productive. ended up taking more about startups than code. 
-7/27 going to visit new sunday meetup. goal is to get refocused on the project. 
+7/27 going to visit new sunday meetup. goal is to get refocused on the
+ project. Sunday meetup was good. better the Saturday one
 
 
