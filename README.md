@@ -1232,4 +1232,4 @@ gave advice on startup project selling ai to law firms. selling simple things is
 7/26 went to code meetup but it was not that productive. ended up taking more about startups than code. 
 7/27 going to visit new sunday meetup. goal is to get refocused on the project. Sunday meetup was good; better the Saturday one.
 
-7/28 - Came to cafe to try to re-focus back on-task
+7/28 - Came to cafe to try to re-focus back on-task. Couldnt focus on the project itself, so started watching some coding videos to get my brain back into coding mode. im finding it hard to overcome the inertial resistance. im yawning a lot while trying to focus, and my brain is trying to stretch itself back out into activity
