@@ -1232,4 +1232,4 @@ gave advice on startup project selling ai to law firms. selling simple things is
 7/26 went to code meetup but it was not that productive. ended up taking more about startups than code. 
 7/27 going to visit new sunday meetup. goal is to get refocused on the project. Sunday meetup was good; better the Saturday one.
 
-
+7/28 - Came to cafe to try to re-focus back on-task
