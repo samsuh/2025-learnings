@@ -1243,11 +1243,11 @@ Recursion review:
 - Call it again. Make sure to check for base case. Make sure you change the argument before calling the function again, or youll infinite loop.
 
 ```js
-function countdown(n){
+function countdown(n, decrement=1){
   if (n===0){
     return
   }
   console.log(n)
-  countdown(n-1)
+  countdown(n-decrement)
 }
 ```
