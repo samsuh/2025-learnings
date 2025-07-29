@@ -1237,5 +1237,17 @@ gave advice on startup project selling ai to law firms. selling simple things is
 7/29 - Getting back into the groove of coding. Still not mentally ready for working on real things, but getting back into coding mode itself is a start. I think the regularity is helping. Having a set schedule and a 'daily routine' would help me optimize my productivity. Things are a bit messy today for scheduling because someone is coming to look at redoing the wallpaper in my place. Going back to taking notes. it should help establish a working flow. 
 
 Recursion review: 
-- Declare the base case; the case in which there is no more work left to do. Reaching 0, running out of things, meeting some end condition.
-- 
+- Declare the base case; the case in which there is no more work left to do. Reaching 0, running out of things, meeting some end condition. Spend more time up front about the base case.
+- Define the bare minimum work. Give it reasonable defaults like 'decrement=1'.
+- Do some work; the actual useful part of the recursive function.
+- Call it again. Make sure to check for base case. Make sure you change the argument before calling the function again, or youll infinite loop.
+
+```js
+function countdown(n){
+  if (n===0){
+    return
+  }
+  console.log(n)
+  countdown(n-1)
+}
+```
