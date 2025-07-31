@@ -1255,4 +1255,4 @@ function countdown(n, decrement=1){
 7/30 eth 10 year birthday event tonight 
 7/31 can't believe july is over already. today i deep dove into staking hardware. so far settled on this motherboard and cpu combo: 
 - Supermicro H13SAE-MF
-- EPYC 4345P
+- AMD EPYC 4345P
