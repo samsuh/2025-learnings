@@ -1259,3 +1259,5 @@ function countdown(n, decrement=1){
 
 ## August 2025 
 July was mostly unproductive in terms of raw code output and overall project progress. I did push pretty hard before then, but it's still an abnormally long time to be stagnant. It wasnt a complete loss, since I was able to refine the pitch for the project, and have gotten positive feedback overall. The AI component has become less of a focus and it might be a distraction at this point. The pitch might be better with the ai focus completely removed, and just focus on the value proposition and the actual platform and usefulness thereof. The move is complete, and the next phase will prob take a while to decide on the layout and functionality of the space, but all that is current blocked by the wallpapering. I think it's worth it to just take cahrge of the wallpapering and getit done so I can move on with my life; stop being cheap about it. 
+
+8/2 markets crashing. im just chilling 
