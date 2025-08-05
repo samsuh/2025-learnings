@@ -1265,7 +1265,9 @@ July was mostly unproductive in terms of raw code output and overall project pro
 
 8/4 talked about the project to find friction. the usage seems fine but people dont seem to know whats being oromised and whats possible orbwhere the likite are. clearly explain thst they fab post whatever they want for projects but admins have to agree that its possible to do since admins are responsible for delivering results. 
 8/5 time blindness? 
-8/6 just here for consistency as its own goal 
+8/6 just here for consistency as its own goal. 
+
+idea: what abt a motorcycle active dresser. get home and put your gear all in the dedicated cabinet maybe helmet too. itll keep it fresher basically brand new in an hour. ideally dont need to do anything except take it off and put it on a hangar or something. 
 
 
 
