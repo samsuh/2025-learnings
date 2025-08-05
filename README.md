@@ -1264,7 +1264,7 @@ July was mostly unproductive in terms of raw code output and overall project pro
 8/3 markets still going down. server components researched and ordered. pretty satisfied for now. we'll see how it plays out. 
 
 8/4 talked about the project to find friction. the usage seems fine but people dont seem to know whats being oromised and whats possible orbwhere the likite are. clearly explain thst they fab post whatever they want for projects but admins have to agree that its possible to do since admins are responsible for delivering results. 
-
+8/5 time blindness? 
 
 
 
