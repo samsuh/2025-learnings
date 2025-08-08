@@ -1270,8 +1270,8 @@ July was mostly unproductive in terms of raw code output and overall project pro
 idea: what abt a motorcycle active dresser. get home and put your gear all in the dedicated cabinet maybe helmet too. itll keep it fresher basically brand new in an hour. ideally dont need to do anything except take it off and put it on a hangar or something. 
 
 wallpapered the new place myself. a lot harder and more time consuming than i thought. glad its done though. ill check back in after it dries to touch it up then finalize. hopefully itll be ok. 
-
-
+8/7 came down to get bike. found a couple things to send back. 
+8/8. will ship it get cupbab then head up. 
 
  
 
