@@ -1272,7 +1272,8 @@ idea: what abt a motorcycle active dresser. get home and put your gear all in th
 wallpapered the new place myself. a lot harder and more time consuming than i thought. glad its done though. ill check back in after it dries to touch it up then finalize. hopefully itll be ok. 
 8/7 came down to get bike. found a couple things to send back. 
 8/8. will ship it get cupbab then head up. 
-
+8/9 made it tonseoul safe and rested to recover
+8/10 will goto meetup after haircut 
  
 
 
