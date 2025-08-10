@@ -1273,8 +1273,7 @@ wallpapered the new place myself. a lot harder and more time consuming than i th
 8/7 came down to get bike. found a couple things to send back. 
 8/8. will ship it get cupbab then head up. 
 8/9 made it tonseoul safe and rested to recover
-8/10 will goto meetup after haircut 
- 
+8/10 will goto meetup after haircut. it all worked out fine 
 
 
 
