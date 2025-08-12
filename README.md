@@ -1274,7 +1274,7 @@ wallpapered the new place myself. a lot harder and more time consuming than i th
 8/8. will ship it get cupbab then head up. 
 8/9 made it tonseoul safe and rested to recover
 8/10 will goto meetup after haircut. it all worked out fine 
-
+8/12 spent the day setting up triple monitor. eth pumping. looking to start dca out a bit then not looking at it for a long time
 
 
 
