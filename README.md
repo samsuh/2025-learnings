@@ -1277,4 +1277,9 @@ wallpapered the new place myself. a lot harder and more time consuming than i th
 8/12 spent the day setting up triple monitor. eth pumping. looking to start dca out a bit then not looking at it for a long time
 8/13 after a whole week of not working on projects at all, maybe time to revisit what i want to accomplish and re-evaluate some short term objectives. 
 
+Eth pumping is making me re-evaluate priorities. The original goal was not about money in the first place, but now that this is even less a factor, I am in need of a stronger source of external incentive to push forward with the project. 
+
+
+
+
 
