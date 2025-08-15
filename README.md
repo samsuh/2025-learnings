@@ -1280,6 +1280,6 @@ wallpapered the new place myself. a lot harder and more time consuming than i th
 Eth pumping is making me re-evaluate priorities. The original goal was not about money in the first place, but now that this is even less a factor, I am in need of a stronger source of external incentive to push forward with the project. 
 
 8/14 for taskangel focusing on one fesuee st s time might be the best way forward. like next feature will be rerolling the initial task list with a single input box of change suggestions. after that will be a way to mark the initial task list as approvedByOwner
-
+8/15 lost a day
 
 
