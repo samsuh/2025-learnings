@@ -1284,3 +1284,5 @@ Eth pumping is making me re-evaluate priorities. The original goal was not about
 8/16 decided to stop watching the crypto markets. i decided not to sell earlier for better or worse. my rationale was that the major financial isntitutions bought on the way up and  they wouldnt be satusfied with a couple percent gains. they are taking a longer term view and so short term trades are badically just day trading. take out what you need if you have somethtint to buy, otherwise let the market do its thing with it up or down  
 8/17 coding meetup today 
 8/18 sleep is more important than you think
+
+starting to feel the beginnings of repercussions of living a simple life without tryharding. things resolve to a minimum level and it is a life of settling for whats available. seems obvious in hindsight but if you dont strive for better then you get whats available. 
