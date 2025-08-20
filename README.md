@@ -1288,3 +1288,4 @@ Eth pumping is making me re-evaluate priorities. The original goal was not about
 starting to feel the beginnings of repercussions of living a simple life without tryharding. things resolve to a minimum level and it is a life of settling for whats available. seems obvious in hindsight but if you dont strive for better then you get whats available. 
 
 8/19 first time in a long time ive felt like i have opps. not everyone is watching to see you succeed, some are actively hoping you fail 
+8/20 went back to udemy courses to get back towards productivity. "when you find yourself procrastinating, start doing something even harder, and itll kick start the dopamine back up" 
