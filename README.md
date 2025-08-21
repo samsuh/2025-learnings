@@ -1289,4 +1289,20 @@ starting to feel the beginnings of repercussions of living a simple life without
 
 8/19 first time in a long time ive felt like i have opps. not everyone is watching to see you succeed, some are actively hoping you fail 
 8/20 went back to udemy courses to get back towards productivity. "when you find yourself procrastinating, start doing something even harder, and itll kick start the dopamine back up" 
-8/21 waiting on last two components for server
+8/21 waiting on last two components for server. 
+8/22 afterwork networking event tonight
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
