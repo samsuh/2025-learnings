@@ -1291,8 +1291,7 @@ starting to feel the beginnings of repercussions of living a simple life without
 8/20 went back to udemy courses to get back towards productivity. "when you find yourself procrastinating, start doing something even harder, and itll kick start the dopamine back up" 
 8/21 waiting on last two components for server. 
 8/22 afterwork networking event tonight
-
-
+8/23 visited roys shop and hung out. rode out there and back. traffic was rough. riding was fun. i was toldvi have to rev higher for the bikes health 
 
 
 
