@@ -1292,6 +1292,8 @@ starting to feel the beginnings of repercussions of living a simple life without
 8/21 waiting on last two components for server. 
 8/22 afterwork networking event tonight
 8/23 visited roys shop and hung out. rode out there and back. traffic was rough. riding was fun. i was toldvi have to rev higher for the bikes health 
+8/24 went to meetup. people decided to come to jeju in september. 
+
 
 
 
