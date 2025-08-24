@@ -1295,6 +1295,20 @@ starting to feel the beginnings of repercussions of living a simple life without
 8/24 went to meetup. people decided to come to jeju in september. 
 8/25 https://youtube.com/shorts/73eI5EWTZZ4?si=7Ot-k51_6Wc7bBUO take a simple idea and take it seriously.
 
+regarding investment profit taking strategy and philosophy, it clicked for me that there's two layers to it; 
+1. act vs dont act 
+2. result shows it was correct or wrong
+
+and the implications of this affect two dimensions; number go up/down and psychological impact of feeling good about it or feeling bad about it for different reasons. 
+- feel good about it; i acted and was right, i held and was right
+- feel bad about it; fomo missed gains; pain of bag holding during a crash.
+
+the financial implications are simpler, and can be handled with a very logical approach; 
+- money is meant to either be spent on purchasing something (spent out of my control), held in fiat/crypto, or being applied in some useful form (investment, staking, savings account) with varying risks.
+- for spending; build buckets of purposes; core daily living expenses, nice to have conveniences and niceities, and stretch luxuries. define each and make funds cover as much as possible.
+  - core living expenses include rent, food, bills like utilities but also transporation and basics
+  - reasonable niceities; normal life but unrestricted; covers everything i would want never holding back or optimizing
+  - stretch purchases; stuff i dont need, and would be fine without, but would be novel and neat to access; more extreme hobbies or bigger scale efforts like massive trips or new initiatives/endeavors. 
 
 
 
