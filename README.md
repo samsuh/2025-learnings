@@ -1314,8 +1314,11 @@ the financial implications are simpler, and can be handled with a very logical a
 This made me realize there are lots of levels to eth staking, which i will learn on the new server rig. 
 
 step 1: set up rig 
-step 2: find and follow a quickstart for testnet staking. 
+
+step 2: find and follow a quickstart for testnet staking. prob look at pins in ethstaker community
+
 step 3: maintain this and try out different scenarios for about a month. i originally thought a whole month was overkill but a month just flew by waiting for these parts! 
+
 step 4: make go/no go decision on staking on mainnet. 
 
 
