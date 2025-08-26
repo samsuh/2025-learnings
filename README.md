@@ -1310,6 +1310,7 @@ the financial implications are simpler, and can be handled with a very logical a
   - reasonable niceities; normal life but unrestricted; covers everything i would want never holding back or optimizing
   - stretch purchases; stuff i dont need, and would be fine without, but would be novel and neat to access; more extreme hobbies or bigger scale efforts like massive trips or new initiatives/endeavors. 
 
+8/26 all the computer oarts are finally in. will build it tomorrow. need to decide an os and prep drive 
 
 
 
