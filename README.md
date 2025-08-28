@@ -1326,11 +1326,7 @@ step 4: make go/no go decision on staking on mainnet.
 1. build rig
 2. install linux LTS
 3. set up docker
-4. get teku on docker (https://docs.teku.consensys.io/get-started/install/run-docker-image)
-   - register validators in the deposit contract
-   - set validators in `--validator-keys`
-7. run teku as a beacon node and validator in the same process (https://docs.teku.consensys.io/get-started/start-teku) using `--network` flag (https://docs.teku.consensys.io/reference/cli#network)
-8. 
+4. there's a joint besu/teku guide; https://besu.hyperledger.org/public-networks/tutorials/besu-teku-mainnet/
 
 
 
