@@ -1330,9 +1330,11 @@ step 4: make go/no go decision on staking on mainnet.
   - Execution Client Besu
     - Default Port 30303 TCP/UDP
   - Consensus Client Teku
-    - Default Port 9000 TCP/UDP 
-6. set up docker
-7. there's a joint besu/teku guide; https://besu.hyperledger.org/public-networks/tutorials/besu-teku-mainnet/
+    - Default Port 9000 TCP/UDP
+5. Configure time sync `timedatectl`
+6. Set up on Testnet; https://hoodi.launchpad.ethereum.org/
+7. set up docker
+8. there's a joint besu/teku guide; https://besu.hyperledger.org/public-networks/tutorials/besu-teku-mainnet/
 
 
 
