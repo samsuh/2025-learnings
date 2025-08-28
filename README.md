@@ -1325,8 +1325,14 @@ step 4: make go/no go decision on staking on mainnet.
 
 1. build rig
 2. install linux LTS
-3. set up docker
-4. there's a joint besu/teku guide; https://besu.hyperledger.org/public-networks/tutorials/besu-teku-mainnet/
+3. secure root account and firewall
+4. set port forwarding for clients
+  - Execution Client Besu
+    - Default Port 30303 TCP/UDP
+  - Consensus Client Teku
+    - Default Port 9000 TCP/UDP 
+6. set up docker
+7. there's a joint besu/teku guide; https://besu.hyperledger.org/public-networks/tutorials/besu-teku-mainnet/
 
 
 
