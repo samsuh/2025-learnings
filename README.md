@@ -1321,7 +1321,16 @@ step 3: maintain this and try out different scenarios for about a month. i origi
 
 step 4: make go/no go decision on staking on mainnet. 
 
-8/28 - teku consensus/ reth execution? teku/besu made by same team and seems to be a popular combination. documentation looks good.
+8/28 - teku consensus/ reth execution? teku/besu made by same team and seems to be a popular combination. documentation looks good. https://consensys.io/teku
+
+1. build rig
+2. install linux LTS
+3. set up docker
+4. get teku on docker (https://docs.teku.consensys.io/get-started/install/run-docker-image)
+   - register validators in the deposit contract
+   - set validators in `--validator-keys`
+7. run teku as a beacon node and validator in the same process (https://docs.teku.consensys.io/get-started/start-teku) using `--network` flag (https://docs.teku.consensys.io/reference/cli#network)
+8. 
 
 
 
