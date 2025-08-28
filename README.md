@@ -1335,6 +1335,10 @@ step 4: make go/no go decision on staking on mainnet.
 6. Set up on Testnet; https://hoodi.launchpad.ethereum.org/
 7. set up docker
 8. there's a joint besu/teku guide; https://besu.hyperledger.org/public-networks/tutorials/besu-teku-mainnet/
+  - Configure Execution client first (Besu)
+  - Then Consensus client (Teku)
+9. Wait for clients to sync
+10. Stake ETH through Staking Launchpad
 
 
 
