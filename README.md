@@ -1322,7 +1322,9 @@ step 3: maintain this and try out different scenarios for about a month. i origi
 step 4: make go/no go decision on staking on mainnet. 
 
 8/28 - teku consensus/ reth execution? teku/besu made by same team and seems to be a popular combination. documentation looks good. https://consensys.io/teku
-things to do: still learn how withdrawals work https://launchpad.ethereum.org/en/withdrawals
+
+still to do: 
+- learn http://notes.ethereum.org/@launchpad/holesky
 
 1. build rig
 2. install linux LTS
