@@ -1321,7 +1321,7 @@ step 3: maintain this and try out different scenarios for about a month. i origi
 
 step 4: make go/no go decision on staking on mainnet. 
 
-8/28 - teku consensus/ reth execution 
+8/28 - teku consensus/ reth execution? teku/besu made by same team and seems to be a popular combination. documentation looks good.
 
 
 
