@@ -1343,7 +1343,7 @@ still to do:
 9. Wait for clients to sync
 10. Stake ETH through Staking Launchpad
 
-
+8/29 - discovered the ram they sent me is the wrong ram. it's non-ecc. been going through customer support to get the total cost of this thing back. highly overpriced non-ecc memory that i waited weeks for. researching comparable more-local replacements. even if it's non-ecc it's a third of the price locally. 
 
 
 
