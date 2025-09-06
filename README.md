@@ -1349,6 +1349,7 @@ still to do:
 9/3 - striving has a benefit when you dont want to trend towards mediocre
 9/4 - aggregate dust accounts, plan how to convert and efficiently aggregate. probably convert everything as easily as possible into one currency, then send everything to one account. swap>send
 9/5 - hung out in itw. sometimes it's worse being with other people than just being home alone
+9/6 - huhg out in itw again. meeting with people is nice, but socially matching people and accommodating (even very reasonable things) is a pain
 
 
 
