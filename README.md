@@ -1351,7 +1351,11 @@ still to do:
 9/5 - hung out in itw. sometimes it's worse being with other people than just being home alone
 9/6 - hung out in itw again. meeting with people is nice, but socially matching people and accommodating (even very reasonable things) is a pain
 9/7 - hung out with meetup people in lieu of meetup in seolleung
+
 9/8 - looking back on the past couple of months, there's a clear trend that i have bouts of intense effort, but then completely fizzle out and dont touch "productive" work. while this is bad for productivity's sake, it's good to step back and realize this is how my brain works, and that's probably ok. i can plan around these constraints and itll help me choose better. committing to short term projects where i can give it my all, deep dive and get obsessed, with a clear short term objective, deliver well, and then disengage and reset. not working in a traditional low-and-slow-forever way isnt a bad thing. that way is inefficient anyway. 
+
+
+
 
 
 
