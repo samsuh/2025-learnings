@@ -1358,7 +1358,7 @@ still to do:
 9/10 - maybe look into ram and start learning something. get brain working again
 
 9/11 - need a new goal. self actualization? new systems? 
-
+9/12 - jeju trip booked. kbw events signed up for generally. 
 
 
 
