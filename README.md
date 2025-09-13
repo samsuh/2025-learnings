@@ -1360,6 +1360,6 @@ still to do:
 9/11 - need a new goal. self actualization? new systems? 
 9/12 - jeju trip booked. kbw events signed up for generally. 
 
-
+9/13 - spoke with george and got some encouragement to get back to working on the PM ai/ task platform. might shift to working on just the task platform/ bounty platform to get back into the flow of working on things
 
 
