@@ -1363,3 +1363,4 @@ still to do:
 9/13 - spoke with george and got some encouragement to get back to working on the PM ai/ task platform. might shift to working on just the task platform/ bounty platform to get back into the flow of working on things
 
 9/14 - organized a group meetup in songpa. went well. had 9 people show up. we went to indian food after
+9/15 - didnt get much done today 
