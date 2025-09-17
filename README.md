@@ -1364,3 +1364,5 @@ still to do:
 
 9/14 - organized a group meetup in songpa. went well. had 9 people show up. we went to indian food after
 9/15 - didnt get much done today 
+9/16 - watched a couple typescript videos, but didnt code anything. 
+9/17 - converted mkr to sky. prepping for ratecut trading volume 
