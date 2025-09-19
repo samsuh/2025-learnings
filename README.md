@@ -1366,3 +1366,4 @@ still to do:
 9/15 - didnt get much done today 
 9/16 - watched a couple typescript videos, but didnt code anything. 
 9/17 - converted mkr to sky. prepping for ratecut trading volume 
+9/18 headed down to jeju. was shocked at the clutter. felt disappointed in mom and dad. H wuestioned whether they are showing early signs of dementia 
