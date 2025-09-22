@@ -1368,7 +1368,7 @@ still to do:
 9/17 - converted mkr to sky. prepping for ratecut trading volume 
 9/18 headed down to jeju. was shocked at the clutter. felt disappointed in mom and dad. H questioned whether they are showing early signs of dementia 
 9/21 my antisocial rendencies are emerging. im exhausted from ttying to coordinate ppl who dont want to be coordinated so i decided to stop cuzbits pointless. ill let them do their own thing and just do what i need to to preserve my sense of calm. 
-
+9/22 - just getting through the day. im thinking i need to set better intentions for my days so i have more of a preference how i spend my days. 
 
 
 
