@@ -1372,7 +1372,7 @@ still to do:
 
 9/24 - out at kbw today. rainy day. 
 can i apply post-training reinforcement learning to get more accurate 'initial task list'? 
-
+thrrs value in the data of training better initial tasklist creation. get better training on what exactly people want when trying to "get soemthing done" 
 
 
 
