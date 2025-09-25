@@ -1374,7 +1374,7 @@ still to do:
 can i apply post-training reinforcement learning to get more accurate 'initial task list'? 
 theres value in the data of training better initial tasklist creation. get better training on what exactly people want when trying to "get soemthing done" 
 
-9/25 - slow day
+9/25 - slow day. opting out of attending the rest of the kbw parties to focus on some internal work. i realize thart i want to be doing something more active. the organize app is still the best idea in my stable, and getting it out into the world is interesting and i would enjoy the process of bringing it into reality, and iterating on it until it actually helps people irl. 
 
 
 
