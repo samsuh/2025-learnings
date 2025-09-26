@@ -1376,6 +1376,7 @@ theres value in the data of training better initial tasklist creation. get bette
 
 9/25 - slow day. opting out of attending the rest of the kbw parties to focus on some internal work. i realize thart i want to be doing something more active. the organize app is still the best idea in my stable, and getting it out into the world is interesting and i would enjoy the process of bringing it into reality, and iterating on it until it actually helps people irl. 
 9/26 - kbw was a bit underwhelming this year. feels like crypto is starting to break out towards legitimacy and institutionalization, but thats prob not a great thing in the grand scheme of things. itll just dilute and limit the core until theres none of the original ethos left. 
+my mind has been going towards devops lately, and i think it is valuable to learn this more thoroughly. maybe if i want to eventually get a normal person job, this would also be a viable path. 
 
 
 
