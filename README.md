@@ -1375,7 +1375,7 @@ can i apply post-training reinforcement learning to get more accurate 'initial t
 theres value in the data of training better initial tasklist creation. get better training on what exactly people want when trying to "get soemthing done" 
 
 9/25 - slow day. opting out of attending the rest of the kbw parties to focus on some internal work. i realize thart i want to be doing something more active. the organize app is still the best idea in my stable, and getting it out into the world is interesting and i would enjoy the process of bringing it into reality, and iterating on it until it actually helps people irl. 
-
+9/26 - kbw was a bit underwhelming this year. feels like crypto is starting to break out towards legitimacy and institutionalization, but thats prob not a great thing in the grand scheme of things. itll just dilute and limit the core until theres none of the original ethos left. 
 
 
 
