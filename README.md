@@ -1378,6 +1378,8 @@ theres value in the data of training better initial tasklist creation. get bette
 9/26 - kbw was a bit underwhelming this year. feels like crypto is starting to break out towards legitimacy and institutionalization, but thats prob not a great thing in the grand scheme of things. itll just dilute and limit the core until theres none of the original ethos left. 
 my mind has been going towards devops lately, and i think it is valuable to learn this more thoroughly. maybe if i want to eventually get a normal person job, this would also be a viable path. 
 
+9/28 - looking into setting up a testnet ethereum validator to learn how staking works. 
+
 
 
 
