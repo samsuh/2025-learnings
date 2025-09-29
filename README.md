@@ -1379,7 +1379,7 @@ theres value in the data of training better initial tasklist creation. get bette
 my mind has been going towards devops lately, and i think it is valuable to learn this more thoroughly. maybe if i want to eventually get a normal person job, this would also be a viable path. 
 
 9/28 - looking into setting up a testnet ethereum validator to learn how staking works. 
-
+9/29 - coded nothing. set up monitors, set up ubuntu server usb drive. 
 
 
 
