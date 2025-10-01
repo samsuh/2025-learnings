@@ -1381,5 +1381,7 @@ my mind has been going towards devops lately, and i think it is valuable to lear
 9/28 - looking into setting up a testnet ethereum validator to learn how staking works. 
 9/29 - coded nothing. changed monitor setup, set up ubuntu server usb drive. 
 
+10/2 - rode bike to rsg. crypto market bouncing back. i feel like im not really part of the scene anymore from the last kbw. im starting to disengage. 
+
 
 
