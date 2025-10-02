@@ -1383,5 +1383,5 @@ my mind has been going towards devops lately, and i think it is valuable to lear
 
 10/2 - rode bike to rsg. crypto market bouncing back. i feel like im not really part of the scene anymore from the last kbw. im starting to disengage. 
 
-
+10/3 - built server. had a lot of trouble trying to figure out why it wont post to the monitor. current best theory is that the mobo requires using VGA cables for monitor out when in my specific configuration (using am5 chipset without dedicated GPU). i've done what i can via IPMI, but i think it's best to just get a cheap VGA monitor so i can directly access things like BIOS and installing an OS.
 
