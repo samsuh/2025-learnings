@@ -1391,3 +1391,6 @@ The To Do list is filling up:
 - get ubuntu server installed
 - do keygen in ubuntu usb-stick instance. prereq: get keygen software on usb stick. 
 - when env is set up, look into the clients and get everything set up. the end goal is running a validator on testnet, and maintaining it until im completely comfortable/bored. test different scenarios and get a feel for the ecosystem and how everything works
+
+10/4 - figure out testnet instructions vs mainnet
+- keygen done but do it as part of the initial setup with a withdrawal address built in. figure out the difference 
