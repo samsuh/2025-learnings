@@ -1397,7 +1397,7 @@ The To Do list is filling up:
 
 - for the organize app the definiton of done or wuccess criteria should be part of the initial user submission. 
 
-
+10/5 - goal for the day is to get one of the clients working and updated
 
 
 
