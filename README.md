@@ -1394,3 +1394,12 @@ The To Do list is filling up:
 
 10/4 - figure out testnet instructions vs mainnet
 - keygen done but do it as part of the initial setup with a withdrawal address built in. figure out the difference 
+
+- for the organize app the definiton of done or wuccess criteria should be part of the initial user submission. 
+
+
+
+
+
+
+
