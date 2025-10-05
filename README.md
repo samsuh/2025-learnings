@@ -1397,7 +1397,7 @@ The To Do list is filling up:
 
 - for the organize app the definiton of done or wuccess criteria should be part of the initial user submission. 
 
-10/5 - goal for the day is to get one of the clients working and updated
+10/5 - goal for the day is to get one of the clients working and updated. didnt get it cuz i ran into an os bug, but regenerated testnet keys with pectra, and got os properly installed.
 
 
 
