@@ -1399,6 +1399,7 @@ The To Do list is filling up:
 
 10/5 - goal for the day is to get one of the clients working and updated. didnt get it cuz i ran into an os bug, but regenerated testnet keys with pectra, and got os properly installed.
 
+10/6 - work on "configuring node" setup. https://docs.coincashew.com/guides/testnet-hoodi/step-2-configuring-node. felt really weak after going to the gym. maybe rest today
 
 
 
