@@ -1407,6 +1407,7 @@ i got a lead on where i can source ecc ram, in yongsan electronics market, physi
 
 i also want to look into NUT to get my UPS online and functional; the UPS is working, but there are data ports to plug in and make it do things like graceful shutdowns, and possibly restarts after power outages. im looking into it now. https://tldp.org/HOWTO/UPS-HOWTO/x142.html
 because i have an APC UPS, it seems APCUPSD is more appropriate than NUT. https://sourceforge.net/projects/apcupsd/
+setup guide: https://youtu.be/MyXrlRUBqyg?si=Vh2C_tbsk0--lwsS
 
 
 
