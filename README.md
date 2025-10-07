@@ -1401,6 +1401,10 @@ The To Do list is filling up:
 
 10/6 - work on "configuring node" setup. https://docs.coincashew.com/guides/testnet-hoodi/step-2-configuring-node. felt really weak after going to the gym. maybe rest today
 
+10/7 - i was knocked out yesterday. i think i had a small flu or maybe mild food poisoning or something. felt super weak. today is better. 
+it turns out after all that trouble getting ecc ram, it turned out to not be ecc ram at all. i have to figure out if i can return this fully, but it's kind of not worth bothering with at this point. 
+i got a lead on where i can source ecc ram, in yongsan electronics market, physically go to buy some. ill try to make it out there in the next few weeks. im going to proceed on testnet with the current ram though. 
+
 
 
 
