@@ -1405,6 +1405,8 @@ The To Do list is filling up:
 it turns out after all that trouble getting ecc ram, it turned out to not be ecc ram at all. i have to figure out if i can return this fully, but it's kind of not worth bothering with at this point. 
 i got a lead on where i can source ecc ram, in yongsan electronics market, physically go to buy some. ill try to make it out there in the next few weeks. im going to proceed on testnet with the current ram though. 
 
+i also want to look into NUT to get my UPS online and functional; the UPS is working, but there are data ports to plug in and make it do things like graceful shutdowns, and possibly restarts after power outages. im looking into it now. https://tldp.org/HOWTO/UPS-HOWTO/x142.html
+
 
 
 
