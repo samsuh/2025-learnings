@@ -1409,5 +1409,5 @@ i also want to look into NUT to get my UPS online and functional; the UPS is wor
 because i have an APC UPS, it seems APCUPSD is more appropriate than NUT. https://sourceforge.net/projects/apcupsd/
 setup guide: https://youtu.be/MyXrlRUBqyg?si=Vh2C_tbsk0--lwsS
 
-
+10/8 - git through node setup through 'ethereum' user and setting up time sync and timezone. next would be secret and network stuff
 
