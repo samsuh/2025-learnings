@@ -1412,3 +1412,13 @@ setup guide: https://youtu.be/MyXrlRUBqyg?si=Vh2C_tbsk0--lwsS
 10/8 - set up node until before "network configuration" ufw setup. gym went well. feel fully recovered from the other day. no idea what that was. 
 Got through the start of networking until the port forwarding section. want to more deeply understand that part and navigate around it on my actual router before proceeding. 
 Does ufw status persist through a reboot? yes it does. 
+
+10/9 - man what a tricky bit to troubleshoot. i think i got port forwarding working through the router to the device. still have to: 
+- set static ips and redo everything, then 
+- check again after clients are running
+
+
+
+
+
+
