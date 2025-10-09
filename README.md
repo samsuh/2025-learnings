@@ -1414,7 +1414,9 @@ Got through the start of networking until the port forwarding section. want to m
 Does ufw status persist through a reboot? yes it does. 
 
 10/9 - man what a tricky bit to troubleshoot. i think i got port forwarding working through the router to the device. still have to: 
-- set static ips and redo everything (https://gal.vin/posts/2023/ubuntu-static-ip/)
+- set static ips and redo everything
+  - https://gal.vin/posts/2023/ubuntu-static-ip/
+  - https://documentation.ubuntu.com/server/explanation/networking/configuring-networks/
 - check again after clients are running
 
 
