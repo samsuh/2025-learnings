@@ -1426,8 +1426,10 @@ Node Configuration section completed! feels good to work through it and get it d
 EL im going with for testnet is Nethermind
 CL will probably be Nimbus
 
-EL setup and running. 
+EL set up and running. 
+CL set up and running. 
 
+Validator next.
 
 
 
