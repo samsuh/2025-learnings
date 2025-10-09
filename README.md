@@ -1423,6 +1423,12 @@ Does ufw status persist through a reboot? yes it does.
 10/10 - rainy day. applying the static ip, then hopefully setting up EL then testing port forwarding. apply static ip done. feels productive. need to check whether its best practice to do this for IPMI
 Node Configuration section completed! feels good to work through it and get it done with confidence it's right. learned a surprising amount in just doing this. learning fundamentals of an adjacent skillset
 
+EL im going with for testnet is Nethermind
+CL will probably be Nimbus
+
+
+
+
 
 
 
