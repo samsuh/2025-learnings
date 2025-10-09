@@ -1417,8 +1417,10 @@ Does ufw status persist through a reboot? yes it does.
 - set static ips and redo everything
   - https://gal.vin/posts/2023/ubuntu-static-ip/
   - https://documentation.ubuntu.com/server/explanation/networking/configuring-networks/
+  - this ended up being the most helpful to show how to set static ip for my needs: https://youtu.be/173rk-yiXKE?si=YApfbl7UH9D6qOdi
 - check again after clients are running
 
+10/10 - rainy day. applying the static ip, then hopefully setting up EL then testing port forwarding
 
 
 
