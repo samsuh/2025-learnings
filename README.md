@@ -1429,7 +1429,7 @@ CL will probably be Nimbus
 EL set up and running. 
 CL set up and running. 
 
-Validator next.
+Validator next. Get validator client up and running before depositing eth. 
 
 
 
