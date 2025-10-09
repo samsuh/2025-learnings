@@ -1420,7 +1420,7 @@ Does ufw status persist through a reboot? yes it does.
   - this ended up being the most helpful to show how to set static ip for my needs: https://youtu.be/173rk-yiXKE?si=YApfbl7UH9D6qOdi
 - check again after clients are running
 
-10/10 - rainy day. applying the static ip, then hopefully setting up EL then testing port forwarding
+10/10 - rainy day. applying the static ip, then hopefully setting up EL then testing port forwarding. apply static ip done. feels productive. need to check whether its best practice to do this for IPMI
 
 
 
