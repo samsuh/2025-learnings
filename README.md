@@ -1430,7 +1430,10 @@ EL set up and running.
 CL set up and running. 
 
 Validator next. Get validator client up and running before depositing eth. Done. 
-It takes ~12 days for the entry queue. So I have to wait til then, but then make sure to have everything up and running when that timer hits 0. I should find how to put it on my calendar as a reminder.
+It takes ~12 days for the entry queue. So I have to wait til then, but then make sure to have everything up and running when that timer hits 0. I should find how to put it on my calendar as a reminder. figured it out. 
+
+Next would prob be to try optimizing things for the next 11 days, and get things to the point where i feel really comfortable working with the different components, and know how to handle potential problems. 
+Ill also prob want to set up monitoring. (https://docs.ethstaker.org/guides/monitoring-maintenance/monitoring/)
 
 
 
