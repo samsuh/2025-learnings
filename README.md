@@ -1429,8 +1429,8 @@ CL will probably be Nimbus
 EL set up and running. 
 CL set up and running. 
 
-Validator next. Get validator client up and running before depositing eth. 
-
+Validator next. Get validator client up and running before depositing eth. Done. 
+It takes ~12 days for the entry queue. So I have to wait til then, but then make sure to have everything up and running when that timer hits 0. I should find how to put it on my calendar as a reminder.
 
 
 
