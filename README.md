@@ -1435,5 +1435,5 @@ It takes ~12 days for the entry queue. So I have to wait til then, but then make
 Next would prob be to try optimizing things for the next 11 days, and get things to the point where i feel really comfortable working with the different components, and know how to handle potential problems. 
 Ill also prob want to set up monitoring. (https://docs.ethstaker.org/guides/monitoring-maintenance/monitoring/)
 
-
+10/13 - Been a couple days. market went crazy, had birthday. 
 
