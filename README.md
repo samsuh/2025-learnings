@@ -1437,3 +1437,4 @@ Ill also prob want to set up monitoring. (https://docs.ethstaker.org/guides/moni
 
 10/13 - Been a couple days. market went crazy, had birthday. 
 
+10/14 - staking: monitoring, recovery. set up UPS when i get cable. check IPMI access remotely. go get ram after comfortable
