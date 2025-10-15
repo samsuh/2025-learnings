@@ -1437,4 +1437,5 @@ Ill also prob want to set up monitoring. (https://docs.ethstaker.org/guides/moni
 
 10/13 - Been a couple days. market went crazy, had birthday. 
 
+10/15 - market volatility stabilizing. convictin stabilizing. i think it's good to not stake everything after all, despite the conviction to hodl. give it some time and keep more out for trading volatility than i was thinking before. maybe just the cold cold wallet stuff would be a good start. 
 10/14 - staking: monitoring, recovery. set up UPS when i get cable. check IPMI access remotely. go get ram after comfortable
