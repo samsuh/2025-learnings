@@ -1450,3 +1450,6 @@ still left is:
 - then revisiting IPMI stuff.
 - then practicing a few failure scenarios, maybe configuring rescuenode?
 - add mev boost relays and test everything again
+
+10/17 - ups should be configured. havent tested it yet because its late andnitll make loud beeping sounds. test power outsge and check behavior. then check to see if a reboot from ipmi starts everything up properly. 
+need to go shopping for ram. call ram shop up and ask if they carry ecc ddr5 udimm and get peicing 
