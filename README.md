@@ -1443,3 +1443,10 @@ Ill also prob want to set up monitoring. (https://docs.ethstaker.org/guides/moni
 prometheus done. grafana left.
 grafana done. check for accessibility. tricky because theres no ssh enabled. might try laptop plugged into LAN for now, or set up key-based ssh later.
 grafana accessed. set up dashboard using `1860`. Do i want to add monitoring for clients as well? i have to look up the flags to enable metrics collections on the clients (have to do this for each client), configuring prometheus to poll emtrics from client, then importing a new dashboard to grafana. 
+monitoring good now - it's not exposed publicly, only over LAN. 
+
+still left is: 
+- next is configuring the UPS,
+- then revisiting IPMI stuff.
+- then practicing a few failure scenarios, maybe configuring rescuenode?
+- add mev boost relays and test everything again
