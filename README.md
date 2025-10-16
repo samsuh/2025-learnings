@@ -1440,3 +1440,4 @@ Ill also prob want to set up monitoring. (https://docs.ethstaker.org/guides/moni
 10/15 - market volatility stabilizing. convictin stabilizing. i think it's good to not stake everything after all, despite the conviction to hodl. give it some time and keep more out for trading volatility than i was thinking before. maybe just the cold cold wallet stuff would be a good start. 
 
 10/16 - node_exporter done. still need to do prometheus and grafana.
+prometheus done. grafana left.
