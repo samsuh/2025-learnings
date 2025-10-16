@@ -1441,3 +1441,4 @@ Ill also prob want to set up monitoring. (https://docs.ethstaker.org/guides/moni
 
 10/16 - node_exporter done. still need to do prometheus and grafana.
 prometheus done. grafana left.
+grafana done. check for accessibility. tricky because theres no ssh enabled. might try laptop plugged into LAN for now, or set up key-based ssh later.
