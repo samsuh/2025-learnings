@@ -1451,5 +1451,7 @@ still left is:
 - then practicing a few failure scenarios, maybe configuring rescuenode?
 - add mev boost relays and test everything again
 
+10/18 - n8n clone tutorial caught my attention and got me back into thinking about coding. this would be a really useful one to build out. 12ish hours of content. i tend to get stuck on using their sponsored tools often, but ill push through it and try to figure it out. 
+
 10/17 - ups should be configured. havent tested it yet because its late andnitll make loud beeping sounds. test power outsge and check behavior. then check to see if a reboot from ipmi starts everything up properly. 
 need to go shopping for ram. call ram shop up and ask if they carry ecc ddr5 udimm and get peicing 
