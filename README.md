@@ -1458,7 +1458,7 @@ need to go shopping for ram. call ram shop up and ask if they carry ecc ddr5 udi
 https://youtu.be/ED2H_y6dmC8?si=RbVDyGzSahbxS_w2
 Skimmed the tutorial. i think the only thing im a little weirded out by is the choice of pubsub and auth. those are straightforward and i think i would be able to refactor it to a solution i would want to use. the bigger immediate is that the tutorial is actually incomplete for now, and is only a 'part 1'. so maybe it makes sense to wait for the part 2 release before starting out on it, or maybe it's something i should do on my own and figure the rest out later, using their part 2 as a sanity check/solution if i get stuck. 
 
-
+10/20 - yesterday was suzuki day. didnt get much coding done. 
 
 
 
