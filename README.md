@@ -1461,7 +1461,7 @@ Skimmed the tutorial. i think the only thing im a little weirded out by is the c
 10/20 - yesterday was suzuki day. didnt get much coding done. 
 wow. got laid out by riding all day. lack of sleep + ride all day = need basically a whole day of sleep afterwards. went to gym and ate. full recovery day. getting old maybe. 
 
-
+10/21 - go wash bike, even if it's cold today. try to work on the n8n clone
 
 
 
