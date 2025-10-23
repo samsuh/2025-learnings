@@ -1466,8 +1466,11 @@ wow. got laid out by riding all day. lack of sleep + ride all day = need basical
 10/22 - go wash bike, even if it's cold today. try to work on the n8n clone. 
 washed bike. initialized nodebase (the n8n clone)
 
-10/23
-
+10/23 - went to new dev/startup meetup around hakdong stn. was nice. met some people. follow ups when the groupchat gets created: 
+- steve abt helmet HUD
+- lucas abt yongsan electronics market
+- jinsu abt ecc ram sourcing
+- maybe emily abt group food decision app 
 
 
 
