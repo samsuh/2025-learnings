@@ -1472,6 +1472,7 @@ washed bike. initialized nodebase (the n8n clone)
 - jinsu abt ecc ram sourcing
 - maybe emily abt group food decision app 
 
+10/24 - feeling like i have the basics of eth staking. next up is to try to add and withdraw some eth from a running validator. the biggest factor is finding appropriate ecc ram. but also need to practice other things like having the node go down, and making sure i can bring it back up, and to test if i can bring it back up remotely, or if i need a separate backup node (like rescuenode)
 
 
 
