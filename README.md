@@ -1482,7 +1482,7 @@ https://docs.coincashew.com/guides/mev-boost/mev-relay-list
 
 also need to configure static ip for ipmi network adapter instead of the main network adapter. also consider setting up ssh with key auth as an alternatie way to access the console locally. 
 
-10/26 - baek yerin concert today. joined new meetup discord. should follow up on stuff from the other day
+10/26 - baek yerin concert today. joined new meetup discord. should follow up on stuff from the other day. concert was nice. nothing life altering, but was a fun time. 
 
 
 
