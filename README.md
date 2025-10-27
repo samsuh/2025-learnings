@@ -1489,7 +1489,7 @@ mevboost on hoodi enabled. outputs dont update fast like the other services. but
 ssh enabled. was a hassle, but i think the guides are all written for root user access, if using non-root-sudo user, then the 'group' portion of chmod permissions has to be set. 
 
 10/28 - updating clients was trickier, since i didnt know if it was safe to delete the whole folder. but luckily coincashew also has a manual update section. https://docs.coincashew.com/guides/testnet-hoodi/maintenance/updating-execution-client
-tested internet outage by pulling router power for 1 minute. missed 1 attestation, but it seems to have fixed itself automatically after coming back online. 
+tested internet outage by pulling router power for 1 minute. missed 2 attestations, but it seems to have fixed itself automatically after coming back online. waiting for it to confirm that it's back
 
 
 
