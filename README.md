@@ -1485,7 +1485,8 @@ also need to configure static ip for ipmi network adapter instead of the main ne
 10/26 - baek yerin concert today. joined new meetup discord. should follow up on stuff from the other day. concert was nice. nothing life altering, but was a fun time. 
 
 10/27 - lets get the testnet node finished up, then get ready to start messing with it and breaking it in different ways. make sure to be able to figure out whats going wrong and understand how to fix it. 
-
+mevboost on hoodi enabled. outputs dont update fast like the other services. but everything seems to be working.  
+ssh enabled. was a hassle, but i think the guides are all written for root user access, if using non-root-sudo user, then the 'group' portion of chmod permissions has to be set. 
 
 
 
