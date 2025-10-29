@@ -1492,7 +1492,7 @@ ssh enabled. was a hassle, but i think the guides are all written for root user 
 
 tested internet outage by pulling router power for 1 minute. missed 2 attestations, but it seems to have fixed itself automatically after coming back online. waiting for it to confirm that it's back. yep it came back successfully. 
 
-
+10/29 - went to yongsan electronics market. was told that ddr5 udimm unbuffered ecc ram just doesnt exist in korea. disappointing. 
 
 
 
