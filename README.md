@@ -1494,6 +1494,7 @@ tested internet outage by pulling router power for 1 minute. missed 2 attestatio
 
 10/29 - went to yongsan electronics market. was told that ddr5 udimm unbuffered ecc ram just doesnt exist in korea. disappointing. 
 
+10/30 - gotta fine ram so i can get this done
 
 
 
