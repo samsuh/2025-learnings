@@ -1496,6 +1496,7 @@ tested internet outage by pulling router power for 1 minute. missed 2 attestatio
 
 10/30 - gotta fine ram so i can get this done
 
+10/31 - working on nodebase a little
 
 
 
