@@ -1505,6 +1505,7 @@ tested internet outage by pulling router power for 1 minute. missed 2 attestatio
 11/3 - Found DDR5 RAM, and scheduled the buy. it's 64gb for 380k krw, which isnt great, but it's a relatively a decent deal locally in korea, since similar is being sold for 500k, and even back in the day, i paid around 175k for half, so that would be about 350k, which is how much new ram is going for from the distributors (300-330k). So it's not great, but not bad. I plan to keep this going for now, and upgrade again after looking for good black friday sales and getting it shipped over. 
 
 11/4 - Let's take a break and focus on cleaning house today. 
+nodebase tutorial uses tanstack react query, which is a pretty opinionated choice for how to build the backend, whereas using just nextjs features would do this using server actions. ive not used trpc much before, so i guess i should approach this with an open mind. 
 
 
 
