@@ -1498,6 +1498,13 @@ tested internet outage by pulling router power for 1 minute. missed 2 attestatio
 
 10/31 - working on nodebase a little
 
+11/1 - Went flying on saturday 11/1, rode out to Ipo in Yeoju and took a quick discovery flight. Met a bunch of cool people, and we got dinner. Rode my bike out and enjoyed the trip back. Weather's getting real cold. time to use winter gear for long trips, and start to default to winter gear. I will need to change my oil soon, but i heard it's good to change oil right before storing long term for winter, so i might hold off a little bit as long as im not riding much. 
+
+11/2 - Down day recovering from flying and riding so much. Got a little sick from the ride, so recovering knocked me out. Started working a bit more on nodebase, but not much. 
+
+11/3 - Found DDR5 RAM, and scheduled the buy. it's 64gb for 380k krw, which isnt great, but it's a relatively a decent deal locally in korea, since similar is being sold for 500k, and even back in the day, i paid around 175k for half, so that would be about 350k, which is how much new ram is going for from the distributors (300-330k). So it's not great, but not bad. I plan to keep this going for now, and upgrade again after looking for good black friday sales and getting it shipped over. 
+
+11/4 - Let's take a break and focus on cleaning house today. 
 
 
 
