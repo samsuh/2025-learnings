@@ -1506,6 +1506,7 @@ tested internet outage by pulling router power for 1 minute. missed 2 attestatio
 
 11/4 - Let's take a break and focus on cleaning house today. 
 nodebase tutorial uses tanstack react query, which is a pretty opinionated choice for how to build the backend, whereas using just nextjs features would do this using server actions. ive not used trpc much before, so i guess i should approach this with an open mind. 
+trpc is a whole new thing to learn. i thought it would just be a new pattern or package. it's a whole different framework in and of itself. i dont really want to dive into a whole thing and pick this up. ugh. i wonder if it's even worth learning. 
 
 
 
