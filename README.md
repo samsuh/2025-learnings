@@ -1509,7 +1509,7 @@ nodebase tutorial uses tanstack react query, which is a pretty opinionated choic
 trpc is a whole new thing to learn. i thought it would just be a new pattern or package. it's a whole different framework in and of itself. i dont really want to dive into a whole thing and pick this up. ugh. i wonder if it's even worth learning. as im understanding it, trpc is an alternative system for data fetching different than something like rest or graphql, where you link your frontend and backend, then have a type-safe way to bridge the two. 
 
 11/5 - to do list day. coding feels low priority today, but have to pick up concert tickets from the regional post office cuz i missed the delivery twice. i also have to finally go get some ram at 6pm, then starting sound engineering at Uplift tonight for the first time. meet Rob to learn basics at 8. 
-
+trpc seems to basically do the same thing as nextjs server actions, where the goal is to tie fe/be and use one codebase to access data securely. might be good practice to implement it as the tutorial does, then later get better at server actions by refactoring trpc out. prob also good to do this for a different authentication solution. 
 
 
 
