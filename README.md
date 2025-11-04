@@ -1511,7 +1511,12 @@ trpc is a whole new thing to learn. i thought it would just be a new pattern or 
 11/5 - to do list day. coding feels low priority today, but have to pick up concert tickets from the regional post office cuz i missed the delivery twice. i also have to finally go get some ram at 6pm, then starting sound engineering at Uplift tonight for the first time. meet Rob to learn basics at 8. 
 trpc seems to basically do the same thing as nextjs server actions, where the goal is to tie fe/be and use one codebase to access data securely. might be good practice to implement it as the tutorial does, then later get better at server actions by refactoring trpc out. prob also good to do this for a different authentication solution. 
 
-
+Communication framework: 
+- name
+- same; what am i similar to that you already know
+- fame; impressive milestones/achievements; what makes you interesting/stand out.
+- aim; what am i working on now in the next 90 days
+- game; whats the greater vision, in the next 2-6 years
 
 
 
