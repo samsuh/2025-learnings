@@ -1518,6 +1518,7 @@ Communication framework:
 - aim; what am i working on now in the next 90 days
 - game; whats the greater vision, in the next 2-6 years
 
+Attestation misses are happening frequently overnight. Have to go check what happened. following https://www.symphonious.net/2022/09/25/understanding-attestation-misses/ to trace whats happening. 
 
 
 
