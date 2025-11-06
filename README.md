@@ -1524,7 +1524,7 @@ picked up the ram. turns out it has heatsinks on it and rgb (lol), i removed the
 run `sudo dmidecode -t memory` when memtest is done. 
 memtest86+ has been running for 15 hours and 0 errors, which is good. ill let it go for another day or so, since this is mission-critical hardware. 
 
-11/6 - feeling a cold coming on. i wonder if it's from going out, or if the room just has bad air. 
+11/6 - feeling a cold coming on. i wonder if it's from going out, or if the room just has bad air. Went to gym and was noticeably weaker today. Also hurt my left knee a little. Oops. 
 
 
 
