@@ -1526,5 +1526,9 @@ memtest86+ has been running for 15 hours and 0 errors, which is good. ill let it
 
 11/6 - feeling a cold coming on. i wonder if it's from going out, or if the room just has bad air. Went to gym and was noticeably weaker today. Also hurt my left knee a little. Oops. 
 
+11/7 - apparently i lost a couple days already. i guess that makes sense. ive been a little sick, but also just focused on other stuff. went riding friday the 7th with the Java group. nothing too special but good to ride out. 
+
+11/8 - didnt do too much today either, but went to the gym, and cleaned house a little. need to take care of finalizing move-in furniture that i put off after the initial wave of moving in. need to finish up organizing living room (book shelves, maybe dining table), and buy some dressers for clothing storage. 
+
 
 
