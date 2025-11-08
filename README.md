@@ -1530,5 +1530,7 @@ memtest86+ has been running for 15 hours and 0 errors, which is good. ill let it
 
 11/8 - didnt do too much today either, but went to the gym, and cleaned house a little. need to take care of finalizing move-in furniture that i put off after the initial wave of moving in. need to finish up organizing living room (book shelves, maybe dining table), and buy some dressers for clothing storage. 
 
+11/9 - have to find someone to take to teddy swims concert on saturday. 
+
 
 
