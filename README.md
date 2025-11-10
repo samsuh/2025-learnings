@@ -1535,7 +1535,7 @@ memtest86+ has been running for 15 hours and 0 errors, which is good. ill let it
 11/10 - this cold is lasting a really long time. 
 
 11/11 - ram test using memtest86+ is finally done running for 5 days. no errors. great sign. resync took over an hour, but it got there. i had to update all clients since they upgraded during my downtime. seamless. 
-
+ordered furniture, dresser for clothes and bookcases and attached desk for living room. need to rearrange everything once it comes in. 
 
 
 
