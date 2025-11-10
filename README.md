@@ -1532,5 +1532,7 @@ memtest86+ has been running for 15 hours and 0 errors, which is good. ill let it
 
 11/9 - have to find someone to take to teddy swims concert on saturday. 
 
+11/10 - this cold is lasting a really long time. 
+
 
 
