@@ -1540,9 +1540,7 @@ ordered furniture, dresser for clothes and bookcases and attached desk for livin
 
 received some peppero from the WT girls with a poem. appreciate them. ill get them something next time i see them. 
 
-11/12 - uplift live sound tonight
-
-
+11/12 - uplift live sound tonight. went pretty well. a lot busier this week. kept me very active keeping up with sound management. 
 
 
 
