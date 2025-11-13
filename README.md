@@ -1542,7 +1542,7 @@ received some peppero from the WT girls with a poem. appreciate them. ill get th
 
 11/12 - uplift live sound tonight. went pretty well. a lot busier this week. kept me very active keeping up with sound management. 
 
-
+11/13 - received delivery on bookcases and the attached desk, finally unpacked all my books. still waiting on the dresser for clothing management. maybe need a chair for the living room desk now, but i don't know what'll fit well. need to clear the rest of the stuff out and figure out how exactly im going to use that space. 
 
 
 
