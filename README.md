@@ -1548,5 +1548,7 @@ received some peppero from the WT girls with a poem. appreciate them. ill get th
 
 11/15 - went to teddy swims concert. was surprisingly hard to find someone to go with. people take so long to respond, maybe i should just send a blast out and whoever responds first goes. idk. i prob wouldve been better off going solo, but it was better that i went at all. 
 
+11/16 - going to fly in bingdo. need an early start. 
+
 
 
