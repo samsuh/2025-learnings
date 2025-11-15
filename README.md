@@ -1544,8 +1544,9 @@ received some peppero from the WT girls with a poem. appreciate them. ill get th
 
 11/13 - received delivery on bookcases and the attached desk, finally unpacked all my books. still waiting on the dresser for clothing management. maybe need a chair for the living room desk now, but i don't know what'll fit well. need to clear the rest of the stuff out and figure out how exactly im going to use that space. 
 
-11/14b - no coding done today. validator exit requires so many steps. withdrawal will take longer than expected. 
+11/14 - no coding done today. validator exit requires so many steps. withdrawal will take longer than expected. 
 
+11/15 - went to teddy swims concert. was surprisingly hard to find someone to go with. people take so long to respond, maybe i should just send a blast out and whoever responds first goes. idk. i prob wouldve been better off going solo, but it was better that i went at all. 
 
 
 
