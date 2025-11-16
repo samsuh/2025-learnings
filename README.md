@@ -1550,5 +1550,7 @@ received some peppero from the WT girls with a poem. appreciate them. ill get th
 
 11/16 - going to fly in bingdo. need an early start. 
 
+11/17 - exhausted from going all the way to bingdo. seems to be a really good option for flight lessons, especially with a clearer curriculum and path. it's just so far. 
+
 
 
