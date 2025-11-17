@@ -1554,5 +1554,7 @@ received some peppero from the WT girls with a poem. appreciate them. ill get th
 
 11/18 - started to implement node for mainnet version, but i messed it up by using testnet docs. i think the safer thing is to wipe the whole server and start over. 
 
+Staking is mostly working. have to wait for everything to update and sync, and then test it all to see if it's working. then get monitoring up, and mevboost up. and then decide what goes on there. also need to clear up which withdrawal address (mm vs ledger) needs to be used.
+
 
 
