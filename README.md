@@ -1558,5 +1558,5 @@ Staking is mostly working. have to wait for everything to update and sync, and t
 
 11/20 - liquidity is better than staking if market goes down. just holding fiat/stablecoin has significantly better returns than multiple years of staking. 
 
-
+11/21 - reth sync is a lot slower and more intensive than nethermind was. initial deposit done
 
