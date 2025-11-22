@@ -1560,4 +1560,6 @@ Staking is mostly working. have to wait for everything to update and sync, and t
 
 11/21 - reth sync is a lot slower and more intensive than nethermind was. initial deposit done
 
+11/22 - went to dev meetup. was fun. we went to dinner and coffee after. lots of chatting. 
+
 11/22 - market traded today to neutralize the down. 
