@@ -1562,4 +1562,10 @@ Staking is mostly working. have to wait for everything to update and sync, and t
 
 11/22 - went to dev meetup. was fun. we went to dinner and coffee after. lots of chatting. 
 
+11/23 - started getting into watching dj stuff. thought about getting a controller, but i dont think my heart's fully into the djing aspect of things. im more into sound and tinkering. djing might be good, but not the main. im thinking of exploring ableton, especially since it's on black friday sale for another week. 
+
+
+
+
+
 11/22 - market traded today to neutralize the down. 
