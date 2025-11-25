@@ -1568,6 +1568,7 @@ Staking is mostly working. have to wait for everything to update and sync, and t
 
 11/25 - goal for the day is to setup mevboost
 
+11/26 - watched charts all day and shopped for audio equipment
 
 
 11/22 - market traded today to neutralize the down. 
