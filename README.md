@@ -1564,7 +1564,9 @@ Staking is mostly working. have to wait for everything to update and sync, and t
 
 11/23 - started getting into watching dj stuff. thought about getting a controller, but i dont think my heart's fully into the djing aspect of things. im more into sound and tinkering. djing might be good, but not the main. im thinking of exploring ableton, especially since it's on black friday sale for another week. 
 
+11/24 - just traded, but got caught out on the sidelines. thought of 'pilot in korea' resource, but even naming it is hard. looked into djing and ableton. 
 
+11/25 - goal for the day is to setup mevboost
 
 
 
