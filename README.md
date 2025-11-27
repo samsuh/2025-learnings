@@ -1560,7 +1560,8 @@ Staking is mostly working. have to wait for everything to update and sync, and t
 
 11/21 - reth sync is a lot slower and more intensive than nethermind was. initial deposit done
 
-11/22 - went to dev meetup. was fun. we went to dinner and coffee after. lots of chatting. 
+11/22 - market traded today to neutralize the down. 
+went to dev meetup. was fun. we went to dinner and coffee after. lots of chatting. 
 
 11/23 - started getting into watching dj stuff. thought about getting a controller, but i dont think my heart's fully into the djing aspect of things. im more into sound and tinkering. djing might be good, but not the main. im thinking of exploring ableton, especially since it's on black friday sale for another week. 
 
@@ -1570,5 +1571,18 @@ Staking is mostly working. have to wait for everything to update and sync, and t
 
 11/26 - watched charts all day and shopped for audio equipment
 
+11/27 - bought a novation launchpad pro mk3 last minute. havent set it up yet. traded, but in loss until it comes back. confident itll come back. 
 
-11/22 - market traded today to neutralize the down. 
+
+
+
+
+
+
+
+
+
+
+
+
+
