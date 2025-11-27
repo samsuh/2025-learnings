@@ -1572,7 +1572,11 @@ went to dev meetup. was fun. we went to dinner and coffee after. lots of chattin
 11/26 - watched charts all day and shopped for audio equipment
 
 11/27 - bought a novation launchpad pro mk3 last minute. havent set it up yet. traded, but in loss until it comes back. confident itll come back. 
-
+things i need to do: 
+- clean and set up the launchpad.
+- setup the audio interface
+- install ableton
+- look into black friday plugins. do i need plugins? what exactly do they do? 
 
 
 
