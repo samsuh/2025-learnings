@@ -1576,7 +1576,9 @@ things i need to do:
 - clean and set up the launchpad.
 - setup the audio interface
 - install ableton
-- look into black friday plugins. do i need plugins? what exactly do they do? 
+- look into black friday plugins. do i need plugins? what exactly do they do?
+
+11/28 - visited army base, got a cool tour. was fun. visited jc's house and hung out playing flight sim. good day. 
 
 
 
