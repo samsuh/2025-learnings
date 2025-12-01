@@ -1582,7 +1582,7 @@ things i need to do:
 
 12/1 - lost a few days. went on a few dates with MH. think it's going pretty well, but im kind of glad shes going on a trip for a few days. it's a lot to adjust to to go from full solo freedom to spending big chunks of the day with someone else, especially since she keeps wanting to meet early on, which clashes with me sleeping at 530am every day. We'll see. 
 
-
+12/2 - market falling again today. rip. met up with E. he seems to be feeling it since he doesnt sell anything. might work out if everything bounces. i started messing with launchpad, and it's pretty interesting. need a more stable connection than my current cables, or i need to figure out the drivers situation better. 
 
 
 
