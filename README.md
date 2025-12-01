@@ -1580,7 +1580,7 @@ things i need to do:
 
 11/28 - visited army base, got a cool tour. was fun. visited jc's house and hung out playing flight sim. good day. 
 
-
+12/1 - lost a few days. went on a few dates with MH. think it's going pretty well, but im kind of glad shes going on a trip for a few days. it's a lot to adjust to to go from full solo freedom to spending big chunks of the day with someone else, especially since she keeps wanting to meet early on, which clashes with me sleeping at 530am every day. We'll see. 
 
 
 
