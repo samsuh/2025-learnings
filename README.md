@@ -1586,7 +1586,7 @@ things i need to do:
 
 12/3 - did sound at uplift solo today. had some issues cuz some hardware wasnt set before i arrived, and the connectors went missing. had to troubleshoot it. it was fun. overall it went well. we really need to soundcheck a little better between performers. got invited to come to a big event on friday the 5th. there's also the event on saturday the 6th that i was planning on going to already. have to let them know ill be going to jeju for a bit. 
 
-looking into buying a keyboard, current lead is an arturia keylab mk3 (the nice version not the essentials version). we'll see if i can get a good deal on one. 
+looking into buying a keyboard, current lead is an arturia keylab mk3 (the nice version not the essentials version). we'll see if i can get a good deal on one. this might be GAS though because i barely touched my launchpad, and i can probably get most of the way there with just a launchpad.
 
 
 
