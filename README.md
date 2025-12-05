@@ -1588,7 +1588,9 @@ things i need to do:
 
 looking into buying a keyboard, current lead is an arturia keylab mk3 (the nice version not the essentials version). we'll see if i can get a good deal on one. this might be GAS though because i barely touched my launchpad, and i can probably get most of the way there with just a launchpad.
 
-12/5 - did sound again at uplift for a christmas thing. was good. made some trades, a little recklessly. but it's prob fine. i missed the trades the last few times, and i think it's better to trade more often, even if i take on more bad trades, catching more good trades too might balance it out. the point of the trading account was to be a little more reckless and diversify strategies a little more. 
+12/5 - did sound again at uplift for a christmas thing. was good. 
+
+in other news, made some trades, a little recklessly. but it's prob fine. i missed the trades the last few times, and i think it's better to trade more often, even if i take on more bad trades, catching more good trades too might balance it out. the point of the trading account was to be a little more reckless and diversify strategies a little more. 
 
 
 
