@@ -1592,7 +1592,7 @@ looking into buying a keyboard, current lead is an arturia keylab mk3 (the nice 
 
 in other news, made some trades, a little recklessly. but it's prob fine. i missed the trades the last few times, and i think it's better to trade more often, even if i take on more bad trades, catching more good trades too might balance it out. the point of the trading account was to be a little more reckless and diversify strategies a little more. 
 
-
+12/7 - went out drinking after the show on the 6th, and ended up staying out all night. havent done that since like my 20s. it was definitely interesting and more active, but i dont think it's a good world to be a part of. lots of people having struggles with simple things in life, mostly created through their own personal bad decisions. boring but stable good life vs exciting hot mess of a life. everything we do is a choice, including who we choose to surround ourselves with. 
 
 
 
