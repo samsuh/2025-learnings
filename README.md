@@ -1594,5 +1594,9 @@ in other news, made some trades, a little recklessly. but it's prob fine. i miss
 
 12/7 - went out drinking after the show on the 6th, and ended up staying out all night. havent done that since like my 20s. it was definitely interesting and more active, but i dont think it's a good world to be a part of. lots of people having struggles with simple things in life, mostly created through their own personal bad decisions. boring but stable good life vs exciting hot mess of a life. everything we do is a choice, including who we choose to surround ourselves with. 
 
+12/10 - man, losing days again. got my server fully functional in a live environment. have some small cleaning up and optimizing to do, but it's all working. 
+
+made a good trade yesterday, and took profits from it, and was happy with myself, but today the market went nuts and kept mooning, and i found myself sidelined. that was less fun. but it was an active choice because i genuinely thought market would flop today and let me buy back in. oh well. not losing money is not the worst case scenario. 
+
 
 
