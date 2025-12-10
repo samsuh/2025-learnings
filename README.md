@@ -1598,5 +1598,7 @@ in other news, made some trades, a little recklessly. but it's prob fine. i miss
 
 made a good trade yesterday, and took profits from it, and was happy with myself, but today the market went nuts and kept mooning, and i found myself sidelined. that was less fun. but it was an active choice because i genuinely thought market would flop today and let me buy back in. oh well. not losing money is not the worst case scenario. 
 
+12/11 - had a simple and good show tonight. went smoothly, except figuring out the root cause of the sensitive settings on the reverb on the monitor. sounds fine offstage into the house, but the monitor is so dry. it's been a problem for weeks. need to encourage that be taken care of. 
+
 
 
