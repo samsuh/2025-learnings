@@ -1600,5 +1600,7 @@ made a good trade yesterday, and took profits from it, and was happy with myself
 
 12/11 - had a simple and good show tonight. went smoothly, except figuring out the root cause of the sensitive settings on the reverb on the monitor. sounds fine offstage into the house, but the monitor is so dry. it's been a problem for weeks. need to encourage that be taken care of. 
 
+12/12 - didnt do much today. spent most of the day researching music gear to buy, ironically 0 minutes spent actually making or practicing music. 
+
 
 
