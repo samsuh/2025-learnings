@@ -1602,5 +1602,12 @@ made a good trade yesterday, and took profits from it, and was happy with myself
 
 12/12 - didnt do much today. spent most of the day researching music gear to buy, ironically 0 minutes spent actually making or practicing music. 
 
+I spent some time reassessing my new year's resolutions from last year. They were: 
+1. Ride 10k km on motorcycle after buying the motorcycle. I did about ~4k out of 10k. Not bad, did some long trips, and overall was good.
+2. Weightlifting goals; i had an outcome-related goal of a specific weight amount, and I did not hit that number, but I spent a lot of time instead of pushing PR Max lifts, in building more fundamentals and working on my actual form, which I think has gotten better. The progress there is a lot slower than I want, but I've been going to the gym pretty regularly, so in terms of input, I have been consistent, but maybe not pushing as hard as i should. I think getting a gym buddy would really help here to force me out of my comfort zone, or maybe a trainer.
+3. I wanted to "launch" 3 projects this year, but I did not really specify what "launch" means. I think in terms of small initiatives, I successfully launched more than 3, but only one of them resulted in any amount of financial return, but that's still a moderate win in my book. can always do better.
 
+I also hit a lot of other milestones this year that make it feel like a productive year: moved back to seoul after floating for a year, stated being more outgoing by doing live sound at a bar every week and helping at shows, and i looked into flying in korea which is no longer a dead end but i actually have some paths now to pursue next year. 
+
+Before the end of the year, I think it would be good for me to finish up by capping off these topics so it feels a little more "finalized"; like go a "last ride of the year" on a day it's warmish, try to set some PRs in lifting to see how far i've gotten, and try to launch one more "almost finished" initiative before EOY. 
 
