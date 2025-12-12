@@ -1622,3 +1622,9 @@ if the goal is to create something akin to a song, the process seems to be somet
 
 This is fun so far. 
 12/13 - bought my midi keyboard today! pretty hyped, i feel like i got a good deal. i cant check it yet because he didnt include a usb type B cable, which i apparently dont have. i ordered one along with some other stuff so i can check everything tomorrow. i also got a pair of studio headphones, and ordered stuff online (cable, piano stool, piano sustain pedal, and a laptop stand so i can elevate it over the keyboard). 
+
+Random wins: 
+- i apparently won a $50 steam gift card for entering a giveaway when registering my power supply. seems legit and didnt have to give out any sketchy info.
+- got flagged for a data breach settlement several months ago and i filled it out, and apparently im getting $59 from that too.
+
+yay, i guess? 
