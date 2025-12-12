@@ -1611,3 +1611,4 @@ I also hit a lot of other milestones this year that make it feel like a producti
 
 Before the end of the year, I think it would be good for me to finish up by capping off these topics so it feels a little more "finalized"; like go a "last ride of the year" on a day it's warmish, try to set some PRs in lifting to see how far i've gotten, and try to launch one more "almost finished" initiative before EOY. 
 
+12/13 - bought my midi keyboard today! pretty hyped, i feel like i got a good deal. i cant check it yet because he didnt include a usb type B cable, which i apparently dont have. i ordered one along with some other stuff so i can check everything tomorrow. i also got a pair of studio headphones, and ordered stuff online (cable, piano stool, piano sustain pedal, and a laptop stand so i can elevate it over the keyboard). 
