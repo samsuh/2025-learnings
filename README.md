@@ -1611,4 +1611,14 @@ I also hit a lot of other milestones this year that make it feel like a producti
 
 Before the end of the year, I think it would be good for me to finish up by capping off these topics so it feels a little more "finalized"; like go a "last ride of the year" on a day it's warmish, try to set some PRs in lifting to see how far i've gotten, and try to launch one more "almost finished" initiative before EOY. 
 
+12/13 - have a show later tonight, but ive been going through a lot of music production tutorials trying to get my bearings. i feel like there are different topic all being jumbled together by the different tutorials. might help to parse them out separately and work on them individually before bringing everything back together. 
+
+if the goal is to create something akin to a song, the process seems to be something like: 
+1. Create a project, set up all the hardware.
+2. Select sounds to use in the song
+3. Lay down a few background layers to set the scene, and basically become a backing track to build on top of.
+4. Once there's some core idea happening, the missing piece in a lot of tutorials seems to be that a song is not made of one scene with slight variations, unless it's literally just ambient music. There needs to be song structure. I think this is an interesting perspective since part of me was looking up DJing after people kept bringing it up. I think it's an advantage to keep DJ-driven song structure (long intro, long outro, 32-bar segments), it would be a good way to lay a skeleton of a song so it flows and fits expectations. It's also easier to paint once the borders of the canvas are well defined.
+5. Beyond there's more, but I'm not there yet, and it's not relevant yet for me.
+
+This is fun so far. 
 12/13 - bought my midi keyboard today! pretty hyped, i feel like i got a good deal. i cant check it yet because he didnt include a usb type B cable, which i apparently dont have. i ordered one along with some other stuff so i can check everything tomorrow. i also got a pair of studio headphones, and ordered stuff online (cable, piano stool, piano sustain pedal, and a laptop stand so i can elevate it over the keyboard). 
