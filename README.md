@@ -1628,3 +1628,5 @@ Random wins:
 - got flagged for a data breach settlement several months ago and i filled it out, and apparently im getting $59 from that too.
 
 yay, i guess? 
+
+12/14 - stayed out all night again. need to reconsider doing this this often. was fun though
