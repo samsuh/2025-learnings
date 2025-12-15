@@ -1631,4 +1631,5 @@ yay, i guess?
 
 12/14 - stayed out all night again. need to reconsider doing this this often. was fun though
 
+12/15 - heading to jeju for most of the week to see parents for the holidays
 12/15 - bought a dj controller. haha. i think i got a good deal. ddj-sx2 with case and cables and stuff for 470k krw (~$315). about the same price as a used flx4, older but more features and ports. 
