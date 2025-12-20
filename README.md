@@ -1639,3 +1639,5 @@ yay, i guess?
 12/20 - lost a few days because ive been busy. went to jeju to see parents and came back. did the dec 19th show last night and stayed out all night again. need to find a way to come home earlier. have another party night tonight, but that should be the last one for a while unless there's a holiday party. 
 
 the 'club ready dj' course seems ok so far. i think it'll be good, but the community is pretty lacking, since nobody says anything. there's maybe 1 person who talks occasionally, so it's basically dead. 
+
+12/21 - got home at 8am. cant keep doing this. but prob wont have to since all the main parties are done now. was cool meeting some musicians tonight, and met a dj who's getting into music production. maybe good to revisit when im a little farther along beyond absolute basics. 
