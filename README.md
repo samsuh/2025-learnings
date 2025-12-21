@@ -1651,8 +1651,10 @@ the 'club ready dj' course seems ok so far. i think it'll be good, but the commu
 there can be more to it than that but that's the core skill. the rest is getting fancy and using more interesting places to come in on the song, but all those options should be set up ahead of time when setting cue points.
 
 my blocker here for now is that i need a playlist of songs still since i wasnt in the habit of downloading and storing music, and even if i had music files, they wouldnt have the long intros/outros that make beatmatching/mixing easy. im currently trying out different music sources before committing to one. my assessment so far is: 
-- beatport seems to be the industry standard, but it's mostly house and house-like stuff. they have a streaming service now too, but with the streaming, if you stop your subscription you cant use the songs anymore. dealbreaker for me.
-- beatsource seems similar, but with different content
-- soundcloud seems fine, and more indie and pre-mixed stuff, but is a little messy and vague. would have to search or get lucky. maybe good for discovering new stuff.
-- currently bpmsupreme seems like a good mix, since it has more popular trending pop/hiphop songs, which seems like what im leaning towards over house, which surprised me too, but it seems more fun for now. i heard bpm supreme is more newbie focused, which kind of makes sense, but i heard it's a monthly subscription but you can download a bunch of stuff permanently, so worth getting it for a month, explore a bunch of stuff, download a bunch of stuff, and dont continue the subscription unless i think it's worth keeping.
-- i heard djcity is similar to bpm supreme, but has more stuff. will look into that later. 
+- beatport (both services; download + streaming) seems to be the industry standard, but it's mostly house and house-like stuff. they have a streaming service now too, but with the streaming, if you stop your subscription you cant use the songs anymore. dealbreaker for me.
+- beatsource (streaming) seems similar, but with different content
+- soundcloud (streaming; desktop download sometimes) seems fine, and more indie and pre-mixed stuff, but is a little messy and vague. would have to search or get lucky. maybe good for discovering new stuff.
+- currently bpm supreme (download) seems like a good mix, since it has more popular trending pop/hiphop songs, which seems like what im leaning towards over house, which surprised me too, but it seems more fun for now. i heard bpm supreme is more newbie focused, which kind of makes sense, but i heard it's a monthly subscription but you can download a bunch of stuff permanently, so worth getting it for a month, explore a bunch of stuff, download a bunch of stuff, and dont continue the subscription unless i think it's worth keeping.
+- i heard djcity (download) is similar to bpm supreme, but has more stuff. will look into that later.
+
+i think the streaming ones have a free month. then do the djcity 1 month unlimited downloads for $10. and by then hopefully i know what i like/want/need, so i can switch to whatever is actually best for my needs. 
