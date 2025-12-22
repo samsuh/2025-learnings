@@ -1657,6 +1657,7 @@ my blocker here for now is that i need a playlist of songs still since i wasnt i
 - currently bpm supreme (download) seems like a good mix, since it has more popular trending pop/hiphop songs, which seems like what im leaning towards over house, which surprised me too, but it seems more fun for now. i heard bpm supreme is more newbie focused, which kind of makes sense, but i heard it's a monthly subscription but you can download a bunch of stuff permanently, so worth getting it for a month, explore a bunch of stuff, download a bunch of stuff, and dont continue the subscription unless i think it's worth keeping.
 - i heard djcity (download) is similar to bpm supreme, but has more stuff. will look into that later.
 
-i think the streaming ones have a free month. then do the djcity 1 month unlimited downloads for $10. and by then hopefully i know what i like/want/need, so i can switch to whatever is actually best for my needs. 
+the streaming ones have a free month. then do the djcity 1 month unlimited downloads for $10. and by then hopefully i know what i like/want/need, so i can switch to whatever is actually best for my needs. 
 
 another reason djing is coming first before more music production-related learning is that there's probably a benefit in getting an intrinsic feel for the song structures that work, and the musical elements that make good songs that i want to play, which will carry over to music production. im developing my taste and intuitive understanding of songs, since it's currently vague and undefined. 
+
