@@ -1664,3 +1664,5 @@ another reason djing is coming first before more music production-related learni
 12/23 - djing, im struggling with phrasing. i think that's normal for now, since im not really using normal house tracks, which are simpler and more standardized. doing vocal-driven stuff is a lot more unique since not all vocals are uniform like a drum beat would be. 
 
 12/24 - wiped a lot of gains in the last day from getting greedy. im bad at setting stop losses and am paying for it. 
+
+going out is fun, and meeting people and having friends is fun. but need to balance the fun with purpose, or it's too easy to get lost in short term experience at the cost of 'sense of self'.
