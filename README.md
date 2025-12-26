@@ -1665,4 +1665,6 @@ another reason djing is coming first before more music production-related learni
 
 12/24 - wiped a lot of gains in the last day from getting greedy. im bad at setting stop losses and am paying for it. 
 
+12/27 - merry christmas. didnt end up doing too much. caught a cold. it's freezing out there. 
+
 going out is fun, and meeting people and having friends is fun. but need to balance the fun with purpose, or it's too easy to get lost in short term experience at the cost of 'sense of self'.
