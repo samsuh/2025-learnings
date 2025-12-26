@@ -1668,3 +1668,5 @@ another reason djing is coming first before more music production-related learni
 12/27 - merry christmas. didnt end up doing too much. caught a cold. it's freezing out there. 
 
 going out is fun, and meeting people and having friends is fun. but need to balance the fun with purpose, or it's too easy to get lost in short term experience at the cost of 'sense of self'.
+
+it's been about a full year of updating github trying to be consistent. the first month or so got deleted because i cleared out a different repo, which took the green squares from the first month or two with it. 
