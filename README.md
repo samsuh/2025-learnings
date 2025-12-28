@@ -1672,3 +1672,5 @@ going out is fun, and meeting people and having friends is fun. but need to bala
 it's been about a full year of updating github trying to be consistent. the first month or so got deleted because i cleared out a different repo, which took the green squares from the first month or two with it. 
 
 12/28 - feel like im wasting a lot of time the last few days. i think i unplugged from being social too hard after going too hard in the party scene. i wonder if there's a way to balance the two; dont do out all night til 8am repeatedly, but also dont trap myself at home with nobody to talk to. being social sucks cuz it relies on other people wanting to do stuff, and that's super unreliable. 
+
+12/29 - what matters when money isnt tied to purpose?
