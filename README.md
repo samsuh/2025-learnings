@@ -1689,3 +1689,7 @@ signed up for a dj record pool to start building up a library. found a good stru
 people say 20 songs is a good set, but that depends a lot on how much of the song you let play, and how long your set is. set time incremenents seems to be half hour, 1 hour, and multi-hour. 
 
 someone also said it's good to find 'mini sets' of 3 songs or so that go well together, that can be used as little building blocks to build out sets with. that makes sense to me. 
+
+12/30 - downloaded some songs. im still trying to figure out what kind of music i even like. it seems im downloading mostly 90s hiphop, pop songs, and some trance. that sounds about right. once i have a decent number, i should get back to pracitcing instead of being so distracted. 
+
+i also want to also get started on some of the ableton stuff as well. learning basics might be good to get all at once. 
