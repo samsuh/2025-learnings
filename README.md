@@ -1676,3 +1676,16 @@ it's been about a full year of updating github trying to be consistent. the firs
 12/29 - what matters when money isnt tied to purpose?
 
 wondering if im going to keep this journal going for next year. it's nice to track when i start losing days, and it's not too much effort. probably good for consistency, but i think i need more of a purpose to give this some more defined structure
+
+signed up for a dj record pool to start building up a library. found a good structured way to categorize songs for sets. it breaks down into: 
+
+- Openers, start your set
+- Momentum Boosters, energy up
+- Maintainers, energy steady
+- Energy Reset, energy down
+- Peak Energy, highest energy
+- Pivot, change direction
+
+people say 20 songs is a good set, but that depends a lot on how much of the song you let play, and how long your set is. set time incremenents seems to be half hour, 1 hour, and multi-hour. 
+
+someone also said it's good to find 'mini sets' of 3 songs or so that go well together, that can be used as little building blocks to build out sets with. that makes sense to me. 
